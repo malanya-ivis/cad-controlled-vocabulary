@@ -1,0 +1,476 @@
+{
+  "schema_version": "0.2",
+  "status": "manual_mesh_based_draft",
+  "scope": "four selected models; not a dataset-wide feature annotation",
+  "concept_registry": "30_Concepts",
+  "physical_unit_policy": "input coordinates only; no mm/metre inference",
+  "parts": [
+    {
+      "part_id": "STL-1400",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1400.stl",
+      "source_sha256": "05a997bce415cc711096564e837aaf795e73190b46ad6f96be36a08c57ef0ba9",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "mold_use": "unknown",
+      "features": [
+        {
+          "feature_id": "F01",
+          "attributes": {
+            "axis": "X",
+            "center_y_approx": -0.034925,
+            "radius_approx": 0.001778,
+            "termination": "through"
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-001",
+              "view": "passage_shape",
+              "meaning": "passage geometry"
+            }
+          ]
+        },
+        {
+          "feature_id": "F02",
+          "attributes": {
+            "axis": "X",
+            "center_y_approx": 0.034925,
+            "radius_approx": 0.001778,
+            "termination": "through"
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-001",
+              "view": "passage_shape",
+              "meaning": "passage geometry"
+            }
+          ]
+        },
+        {
+          "feature_id": "F03",
+          "attributes": {
+            "axis": "Z",
+            "center_y_approx": -0.022225,
+            "radius_approx": 0.002413,
+            "termination": "through"
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-001",
+              "view": "passage_shape",
+              "meaning": "passage geometry"
+            }
+          ]
+        },
+        {
+          "feature_id": "F04",
+          "attributes": {
+            "axis": "Z",
+            "center_y_approx": 0.022225,
+            "radius_approx": 0.002413,
+            "termination": "through"
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-001",
+              "view": "passage_shape",
+              "meaning": "passage geometry"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "relation_assessments": [
+        {
+          "subject": "F01",
+          "predicate": "intersects",
+          "object": "F02",
+          "result": "unknown",
+          "evidence": "selected section figures and approximate input-coordinate positions; no solid boolean test",
+          "observation": "no intersection observed in selected sections",
+          "scope": "approximate axis/section review only; whole-mesh 3D intersection was not checked"
+        },
+        {
+          "subject": "F01",
+          "predicate": "intersects",
+          "object": "F03",
+          "result": "unknown",
+          "evidence": "selected section figures and approximate input-coordinate positions; no solid boolean test",
+          "observation": "no intersection observed in selected sections",
+          "scope": "approximate axis/section review only; whole-mesh 3D intersection was not checked"
+        },
+        {
+          "subject": "F01",
+          "predicate": "intersects",
+          "object": "F04",
+          "result": "unknown",
+          "evidence": "selected section figures and approximate input-coordinate positions; no solid boolean test",
+          "observation": "no intersection observed in selected sections",
+          "scope": "approximate axis/section review only; whole-mesh 3D intersection was not checked"
+        },
+        {
+          "subject": "F02",
+          "predicate": "intersects",
+          "object": "F03",
+          "result": "unknown",
+          "evidence": "selected section figures and approximate input-coordinate positions; no solid boolean test",
+          "observation": "no intersection observed in selected sections",
+          "scope": "approximate axis/section review only; whole-mesh 3D intersection was not checked"
+        },
+        {
+          "subject": "F02",
+          "predicate": "intersects",
+          "object": "F04",
+          "result": "unknown",
+          "evidence": "selected section figures and approximate input-coordinate positions; no solid boolean test",
+          "observation": "no intersection observed in selected sections",
+          "scope": "approximate axis/section review only; whole-mesh 3D intersection was not checked"
+        },
+        {
+          "subject": "F03",
+          "predicate": "intersects",
+          "object": "F04",
+          "result": "unknown",
+          "evidence": "selected section figures and approximate input-coordinate positions; no solid boolean test",
+          "observation": "no intersection observed in selected sections",
+          "scope": "approximate axis/section review only; whole-mesh 3D intersection was not checked"
+        }
+      ],
+      "evidence": [
+        "1400_sections.png",
+        "selected_sections.json"
+      ]
+    },
+    {
+      "part_id": "STL-4423",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4423.stl",
+      "source_sha256": "9c038dce74c8824e8f1aea214528b32f2d0fb60b6ad98a0aeb087813deff4594",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "mold_use": "unknown",
+      "features": [
+        {
+          "feature_id": "F01",
+          "attributes": {
+            "opening_direction": "+Z",
+            "floor_state": "complete",
+            "depth_approx": 0.055,
+            "classification_counting": "one geometric occurrence; two explicitly typed descriptive views"
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-004",
+              "view": "surface_form",
+              "meaning": "recess with floor and walls"
+            },
+            {
+              "concept_id": "MC-013",
+              "view": "empty_region",
+              "meaning": "material-free region; this draft includes open-to-exterior status"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "F01",
+          "predicate": "opens_to",
+          "object": "exterior:+Z"
+        }
+      ],
+      "relation_assessments": [],
+      "evidence": [
+        "4423_sections.png",
+        "selected_sections.json"
+      ],
+      "properties": [
+        {
+          "property_id": "P01",
+          "concept_id": "MC-012",
+          "subject_geometry": "bottom wall",
+          "value_approx": 0.005,
+          "measurement_location": "central X-Z and Y-Z sections; bottom exterior z≈0 to inner floor z≈0.005",
+          "measurement_direction": "Z normal to the horizontal floor",
+          "method": "difference between the two section planes/surfaces",
+          "coordinate_unit": "input_units",
+          "qualifier": "local section value, not global minimum"
+        },
+        {
+          "property_id": "P02",
+          "concept_id": "MC-012",
+          "subject_geometry": "straight side walls",
+          "value_approx": 0.005,
+          "measurement_location": "central X-Z section at Y≈0.0475; straight side wall away from rounded corners",
+          "measurement_direction": "X, normal to the straight side wall",
+          "method": "distance between outer and inner parallel wall traces in the section",
+          "coordinate_unit": "input_units",
+          "qualifier": "local section value, not global minimum"
+        }
+      ]
+    },
+    {
+      "part_id": "STL-8972",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8972.stl",
+      "source_sha256": "641c27ff486a8d1d820405942eada96e17f83a6378552a6d9a2b71813b0a0a4b",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "mold_use": "unknown",
+      "features": [
+        {
+          "feature_id": "F01",
+          "attributes": {
+            "axis": "Y",
+            "termination": "through",
+            "entrance_step": true,
+            "lower_width_approx": 0.0031,
+            "entrance_width_approx": 0.0065,
+            "step_depth_approx": 0.002
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-005",
+              "view": "surface_form",
+              "meaning": "elongated groove/opening"
+            }
+          ]
+        },
+        {
+          "feature_id": "F02",
+          "attributes": {
+            "position": "left_lower",
+            "floor_state": "complete",
+            "termination": "blind",
+            "depth_approx": 0.0052,
+            "rear_skin_thickness_approx": 0.001
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-004",
+              "view": "surface_form",
+              "meaning": "recess with floor/walls"
+            }
+          ]
+        },
+        {
+          "feature_id": "F03",
+          "attributes": {
+            "position": "right_lower",
+            "floor_state": "complete",
+            "termination": "blind",
+            "depth_approx": 0.0052,
+            "rear_skin_thickness_approx": 0.001
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-004",
+              "view": "surface_form",
+              "meaning": "recess with floor/walls"
+            }
+          ]
+        },
+        {
+          "feature_id": "F04",
+          "attributes": {
+            "position": "left_middle",
+            "floor_state": "complete",
+            "termination": "blind",
+            "depth_approx": 0.0052,
+            "rear_skin_thickness_approx": 0.001
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-004",
+              "view": "surface_form",
+              "meaning": "recess with floor/walls"
+            }
+          ]
+        },
+        {
+          "feature_id": "F05",
+          "attributes": {
+            "position": "left_upper",
+            "floor_state": "complete",
+            "termination": "blind",
+            "depth_approx": 0.0052,
+            "rear_skin_thickness_approx": 0.001
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-004",
+              "view": "surface_form",
+              "meaning": "recess with floor/walls"
+            }
+          ]
+        },
+        {
+          "feature_id": "F06",
+          "attributes": {
+            "position": "right_upper",
+            "floor_state": "complete",
+            "termination": "blind",
+            "depth_approx": 0.0052,
+            "rear_skin_thickness_approx": 0.001
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-004",
+              "view": "surface_form",
+              "meaning": "recess with floor/walls"
+            }
+          ]
+        },
+        {
+          "feature_id": "F07",
+          "attributes": {
+            "position": "positive_X_middle",
+            "floor_state": "partial",
+            "termination": "partially_through",
+            "rear_opening_z_approx": [
+              0.018,
+              0.021
+            ]
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-004",
+              "view": "surface_form",
+              "meaning": "recess with floor/walls"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "relation_assessments": [],
+      "evidence": [
+        "8972_sections.png",
+        "selected_sections.json",
+        "8972_recess_review.png",
+        "8972_ray_observations.json"
+      ],
+      "properties": [
+        {
+          "property_id": "P01",
+          "concept_id": "MC-012",
+          "subject_feature_ids": [
+            "F02",
+            "F03",
+            "F04",
+            "F05",
+            "F06"
+          ],
+          "property": "recess_depth",
+          "value_approx": 0.0052,
+          "measurement_location": "five complete rectangular recesses; front Y≈-0.025 to floor Y≈-0.0302",
+          "measurement_direction": "Y, normal to the front/rear wall",
+          "method": "difference between front-face and recess-floor section coordinates",
+          "coordinate_unit": "input_units",
+          "qualifier": "local section measurements"
+        },
+        {
+          "property_id": "P02",
+          "concept_id": "MC-012",
+          "subject_feature_ids": [
+            "F02",
+            "F03",
+            "F04",
+            "F05",
+            "F06"
+          ],
+          "property": "rear_skin_thickness",
+          "value_approx": 0.001,
+          "measurement_location": "material between each of five complete recess floors Y≈-0.0302 and rear face Y≈-0.0312",
+          "measurement_direction": "Y, normal to the rear wall",
+          "method": "difference between floor and rear-face section coordinates",
+          "coordinate_unit": "input_units",
+          "qualifier": "local section measurements; not a global minimum"
+        }
+      ]
+    },
+    {
+      "part_id": "STL-7145",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7145.stl",
+      "source_sha256": "42500e4e55059a3530716c149250a2818edf9e68f5bde5741d92407325a38039",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "mold_use": "unknown",
+      "features": [
+        {
+          "feature_id": "F01",
+          "attributes": {
+            "location": "upper exterior transition",
+            "profile": "curved_polyline_approximation"
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-008",
+              "view": "surface_form",
+              "meaning": "rounded transition"
+            }
+          ]
+        },
+        {
+          "feature_id": "F02",
+          "attributes": {
+            "opening_direction": "-Z",
+            "partitions_present": true,
+            "independent_chamber_count": "unknown",
+            "inter_chamber_connections": "unknown"
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-013",
+              "view": "empty_region",
+              "meaning": "material-free region"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "F02",
+          "predicate": "opens_to",
+          "object": "exterior:-Z"
+        }
+      ],
+      "relation_assessments": [],
+      "evidence": [
+        "7145_sections.png",
+        "selected_sections.json"
+      ]
+    }
+  ],
+  "relation_value_policy": {
+    "true": "affirmative check with stated geometry coverage",
+    "false": "negative check with coverage sufficient for the whole stated region",
+    "unknown": "not established; can include a limited observation that did not reveal the relation"
+  },
+  "identity_rule": "feature_id is unique within a part; identify an occurrence by (part_id, feature_id).",
+  "concept_assignment_rule": "Multiple typed descriptions may reference one physical occurrence only when each view is supported; this does not create extra geometric occurrences."
+}

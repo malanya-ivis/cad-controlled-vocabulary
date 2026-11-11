@@ -1,0 +1,55 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"mold-cad-vocabulary/30_Concepts\" [category:shape_feature] [scope_role:core]",
+      "color": { "a": 1, "rgb": 5020648 }
+    },
+    {
+      "query": "path:\"mold-cad-vocabulary/30_Concepts\" [category:shape_property] [scope_role:core]",
+      "color": { "a": 1, "rgb": 15909198 }
+    },
+    {
+      "query": "path:\"mold-cad-vocabulary/30_Concepts\" [category:internal_structure] [scope_role:core]",
+      "color": { "a": 1, "rgb": 3979932 }
+    },
+    {
+      "query": "path:\"mold-cad-vocabulary/30_Concepts\" [scope_role:context_only]",
+      "color": { "a": 1, "rgb": 9147813 }
+    },
+    {
+      "query": "path:\"mold-cad-vocabulary/20_Sources\"",
+      "color": { "a": 1, "rgb": 15896107 }
+    },
+    {
+      "query": "path:\"mold-cad-vocabulary/00_Guide\" OR path:\"mold-cad-vocabulary/10_Vocabulary_Studies\" OR path:\"mold-cad-vocabulary/40_Comparative_Studies\"",
+      "color": { "a": 1, "rgb": 9861852 }
+    },
+    {
+      "query": "path:\"mold-cad-vocabulary/60_Research_Records\" OR path:\"mold-cad-vocabulary/70_Candidate_Terms\"",
+      "color": { "a": 1, "rgb": 15100812 }
+    },
+    {
+      "query": "path:\"mold-cad-vocabulary/50_Reference_Registers\" OR path:\"mold-cad-vocabulary/80_Assets\" OR path:\"mold-cad-vocabulary/90_Templates\"",
+      "color": { "a": 1, "rgb": 10253663 }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-07",
+  "scope": "file integrity and record behavior only; no independent semantic approval",
+  "concept_count": 37,
+  "core_count": 15,
+  "source_note_count": 74,
+  "detailed_supplied_models": 11,
+  "teaching_models": 2,
+  "wiki_links_checked": 1567,
+  "broken_wiki_links": [],
+  "canvas_file_count": 34,
+  "source_hash_checks": [
+    {
+      "part_id": "STL-counterbore",
+      "source_sha256": "2e57f29dd79367e1bbe9d763b92b34d94e341488fb1f864b0016fd7d40970c42",
+      "matches_record": true
+    },
+    {
+      "part_id": "STL-countersink",
+      "source_sha256": "50477bac9c997dc087c0edbb99f481abbac512131d3e80cd0f14ed05d3fb1517",
+      "matches_record": true
+    },
+    {
+      "part_id": "STL-rectpocket",
+      "source_sha256": "4f9f6ce15b5ec83a2d752372dffcc60bb90a4eb35ed6b6617d5843b0e361ca39",
+      "matches_record": true
+    },
+    {
+      "part_id": "STL-rib_cross",
+      "source_sha256": "094221d4125521e46f2d7c36cf8e71dba2cfc4150b070e77f6a2ae98c3229e8d",
+      "matches_record": true
+    },
+    {
+      "part_id": "STL-1400",
+      "source_sha256": "05a997bce415cc711096564e837aaf795e73190b46ad6f96be36a08c57ef0ba9",
+      "matches_record": true
+    },
+    {
+      "part_id": "STL-4423",
+      "source_sha256": "9c038dce74c8824e8f1aea214528b32f2d0fb60b6ad98a0aeb087813deff4594",
+      "matches_record": true
+    },
+    {
+      "part_id": "STL-8972",
+      "source_sha256": "641c27ff486a8d1d820405942eada96e17f83a6378552a6d9a2b71813b0a0a4b",
+      "matches_record": true
+    },
+    {
+      "part_id": "STL-7145",
+      "source_sha256": "42500e4e55059a3530716c149250a2818edf9e68f5bde5741d92407325a38039",
+      "matches_record": true
+    },
+    {
+      "part_id": "STL-rib",
+      "source_sha256": "d8b4d953807d8c68dc275b22610355acb6223ef81c7923fb9d1868028c6196f3",
+      "matches_record": true
+    },
+    {
+      "part_id": "STL-boss",
+      "source_sha256": "8e54945a6fe103b86c4bc00c2e31e9209d0a572b592b5fb1ab076d02e940a79d",
+      "matches_record": true
+    },
+    {
+      "part_id": "STL-fillet_boss",
+      "source_sha256": "21cd53e014f83a059da76fe6baebade79510120149a71890f29e2823677e8e9d",
+      "matches_record": true
+    },
+    {
+      "part_id": "TEACH-enclosed",
+      "source_sha256": "2a10d0adce51f5a512f752ed1a1bbb41eda0910c992100de134082beba495e53",
+      "matches_record": true
+    },
+    {
+      "part_id": "TEACH-open",
+      "source_sha256": "0912473b895a198c6ab3f8b724d9ec6b279ea3819256ef25c253c2b4c971732a",
+      "matches_record": true
+    }
+  ],
+  "complex_source_hashes_unchanged_from_previous_inventory": true,
+  "screened_model_count": 93,
+  "nested_bound_candidate_models": [
+    "7975",
+    "8448",
+    "9115"
+  ],
+  "teaching_volume_checks": [
+    {
+      "model_id": "teaching_enclosed_void",
+      "mesh_volume": 6272.0,
+      "expected_volume": 6272,
+      "watertight": true
+    },
+    {
+      "model_id": "teaching_open_void",
+      "mesh_volume": 5696.0,
+      "expected_volume": 5696,
+      "watertight": true
+    }
+  ],
+  "search_cases_passed": 19,
+  "search_case_count": 19,
+  "xlsx_sha256": "ee2fe99bce0de2bd47ea8c8bffce4ae3073eac9fa4800752f0cb3598946ed69b",
+  "issues": []
+}

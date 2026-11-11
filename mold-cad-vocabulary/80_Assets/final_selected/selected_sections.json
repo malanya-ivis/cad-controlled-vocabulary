@@ -1,0 +1,1043 @@
+{
+  "method": "Independent STL sections; draft semantic mapping requires image review",
+  "models": [
+    {
+      "model_id": "1400",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1400.stl",
+      "bounds": [
+        [
+          -0.004762500058859587,
+          -0.04127499833703041,
+          -0.004762500058859587
+        ],
+        [
+          0.004762500058859587,
+          0.04127499833703041,
+          0.004762500058859587
+        ]
+      ],
+      "extents": [
+        0.009525000117719173,
+        0.08254999667406082,
+        0.009525000117719173
+      ],
+      "raw_triangle_count": 2048,
+      "discarded_near_zero_area_faces": 0,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "section_planes": [
+        {
+          "normal_axis": "X",
+          "position": 0
+        },
+        {
+          "normal_axis": "Y",
+          "position": 0.022225
+        },
+        {
+          "normal_axis": "Y",
+          "position": 0.034925
+        }
+      ],
+      "largest_repeated_face_normals": [
+        {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "triangle_count": 260
+        },
+        {
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "triangle_count": 258
+        },
+        {
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "triangle_count": 258
+        },
+        {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "triangle_count": 258
+        },
+        {
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "triangle_count": 10
+        },
+        {
+          "normal": [
+            -0.0,
+            -1.0,
+            0.0
+          ],
+          "triangle_count": 6
+        },
+        {
+          "normal": [
+            -0.999689,
+            -0.024931,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.999689,
+            0.024931,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.997204,
+            -0.074731,
+            -0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.997204,
+            0.074731,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.992239,
+            -0.124343,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.992239,
+            0.124343,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.984808,
+            -0.173648,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.984808,
+            0.173648,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.974928,
+            -0.222519,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.974928,
+            0.222519,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.962623,
+            -0.270845,
+            -0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.962623,
+            0.270845,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.947929,
+            -0.318483,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.947929,
+            0.318483,
+            0.0
+          ],
+          "triangle_count": 4
+        }
+      ],
+      "physical_unit": "unknown",
+      "self_intersection_check": "not_performed",
+      "exterior_circle_fits": [
+        {
+          "axis": 0,
+          "exterior_side": 0,
+          "plane_position": -0.004761547558847815,
+          "center_in_plane": [
+            -0.034924999931610065,
+            -4.598302424593803e-12
+          ],
+          "displayed_axes": [
+            1,
+            2
+          ],
+          "radius": 0.0017779997359334428,
+          "max_radial_residual": 1.6923471411137841e-09
+        },
+        {
+          "axis": 0,
+          "exterior_side": 0,
+          "plane_position": -0.004761547558847815,
+          "center_in_plane": [
+            0.03492499993687177,
+            4.727490534456313e-12
+          ],
+          "displayed_axes": [
+            1,
+            2
+          ],
+          "radius": 0.0017779997359353332,
+          "max_radial_residual": 1.687498254630479e-09
+        },
+        {
+          "axis": 0,
+          "exterior_side": 1,
+          "plane_position": 0.004761547558847815,
+          "center_in_plane": [
+            -0.03492499993531658,
+            -1.9034431149311803e-12
+          ],
+          "displayed_axes": [
+            1,
+            2
+          ],
+          "radius": 0.0017779999516570706,
+          "max_radial_residual": 1.6829455585197495e-09
+        },
+        {
+          "axis": 0,
+          "exterior_side": 1,
+          "plane_position": 0.004761547558847815,
+          "center_in_plane": [
+            0.03492499995819846,
+            2.6133296915364923e-12
+          ],
+          "displayed_axes": [
+            1,
+            2
+          ],
+          "radius": 0.0017779999640836254,
+          "max_radial_residual": 1.730008897206023e-09
+        },
+        {
+          "axis": 2,
+          "exterior_side": 0,
+          "plane_position": -0.004761547558847815,
+          "center_in_plane": [
+            4.402539827760165e-12,
+            -0.022225000008585915
+          ],
+          "displayed_axes": [
+            0,
+            1
+          ],
+          "radius": 0.002412999698387552,
+          "max_radial_residual": 8.084680754721907e-10
+        },
+        {
+          "axis": 2,
+          "exterior_side": 0,
+          "plane_position": -0.004761547558847815,
+          "center_in_plane": [
+            3.2128531277881273e-13,
+            0.022225000008585884
+          ],
+          "displayed_axes": [
+            0,
+            1
+          ],
+          "radius": 0.0024129997007862765,
+          "max_radial_residual": 8.102933775344656e-10
+        },
+        {
+          "axis": 2,
+          "exterior_side": 1,
+          "plane_position": 0.004761547558847815,
+          "center_in_plane": [
+            1.7365389837385453e-13,
+            -0.022225000008585953
+          ],
+          "displayed_axes": [
+            0,
+            1
+          ],
+          "radius": 0.0024129999912643214,
+          "max_radial_residual": 8.123886116769008e-10
+        },
+        {
+          "axis": 2,
+          "exterior_side": 1,
+          "plane_position": 0.004761547558847815,
+          "center_in_plane": [
+            -4.897454045427556e-12,
+            0.022225000008585877
+          ],
+          "displayed_axes": [
+            0,
+            1
+          ],
+          "radius": 0.0024129999936626186,
+          "max_radial_residual": 8.117160407369872e-10
+        }
+      ]
+    },
+    {
+      "model_id": "4423",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4423.stl",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.07000000029802322,
+          0.0949999988079071,
+          0.05999999865889549
+        ]
+      ],
+      "extents": [
+        0.07000000029802322,
+        0.0949999988079071,
+        0.05999999865889549
+      ],
+      "raw_triangle_count": 1052,
+      "discarded_near_zero_area_faces": 0,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "section_planes": [
+        {
+          "normal_axis": "X",
+          "position": 0.03500000014901161
+        },
+        {
+          "normal_axis": "Y",
+          "position": 0.04749999940395355
+        },
+        {
+          "normal_axis": "Z",
+          "position": 0.029999999329447746
+        }
+      ],
+      "largest_repeated_face_normals": [
+        {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "triangle_count": 394
+        },
+        {
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "triangle_count": 130
+        },
+        {
+          "normal": [
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.99248,
+            0.122409,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.870087,
+            -0.492899,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            0.122409,
+            -0.99248,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            0.170964,
+            -0.985277,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            0.405241,
+            0.91421,
+            -0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            0.575801,
+            -0.81759,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.999699,
+            -0.024541,
+            -0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.999699,
+            -0.024531,
+            0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.999699,
+            0.02453,
+            0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.999699,
+            0.024541,
+            0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.99729,
+            -0.073571,
+            0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.99729,
+            -0.073565,
+            0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.99729,
+            0.073565,
+            0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.99729,
+            0.073571,
+            0.0
+          ],
+          "triangle_count": 2
+        }
+      ],
+      "physical_unit": "unknown",
+      "self_intersection_check": "not_performed",
+      "vertex_z_levels": [
+        0.0,
+        0.004999999888241291,
+        0.05999999865889549
+      ]
+    },
+    {
+      "model_id": "8972",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8972.stl",
+      "bounds": [
+        [
+          -0.009999999776482582,
+          -0.031199999153614044,
+          0.0
+        ],
+        [
+          0.009999999776482582,
+          0.02500000037252903,
+          0.029999999329447746
+        ]
+      ],
+      "extents": [
+        0.019999999552965164,
+        0.056199999526143074,
+        0.029999999329447746
+      ],
+      "raw_triangle_count": 1374,
+      "discarded_near_zero_area_faces": 0,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "section_planes": [
+        {
+          "normal_axis": "X",
+          "position": 0.0
+        },
+        {
+          "normal_axis": "Y",
+          "position": -0.003099999390542507
+        },
+        {
+          "normal_axis": "Z",
+          "position": 0.014999999664723873
+        }
+      ],
+      "largest_repeated_face_normals": [
+        {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "triangle_count": 416
+        },
+        {
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "triangle_count": 155
+        },
+        {
+          "normal": [
+            -0.0,
+            1.0,
+            0.0
+          ],
+          "triangle_count": 98
+        },
+        {
+          "normal": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "triangle_count": 65
+        },
+        {
+          "normal": [
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          "triangle_count": 63
+        },
+        {
+          "normal": [
+            -0.0,
+            -1.0,
+            0.0
+          ],
+          "triangle_count": 14
+        },
+        {
+          "normal": [
+            0.0,
+            0.999699,
+            0.024553
+          ],
+          "triangle_count": 5
+        },
+        {
+          "normal": [
+            -0.999689,
+            -0.024931,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.999689,
+            0.024931,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.889873,
+            -0.456208,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.889873,
+            0.456208,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            0.889873,
+            -0.456208,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            0.889873,
+            0.456208,
+            -0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            0.999689,
+            -0.024931,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            0.999689,
+            0.024931,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.997204,
+            -0.074731,
+            0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.997204,
+            -0.07473,
+            -0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.997204,
+            0.07473,
+            0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.997204,
+            0.074731,
+            0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.992239,
+            -0.124345,
+            0.0
+          ],
+          "triangle_count": 2
+        }
+      ],
+      "physical_unit": "unknown",
+      "self_intersection_check": "not_performed"
+    },
+    {
+      "model_id": "7145",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7145.stl",
+      "bounds": [
+        [
+          -0.017500000074505806,
+          -0.012500000186264515,
+          0.0
+        ],
+        [
+          0.017500000074505806,
+          0.012500000186264515,
+          0.02500000037252903
+        ]
+      ],
+      "extents": [
+        0.03500000014901161,
+        0.02500000037252903,
+        0.02500000037252903
+      ],
+      "raw_triangle_count": 2150,
+      "discarded_near_zero_area_faces": 0,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "section_planes": [
+        {
+          "normal_axis": "X",
+          "position": 0.0
+        },
+        {
+          "normal_axis": "Y",
+          "position": 0.0
+        },
+        {
+          "normal_axis": "Z",
+          "position": 0.012500000186264515
+        }
+      ],
+      "largest_repeated_face_normals": [
+        {
+          "normal": [
+            0.0,
+            -0.0,
+            -1.0
+          ],
+          "triangle_count": 890
+        },
+        {
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "triangle_count": 16
+        },
+        {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "triangle_count": 16
+        },
+        {
+          "normal": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "triangle_count": 13
+        },
+        {
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "triangle_count": 13
+        },
+        {
+          "normal": [
+            -0.930872,
+            -0.365346,
+            0.0
+          ],
+          "triangle_count": 8
+        },
+        {
+          "normal": [
+            -0.930872,
+            0.365346,
+            0.0
+          ],
+          "triangle_count": 8
+        },
+        {
+          "normal": [
+            0.930872,
+            -0.365346,
+            0.0
+          ],
+          "triangle_count": 8
+        },
+        {
+          "normal": [
+            0.930872,
+            0.365346,
+            0.0
+          ],
+          "triangle_count": 8
+        },
+        {
+          "normal": [
+            -0.999689,
+            -0.024929,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.999689,
+            -0.024924,
+            -0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.999689,
+            0.024924,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.999689,
+            0.024929,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.992238,
+            -0.124352,
+            -0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.992238,
+            0.124352,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.974928,
+            -0.22252,
+            -0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.974928,
+            0.22252,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.974927,
+            -0.222525,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.974927,
+            0.222525,
+            0.0
+          ],
+          "triangle_count": 4
+        },
+        {
+          "normal": [
+            -0.962626,
+            -0.270835,
+            -0.0
+          ],
+          "triangle_count": 4
+        }
+      ],
+      "physical_unit": "unknown",
+      "self_intersection_check": "not_performed"
+    },
+    {
+      "model_id": "simple_chamfer",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/chamfer.stl",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          40.0,
+          40.0,
+          20.0
+        ]
+      ],
+      "extents": [
+        40.0,
+        40.0,
+        20.0
+      ],
+      "raw_triangle_count": 16,
+      "discarded_near_zero_area_faces": 0,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "section_planes": [
+        {
+          "normal_axis": "X",
+          "position": 20.0
+        },
+        {
+          "normal_axis": "Y",
+          "position": 20.0
+        },
+        {
+          "normal_axis": "Z",
+          "position": 10.0
+        }
+      ],
+      "largest_repeated_face_normals": [
+        {
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "triangle_count": 3
+        },
+        {
+          "normal": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "triangle_count": 3
+        },
+        {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            0.0,
+            -0.0,
+            1.0
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            -0.0,
+            0.707107,
+            0.707107
+          ],
+          "triangle_count": 2
+        },
+        {
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "triangle_count": 2
+        }
+      ],
+      "physical_unit": "unknown",
+      "self_intersection_check": "not_performed"
+    }
+  ]
+}

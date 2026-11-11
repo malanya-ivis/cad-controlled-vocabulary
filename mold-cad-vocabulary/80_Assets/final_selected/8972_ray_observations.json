@@ -1,0 +1,87 @@
+{
+  "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8972.stl",
+  "method": "Six +Y rays through centers of observed recess openings; coordinates in input_units",
+  "rays": [
+    {
+      "x": -0.0031,
+      "z": 0.0133,
+      "ray_origin_y": -0.04,
+      "ray_direction": [
+        0,
+        1,
+        0
+      ],
+      "surface_intersection_y": [
+        -0.031199999153614044,
+        -0.03020000085234642
+      ]
+    },
+    {
+      "x": 0.0031,
+      "z": 0.0133,
+      "ray_origin_y": -0.04,
+      "ray_direction": [
+        0,
+        1,
+        0
+      ],
+      "surface_intersection_y": [
+        -0.031199999153614044,
+        -0.03020000085234642
+      ]
+    },
+    {
+      "x": -0.0031,
+      "z": 0.0195,
+      "ray_origin_y": -0.04,
+      "ray_direction": [
+        0,
+        1,
+        0
+      ],
+      "surface_intersection_y": [
+        -0.031199999153614044,
+        -0.03020000085234642
+      ]
+    },
+    {
+      "x": 0.0031,
+      "z": 0.0195,
+      "ray_origin_y": -0.04,
+      "ray_direction": [
+        0,
+        1,
+        0
+      ],
+      "surface_intersection_y": []
+    },
+    {
+      "x": -0.0031,
+      "z": 0.0257,
+      "ray_origin_y": -0.04,
+      "ray_direction": [
+        0,
+        1,
+        0
+      ],
+      "surface_intersection_y": [
+        -0.031199999153614044,
+        -0.03020000085234642
+      ]
+    },
+    {
+      "x": 0.0031,
+      "z": 0.0257,
+      "ray_origin_y": -0.04,
+      "ray_direction": [
+        0,
+        1,
+        0
+      ],
+      "surface_intersection_y": [
+        -0.031199999153614044,
+        -0.03020000085234642
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1062 @@
+{
+  "date": "2026-10-07",
+  "method": "structured filter over manual draft records",
+  "limits": [
+    "No CAD geometry recognition, database or RAG evaluation",
+    "Passing means expected record behavior, not approved shape definitions",
+    "No supported record is not physical absence",
+    "Default corpus excludes synthetic teaching models"
+  ],
+  "record_provenance": [
+    {
+      "file": "Simple_CAD_Feature_Records.json",
+      "sha256": "403e97e52ffdd8f100e70a2dbd038274fe22aeab462100aae915bd11d9708849"
+    },
+    {
+      "file": "Final_Selected_Feature_Records.json",
+      "sha256": "5ffa35fe18cea288696cddd258c612c569f46bf177d41893509600c50d931801"
+    },
+    {
+      "file": "Supplemental_Feature_Records.json",
+      "sha256": "93d04ed64d538386e8acabf8fb0c09244b1f44134a440557418b008658c0fd80"
+    }
+  ],
+  "case_spec_sha256": "1199b58edab7467bc888518d1faf4bf4733c8b084ff52ae89ff745a3f390a03c",
+  "case_count": 19,
+  "passed_count": 19,
+  "results": [
+    {
+      "case_id": "Q01",
+      "question_ja": "座ぐりが主穴に付いた部品を探す",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-counterbore"
+        ],
+        "unknown_parts": [],
+        "matched_relations": [
+          {
+            "part_id": "STL-counterbore",
+            "source": "F-02",
+            "target": "F-01",
+            "predicate": "entrance_form_of",
+            "result": true
+          }
+        ]
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-counterbore"
+        ],
+        "matched_relations": [
+          {
+            "part_id": "STL-counterbore",
+            "source": "F-02",
+            "target": "F-01",
+            "predicate": "entrance_form_of",
+            "result": true
+          }
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "matched_relations": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "STL-counterbore",
+          "record_file": "Simple_CAD_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            {
+              "evidence_id": "E-vertices",
+              "kind": "mesh_vertices",
+              "path": "80_Assets/cad_examples/mesh_observations.json",
+              "selector": "selected_measurements/counterbore"
+            },
+            {
+              "evidence_id": "E-vertical-section",
+              "kind": "working_mesh_section",
+              "path": "80_Assets/cad_examples/counterbore_views.png",
+              "selector": "middle_panel"
+            },
+            {
+              "evidence_id": "E-horizontal-section",
+              "kind": "working_mesh_section",
+              "path": "80_Assets/cad_examples/counterbore_views.png",
+              "selector": "right_panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q02",
+      "question_ja": "皿ざぐりが主穴に付いた部品を探す",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-countersink"
+        ],
+        "unknown_parts": [],
+        "matched_relations": [
+          {
+            "part_id": "STL-countersink",
+            "source": "F-02",
+            "target": "F-01",
+            "predicate": "entrance_form_of",
+            "result": true
+          }
+        ]
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-countersink"
+        ],
+        "matched_relations": [
+          {
+            "part_id": "STL-countersink",
+            "source": "F-02",
+            "target": "F-01",
+            "predicate": "entrance_form_of",
+            "result": true
+          }
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "matched_relations": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "STL-countersink",
+          "record_file": "Simple_CAD_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            {
+              "evidence_id": "E-vertices",
+              "kind": "mesh_vertices",
+              "path": "80_Assets/cad_examples/mesh_observations.json",
+              "selector": "selected_measurements/countersink"
+            },
+            {
+              "evidence_id": "E-vertical-section",
+              "kind": "working_mesh_section",
+              "path": "80_Assets/cad_examples/countersink_views.png",
+              "selector": "middle_panel"
+            },
+            {
+              "evidence_id": "E-horizontal-section",
+              "kind": "working_mesh_section",
+              "path": "80_Assets/cad_examples/countersink_views.png",
+              "selector": "right_panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q03",
+      "question_ja": "止まりのポケットが記録された部品を探す",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-8972",
+          "STL-rectpocket"
+        ],
+        "unknown_parts": [],
+        "matched_feature_keys": [
+          [
+            "STL-8972",
+            "F02"
+          ],
+          [
+            "STL-8972",
+            "F03"
+          ],
+          [
+            "STL-8972",
+            "F04"
+          ],
+          [
+            "STL-8972",
+            "F05"
+          ],
+          [
+            "STL-8972",
+            "F06"
+          ],
+          [
+            "STL-rectpocket",
+            "F-01"
+          ]
+        ],
+        "matched_occurrence_counts": {
+          "STL-rectpocket": 1,
+          "STL-8972": 5
+        }
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-8972",
+          "STL-rectpocket"
+        ],
+        "matched_feature_keys": [
+          [
+            "STL-8972",
+            "F02"
+          ],
+          [
+            "STL-8972",
+            "F03"
+          ],
+          [
+            "STL-8972",
+            "F04"
+          ],
+          [
+            "STL-8972",
+            "F05"
+          ],
+          [
+            "STL-8972",
+            "F06"
+          ],
+          [
+            "STL-rectpocket",
+            "F-01"
+          ]
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "matched_feature_keys": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "STL-rectpocket",
+          "record_file": "Simple_CAD_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            {
+              "evidence_id": "E-vertices",
+              "kind": "mesh_vertices",
+              "path": "80_Assets/cad_examples/mesh_observations.json",
+              "selector": "selected_measurements/rectpocket"
+            },
+            {
+              "evidence_id": "E-vertical-section",
+              "kind": "working_mesh_section",
+              "path": "80_Assets/cad_examples/rectpocket_views.png",
+              "selector": "middle_panel"
+            },
+            {
+              "evidence_id": "E-horizontal-section",
+              "kind": "working_mesh_section",
+              "path": "80_Assets/cad_examples/rectpocket_views.png",
+              "selector": "right_panel"
+            }
+          ]
+        },
+        {
+          "part_id": "STL-8972",
+          "record_file": "Final_Selected_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            "8972_sections.png",
+            "selected_sections.json",
+            "8972_recess_review.png",
+            "8972_ray_observations.json"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q04",
+      "question_ja": "入口に段がある貫通長穴を探す",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-8972"
+        ],
+        "unknown_parts": [],
+        "matched_feature_keys": [
+          [
+            "STL-8972",
+            "F01"
+          ]
+        ],
+        "matched_occurrence_counts": {
+          "STL-8972": 1
+        }
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-8972"
+        ],
+        "matched_feature_keys": [
+          [
+            "STL-8972",
+            "F01"
+          ]
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "matched_feature_keys": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "STL-8972",
+          "record_file": "Final_Selected_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            "8972_sections.png",
+            "selected_sections.json",
+            "8972_recess_review.png",
+            "8972_ray_observations.json"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q05",
+      "question_ja": "底が一部だけ残る凹部を探す",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-8972"
+        ],
+        "unknown_parts": [],
+        "matched_feature_keys": [
+          [
+            "STL-8972",
+            "F07"
+          ]
+        ],
+        "matched_occurrence_counts": {
+          "STL-8972": 1
+        }
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-8972"
+        ],
+        "matched_feature_keys": [
+          [
+            "STL-8972",
+            "F07"
+          ]
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "matched_feature_keys": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "STL-8972",
+          "record_file": "Final_Selected_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            "8972_sections.png",
+            "selected_sections.json",
+            "8972_recess_review.png",
+            "8972_ray_observations.json"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q06",
+      "question_ja": "+Z側へ開いた内部空間を探す",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-4423"
+        ],
+        "unknown_parts": [],
+        "matched_feature_keys": [
+          [
+            "STL-4423",
+            "F01"
+          ]
+        ],
+        "matched_occurrence_counts": {
+          "STL-4423": 1
+        }
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-4423"
+        ],
+        "matched_feature_keys": [
+          [
+            "STL-4423",
+            "F01"
+          ]
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "matched_feature_keys": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "STL-4423",
+          "record_file": "Final_Selected_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            "4423_sections.png",
+            "selected_sections.json"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q07",
+      "question_ja": "フィレットと内部空間の両方が記録された同じ部品を探す",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-7145"
+        ],
+        "unknown_parts": [],
+        "matched_feature_keys": [
+          [
+            "STL-7145",
+            "F01"
+          ],
+          [
+            "STL-7145",
+            "F02"
+          ]
+        ],
+        "matched_occurrence_counts": {
+          "STL-7145": 2
+        }
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-7145"
+        ],
+        "matched_feature_keys": [
+          [
+            "STL-7145",
+            "F01"
+          ],
+          [
+            "STL-7145",
+            "F02"
+          ]
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "matched_feature_keys": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "STL-7145",
+          "record_file": "Final_Selected_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            "7145_sections.png",
+            "selected_sections.json"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q08",
+      "question_ja": "入力座標の厚さ3が記録されたリブを探す",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-rib",
+          "STL-rib_cross"
+        ],
+        "unknown_parts": [],
+        "matched_feature_keys": [
+          [
+            "STL-rib",
+            "F01"
+          ],
+          [
+            "STL-rib_cross",
+            "F-01"
+          ],
+          [
+            "STL-rib_cross",
+            "F-02"
+          ]
+        ],
+        "matched_occurrence_counts": {
+          "STL-rib_cross": 2,
+          "STL-rib": 1
+        }
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-rib",
+          "STL-rib_cross"
+        ],
+        "matched_occurrence_counts": {
+          "STL-rib": 1,
+          "STL-rib_cross": 2
+        },
+        "matched_feature_keys": [
+          [
+            "STL-rib",
+            "F01"
+          ],
+          [
+            "STL-rib_cross",
+            "F-01"
+          ],
+          [
+            "STL-rib_cross",
+            "F-02"
+          ]
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "matched_occurrence_counts": true,
+        "matched_feature_keys": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "STL-rib_cross",
+          "record_file": "Simple_CAD_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            {
+              "evidence_id": "E-vertices",
+              "kind": "mesh_vertices",
+              "path": "80_Assets/cad_examples/mesh_observations.json",
+              "selector": "selected_measurements/rib_cross"
+            },
+            {
+              "evidence_id": "E-vertical-section",
+              "kind": "working_mesh_section",
+              "path": "80_Assets/cad_examples/rib_cross_views.png",
+              "selector": "middle_panel"
+            },
+            {
+              "evidence_id": "E-horizontal-section",
+              "kind": "working_mesh_section",
+              "path": "80_Assets/cad_examples/rib_cross_views.png",
+              "selector": "right_panel"
+            }
+          ]
+        },
+        {
+          "part_id": "STL-rib",
+          "record_file": "Supplemental_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            {
+              "evidence_id": "E-mesh",
+              "kind": "mesh_observation",
+              "path": "80_Assets/vocabulary_supplement/supplement_mesh_observations.json",
+              "selector": "models[model_id=rib]"
+            },
+            {
+              "evidence_id": "E-views",
+              "kind": "mesh_section_figure",
+              "path": "80_Assets/vocabulary_supplement/rib_views.png",
+              "section_planes": [
+                {
+                  "axis": "X",
+                  "position": 25.0
+                },
+                {
+                  "axis": "Z",
+                  "position": 13
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q09",
+      "question_ja": "ボスの草案記録がある提供モデルを探す",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-boss",
+          "STL-fillet_boss"
+        ],
+        "unknown_parts": [],
+        "matched_feature_keys": [
+          [
+            "STL-boss",
+            "F01"
+          ],
+          [
+            "STL-fillet_boss",
+            "F01"
+          ]
+        ],
+        "matched_occurrence_counts": {
+          "STL-boss": 1,
+          "STL-fillet_boss": 1
+        }
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "STL-boss",
+          "STL-fillet_boss"
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "STL-boss",
+          "record_file": "Supplemental_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            {
+              "evidence_id": "E-mesh",
+              "kind": "mesh_observation",
+              "path": "80_Assets/vocabulary_supplement/supplement_mesh_observations.json",
+              "selector": "models[model_id=boss]"
+            },
+            {
+              "evidence_id": "E-views",
+              "kind": "mesh_section_figure",
+              "path": "80_Assets/vocabulary_supplement/boss_views.png",
+              "section_planes": [
+                {
+                  "axis": "X",
+                  "position": 25.0
+                },
+                {
+                  "axis": "Z",
+                  "position": 13
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "STL-fillet_boss",
+          "record_file": "Supplemental_Feature_Records.json",
+          "origin": "user_supplied_stl",
+          "evidence": [
+            {
+              "evidence_id": "E-mesh",
+              "kind": "mesh_observation",
+              "path": "80_Assets/vocabulary_supplement/supplement_mesh_observations.json",
+              "selector": "models[model_id=fillet_boss]"
+            },
+            {
+              "evidence_id": "E-views",
+              "kind": "mesh_section_figure",
+              "path": "80_Assets/vocabulary_supplement/fillet_boss_views.png",
+              "section_planes": [
+                {
+                  "axis": "X",
+                  "position": 20.0
+                },
+                {
+                  "axis": "Z",
+                  "position": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q10",
+      "question_ja": "fillet_boss.stlから確認済みのフィレットを探す",
+      "actual": {
+        "status": "unknown",
+        "match_parts": [],
+        "unknown_parts": [
+          "STL-fillet_boss"
+        ],
+        "matched_feature_keys": [],
+        "matched_occurrence_counts": {}
+      },
+      "expected": {
+        "status": "unknown",
+        "match_parts": [],
+        "unknown_parts": [
+          "STL-fillet_boss"
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "unknown_parts": true
+      },
+      "passed": true,
+      "supporting_records": []
+    },
+    {
+      "case_id": "Q11",
+      "question_ja": "教材だけを対象に、閉じた内部空洞を探す",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "TEACH-enclosed"
+        ],
+        "unknown_parts": [],
+        "matched_feature_keys": [
+          [
+            "TEACH-enclosed",
+            "F01"
+          ]
+        ],
+        "matched_occurrence_counts": {
+          "TEACH-enclosed": 1
+        }
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "TEACH-enclosed"
+        ],
+        "matched_feature_keys": [
+          [
+            "TEACH-enclosed",
+            "F01"
+          ]
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "matched_feature_keys": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "TEACH-enclosed",
+          "record_file": "Supplemental_Feature_Records.json",
+          "origin": "synthetic_teaching_model",
+          "evidence": [
+            {
+              "evidence_id": "E-mesh",
+              "kind": "explicit_construction",
+              "path": "80_Assets/vocabulary_supplement/supplement_mesh_observations.json",
+              "selector": "models[model_id=teaching_enclosed_void]"
+            },
+            {
+              "evidence_id": "E-views",
+              "kind": "mesh_section_figure",
+              "path": "80_Assets/vocabulary_supplement/teaching_enclosed_void_views.png",
+              "section_planes": [
+                {
+                  "axis": "X",
+                  "position": 10
+                },
+                {
+                  "axis": "Z",
+                  "position": 18
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q12",
+      "question_ja": "教材の同じ領域にPocketとInternal Voidが付いても一回だけ数える",
+      "actual": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "TEACH-open"
+        ],
+        "unknown_parts": [],
+        "matched_feature_keys": [
+          [
+            "TEACH-open",
+            "F01"
+          ]
+        ],
+        "matched_occurrence_counts": {
+          "TEACH-open": 1
+        }
+      },
+      "expected": {
+        "status": "supported_draft_matches",
+        "match_parts": [
+          "TEACH-open"
+        ],
+        "matched_occurrence_counts": {
+          "TEACH-open": 1
+        },
+        "matched_feature_keys": [
+          [
+            "TEACH-open",
+            "F01"
+          ]
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "matched_occurrence_counts": true,
+        "matched_feature_keys": true
+      },
+      "passed": true,
+      "supporting_records": [
+        {
+          "part_id": "TEACH-open",
+          "record_file": "Supplemental_Feature_Records.json",
+          "origin": "synthetic_teaching_model",
+          "evidence": [
+            {
+              "evidence_id": "E-mesh",
+              "kind": "explicit_construction",
+              "path": "80_Assets/vocabulary_supplement/supplement_mesh_observations.json",
+              "selector": "models[model_id=teaching_open_void]"
+            },
+            {
+              "evidence_id": "E-views",
+              "kind": "mesh_section_figure",
+              "path": "80_Assets/vocabulary_supplement/teaching_open_void_views.png",
+              "section_planes": [
+                {
+                  "axis": "X",
+                  "position": 10
+                },
+                {
+                  "axis": "Z",
+                  "position": 18
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "Q13",
+      "question_ja": "1400の二つの穴が内部で接続しているか",
+      "actual": {
+        "status": "unknown",
+        "match_parts": [],
+        "unknown_parts": [
+          "STL-1400"
+        ],
+        "matched_relations": []
+      },
+      "expected": {
+        "status": "unknown",
+        "match_parts": [],
+        "unknown_parts": [
+          "STL-1400"
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "unknown_parts": true
+      },
+      "passed": true,
+      "supporting_records": []
+    },
+    {
+      "case_id": "Q14",
+      "question_ja": "肉厚5mm未満の部品を探すため、物理単位の根拠を確認する",
+      "actual": {
+        "status": "insufficient_evidence",
+        "match_parts": [],
+        "unknown_parts": [
+          "STL-1400",
+          "STL-4423",
+          "STL-7145",
+          "STL-8972",
+          "STL-boss",
+          "STL-counterbore",
+          "STL-countersink",
+          "STL-fillet_boss",
+          "STL-rectpocket",
+          "STL-rib",
+          "STL-rib_cross"
+        ],
+        "required_evidence": "physical_unit",
+        "records_with_required_evidence": []
+      },
+      "expected": {
+        "status": "insufficient_evidence",
+        "match_parts": []
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true
+      },
+      "passed": true,
+      "supporting_records": []
+    },
+    {
+      "case_id": "Q15",
+      "question_ja": "冷却に使う流路を探すため、用途の根拠を確認する",
+      "actual": {
+        "status": "insufficient_evidence",
+        "match_parts": [],
+        "unknown_parts": [
+          "STL-1400",
+          "STL-4423",
+          "STL-7145",
+          "STL-counterbore",
+          "STL-countersink"
+        ],
+        "required_evidence": "documented_purpose",
+        "records_with_required_evidence": []
+      },
+      "expected": {
+        "status": "insufficient_evidence",
+        "match_parts": []
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true
+      },
+      "passed": true,
+      "supporting_records": []
+    },
+    {
+      "case_id": "Q16",
+      "question_ja": "反り対策のリブを探すため、設計目的の根拠を確認する",
+      "actual": {
+        "status": "insufficient_evidence",
+        "match_parts": [],
+        "unknown_parts": [
+          "STL-rib",
+          "STL-rib_cross"
+        ],
+        "required_evidence": "documented_purpose",
+        "records_with_required_evidence": []
+      },
+      "expected": {
+        "status": "insufficient_evidence",
+        "match_parts": []
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true
+      },
+      "passed": true,
+      "supporting_records": []
+    },
+    {
+      "case_id": "Q17",
+      "question_ja": "+Z方向のアンダーカットを探すため、抜き方向の根拠を確認する",
+      "actual": {
+        "status": "insufficient_evidence",
+        "match_parts": [],
+        "unknown_parts": [
+          "STL-1400",
+          "STL-4423",
+          "STL-7145",
+          "STL-8972",
+          "STL-boss",
+          "STL-counterbore",
+          "STL-countersink",
+          "STL-fillet_boss",
+          "STL-rectpocket",
+          "STL-rib",
+          "STL-rib_cross"
+        ],
+        "required_evidence": "reference_pull_direction",
+        "records_with_required_evidence": []
+      },
+      "expected": {
+        "status": "insufficient_evidence",
+        "match_parts": []
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true
+      },
+      "passed": true,
+      "supporting_records": []
+    },
+    {
+      "case_id": "Q18",
+      "question_ja": "counterbore.stlに皿ざぐりの記録があるか",
+      "actual": {
+        "status": "no_supported_record",
+        "match_parts": [],
+        "unknown_parts": [],
+        "matched_feature_keys": [],
+        "matched_occurrence_counts": {}
+      },
+      "expected": {
+        "status": "no_supported_record",
+        "match_parts": []
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true
+      },
+      "passed": true,
+      "supporting_records": []
+    },
+    {
+      "case_id": "Q19",
+      "question_ja": "1400の穴同士が交差しないと確認できるか",
+      "actual": {
+        "status": "unknown",
+        "match_parts": [],
+        "unknown_parts": [
+          "STL-1400"
+        ],
+        "matched_relations": []
+      },
+      "expected": {
+        "status": "unknown",
+        "match_parts": [],
+        "unknown_parts": [
+          "STL-1400"
+        ]
+      },
+      "checks": {
+        "status": true,
+        "match_parts": true,
+        "unknown_parts": true
+      },
+      "passed": true,
+      "supporting_records": []
+    }
+  ]
+}

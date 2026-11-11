@@ -1,0 +1,2798 @@
+{
+  "dataset_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl",
+  "manifest_path": "/home/malanya/projects/cad-structure-search/data/final_selected/manifest.csv",
+  "manifest_sha256": "aba4683c0633d0bfd47d7d02e2fa437596c16ca7be7ad369900efeeaaa51739b",
+  "method": "Full STL surface render; no triangle decimation; bounds in original coordinates",
+  "files": [
+    {
+      "model_id": "219",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/219.stl",
+      "sha256": "0a2328833b27a63fc677cb658ff29ffde2cab63d6b343276aefd6af1bb7f83d6",
+      "manifest_class": "elongated",
+      "triangle_count": 82936,
+      "bounds": [
+        [
+          -0.02250000089406967,
+          -0.0004999996745027602,
+          -0.009999999776482582
+        ],
+        [
+          0.040672820061445236,
+          0.014999999664723873,
+          0.009999999776482582
+        ]
+      ],
+      "extents": [
+        0.06317282095551491,
+        0.015499999339226633,
+        0.019999999552965164
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/219.step",
+      "preview_path": "80_Assets/final_selected/219_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "231",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/231.stl",
+      "sha256": "501e78f2288db841f0db018760c37f215e953a1910846c4bde86321974b90088",
+      "manifest_class": "irregular",
+      "triangle_count": 64416,
+      "bounds": [
+        [
+          -0.05079999938607216,
+          -0.06434381753206253,
+          0.0
+        ],
+        [
+          0.05079999938607216,
+          0.06434381753206253,
+          0.10113134235143661
+        ]
+      ],
+      "extents": [
+        0.10159999877214432,
+        0.12868763506412506,
+        0.10113134235143661
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/231.step",
+      "preview_path": "80_Assets/final_selected/231_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "306",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/306.stl",
+      "sha256": "f84380ef55cb35bda8411374370e0b172b2e58c7532bd38a4c25a976d812b714",
+      "manifest_class": "isotropic",
+      "triangle_count": 59404,
+      "bounds": [
+        [
+          -0.07500000298023224,
+          -0.07500000298023224,
+          -0.07500000298023224
+        ],
+        [
+          0.07500000298023224,
+          0.02500000037252903,
+          0.07500000298023224
+        ]
+      ],
+      "extents": [
+        0.15000000596046448,
+        0.10000000335276127,
+        0.15000000596046448
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/306.step",
+      "preview_path": "80_Assets/final_selected/306_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "370",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/370.stl",
+      "sha256": "3cbe16a4da836e5b634a911b6066ca8362c59e3f18a7df961e9f4d97cbe37aaf",
+      "manifest_class": "irregular",
+      "triangle_count": 3324,
+      "bounds": [
+        [
+          -0.021124187856912613,
+          -0.02082754857838154,
+          0.0
+        ],
+        [
+          0.02087581157684326,
+          0.021172240376472473,
+          0.0560000017285347
+        ]
+      ],
+      "extents": [
+        0.041999999433755875,
+        0.04199978895485401,
+        0.0560000017285347
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/370.step",
+      "preview_path": "80_Assets/final_selected/370_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "597",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/597.stl",
+      "sha256": "62890eddce4dd5d58155e14f31f1333048c5cbfed1222d65e3273c5a3a081c34",
+      "manifest_class": "irregular",
+      "triangle_count": 5632,
+      "bounds": [
+        [
+          -0.010599999688565731,
+          -0.010596705600619316,
+          0.0
+        ],
+        [
+          0.010599999688565731,
+          0.010596705600619316,
+          0.032499998807907104
+        ]
+      ],
+      "extents": [
+        0.021199999377131462,
+        0.021193411201238632,
+        0.032499998807907104
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/597.step",
+      "preview_path": "80_Assets/final_selected/597_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "628",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/628.stl",
+      "sha256": "17a241eb2e9f4ed410043d1896bd7016c7fa72846c96dd298e85511df043194c",
+      "manifest_class": "irregular",
+      "triangle_count": 35986,
+      "bounds": [
+        [
+          -0.019209183752536774,
+          -0.01920321211218834,
+          -0.009361956268548965
+        ],
+        [
+          0.019209183752536774,
+          0.01920321211218834,
+          0.04324860870838165
+        ]
+      ],
+      "extents": [
+        0.03841836750507355,
+        0.03840642422437668,
+        0.05261056497693062
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/628.step",
+      "preview_path": "80_Assets/final_selected/628_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "710",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/710.stl",
+      "sha256": "b796ea20f918000fcebb4561af7081e5e1e0ae0e0d89c2ae5a6410ade0ba4f8f",
+      "manifest_class": "isotropic",
+      "triangle_count": 1824,
+      "bounds": [
+        [
+          -0.005773502867668867,
+          -0.004999999888241291,
+          -5.773858530232299e-15
+        ],
+        [
+          0.005773502867668867,
+          0.004999999888241291,
+          0.006099999882280827
+        ]
+      ],
+      "extents": [
+        0.011547005735337734,
+        0.009999999776482582,
+        0.006099999882286601
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/710.step",
+      "preview_path": "80_Assets/final_selected/710_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "768",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/768.stl",
+      "sha256": "d94a20361c7625988e30660c9df8fae173851cd42388c5f0663fde9501aac7f5",
+      "manifest_class": "flat_plate",
+      "triangle_count": 17350,
+      "bounds": [
+        [
+          -0.0847846046090126,
+          -0.06961808353662491,
+          -6.429318882839041e-17
+        ],
+        [
+          0.0847846046090126,
+          0.06961808353662491,
+          0.044587161391973495
+        ]
+      ],
+      "extents": [
+        0.1695692092180252,
+        0.13923616707324982,
+        0.04458716139197356
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/768.step",
+      "preview_path": "80_Assets/final_selected/768_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "802",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/802.stl",
+      "sha256": "86e39c3bf1beaf429daca2edae0d54bceeeedb8490e7f63c0fa50f3708c7e860",
+      "manifest_class": "elongated",
+      "triangle_count": 2344,
+      "bounds": [
+        [
+          -0.02539999969303608,
+          -0.038353998214006424,
+          -0.03884044289588928
+        ],
+        [
+          0.0,
+          0.0,
+          0.04084771126508713
+        ]
+      ],
+      "extents": [
+        0.02539999969303608,
+        0.038353998214006424,
+        0.07968815416097641
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/802.step",
+      "preview_path": "80_Assets/final_selected/802_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "1015",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1015.stl",
+      "sha256": "36cb09e18fd2f9a031dea86df041c77fd542bcc367c4fa73c01bf037a6702666",
+      "manifest_class": "isotropic",
+      "triangle_count": 4428,
+      "bounds": [
+        [
+          -0.014999999664723873,
+          -0.019999999552965164,
+          0.0
+        ],
+        [
+          0.014999999664723873,
+          0.019999999552965164,
+          0.03999999910593033
+        ]
+      ],
+      "extents": [
+        0.029999999329447746,
+        0.03999999910593033,
+        0.03999999910593033
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/1015.step",
+      "preview_path": "80_Assets/final_selected/1015_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "1369",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1369.stl",
+      "sha256": "9caebc54a8d7e5f01a3b32c3c2a91ff1dac27f8746cf87f2c566b3b9c443e77c",
+      "manifest_class": "flat_plate",
+      "triangle_count": 1036,
+      "bounds": [
+        [
+          -0.019999999552965164,
+          -0.01600000075995922,
+          -3.764362085934003e-12
+        ],
+        [
+          0.019999999552965164,
+          0.024000000208616257,
+          0.013000000268220901
+        ]
+      ],
+      "extents": [
+        0.03999999910593033,
+        0.04000000096857548,
+        0.013000000271985264
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/1369.step",
+      "preview_path": "80_Assets/final_selected/1369_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "1400",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1400.stl",
+      "sha256": "05a997bce415cc711096564e837aaf795e73190b46ad6f96be36a08c57ef0ba9",
+      "manifest_class": "elongated",
+      "triangle_count": 2048,
+      "bounds": [
+        [
+          -0.004762500058859587,
+          -0.04127499833703041,
+          -0.004762500058859587
+        ],
+        [
+          0.004762500058859587,
+          0.04127499833703041,
+          0.004762500058859587
+        ]
+      ],
+      "extents": [
+        0.009525000117719173,
+        0.08254999667406082,
+        0.009525000117719173
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/1400.step",
+      "preview_path": "80_Assets/final_selected/1400_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "1482",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1482.stl",
+      "sha256": "03a57690c98ba88997f8dd9ce85fde10b6db8dc5f638d0c2005ea5360e2b72b8",
+      "manifest_class": "irregular",
+      "triangle_count": 114802,
+      "bounds": [
+        [
+          -0.005998424254357815,
+          -0.01600000075995922,
+          0.0
+        ],
+        [
+          0.03999999910593033,
+          0.01600000075995922,
+          0.044999994337558746
+        ]
+      ],
+      "extents": [
+        0.04599842336028814,
+        0.03200000151991844,
+        0.044999994337558746
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/1482.step",
+      "preview_path": "80_Assets/final_selected/1482_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "1501",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1501.stl",
+      "sha256": "43e55773cdcaf7191069075dba2fbe126f4226bd84c1c7cd37b5bcd9e5faf2c8",
+      "manifest_class": "flat_plate",
+      "triangle_count": 33444,
+      "bounds": [
+        [
+          -0.06300000101327896,
+          -0.0911078080534935,
+          -8.673617379884035e-19
+        ],
+        [
+          0.039000000804662704,
+          0.05400000140070915,
+          0.04149999842047691
+        ]
+      ],
+      "extents": [
+        0.10200000181794167,
+        0.14510780945420265,
+        0.04149999842047691
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/1501.step",
+      "preview_path": "80_Assets/final_selected/1501_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "1511",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1511.stl",
+      "sha256": "93a7bbea652f52afc37791f3deaa738d6725c05e59bf8bd45c00a84e8cef8ab1",
+      "manifest_class": "irregular",
+      "triangle_count": 23338,
+      "bounds": [
+        [
+          -0.026669999584555626,
+          -0.022224999964237213,
+          -0.020637499168515205
+        ],
+        [
+          0.05714770779013634,
+          0.022224999964237213,
+          0.020637499168515205
+        ]
+      ],
+      "extents": [
+        0.08381770737469196,
+        0.044449999928474426,
+        0.04127499833703041
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/1511.step",
+      "preview_path": "80_Assets/final_selected/1511_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "1667",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1667.stl",
+      "sha256": "edddf24199d59a5467a5de141247e182acd53da3571077d04a9a6705f99a4af3",
+      "manifest_class": "irregular",
+      "triangle_count": 2016,
+      "bounds": [
+        [
+          -0.007000000216066837,
+          -0.007997513748705387,
+          -0.00800000037997961
+        ],
+        [
+          4.336808689942018e-19,
+          0.007997513748705387,
+          0.00800000037997961
+        ]
+      ],
+      "extents": [
+        0.007000000216066837,
+        0.015995027497410774,
+        0.01600000075995922
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/1667.step",
+      "preview_path": "80_Assets/final_selected/1667_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "1693",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1693.stl",
+      "sha256": "f949aaff07d473deb2af126d509dc4013687c871ad145760754f64dca4e4afc0",
+      "manifest_class": "isotropic",
+      "triangle_count": 31544,
+      "bounds": [
+        [
+          -0.005753098521381617,
+          -0.01269999984651804,
+          -0.0057530999183654785
+        ],
+        [
+          0.005753097124397755,
+          0.0,
+          0.0057530999183654785
+        ]
+      ],
+      "extents": [
+        0.011506195645779371,
+        0.01269999984651804,
+        0.011506199836730957
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/1693.step",
+      "preview_path": "80_Assets/final_selected/1693_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "1707",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1707.stl",
+      "sha256": "6a87d9e4416e3b49807495ca670cd7649e30b62d15b1ec2a4554ce046620f5e1",
+      "manifest_class": "elongated",
+      "triangle_count": 30504,
+      "bounds": [
+        [
+          -4.7704895589362195e-18,
+          -0.009999999776482582,
+          0.0
+        ],
+        [
+          0.03999932482838631,
+          0.009999999776482582,
+          0.013799999840557575
+        ]
+      ],
+      "extents": [
+        0.039999324828386314,
+        0.019999999552965164,
+        0.013799999840557575
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/1707.step",
+      "preview_path": "80_Assets/final_selected/1707_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "1775",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1775.stl",
+      "sha256": "ea107186e0bbe337959da74e759971c864f383db9d8921fa2bc77ca786152130",
+      "manifest_class": "flat_plate",
+      "triangle_count": 3970,
+      "bounds": [
+        [
+          -0.029999999329447746,
+          -0.2540000081062317,
+          -3.8882534591728874e-18
+        ],
+        [
+          0.2540000081062317,
+          0.2540000081062317,
+          0.5080000162124634
+        ]
+      ],
+      "extents": [
+        0.28400000743567944,
+        0.5080000162124634,
+        0.5080000162124634
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/1775.step",
+      "preview_path": "80_Assets/final_selected/1775_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2122",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2122.stl",
+      "sha256": "cbaca8f9ab145f009d5cebad854d60ed073fba8d32ae54de9198b3134d5ed4e5",
+      "manifest_class": "flat_plate",
+      "triangle_count": 8568,
+      "bounds": [
+        [
+          -0.009749961085617542,
+          -0.009746930561959743,
+          0.0
+        ],
+        [
+          0.009749961085617542,
+          0.009746930561959743,
+          0.0020000000949949026
+        ]
+      ],
+      "extents": [
+        0.019499922171235085,
+        0.019493861123919487,
+        0.0020000000949949026
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2122.step",
+      "preview_path": "80_Assets/final_selected/2122_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2150",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2150.stl",
+      "sha256": "db23e91e87ac34418edefbf26cecfa77086b9e8eb4077b3d05e78cfbe7cfde70",
+      "manifest_class": "irregular",
+      "triangle_count": 42240,
+      "bounds": [
+        [
+          -0.012362495064735413,
+          -0.005210176110267639,
+          -0.004444987513124943
+        ],
+        [
+          0.010124998167157173,
+          0.012658967636525631,
+          0.014660976827144623
+        ]
+      ],
+      "extents": [
+        0.022487493231892586,
+        0.01786914374679327,
+        0.019105964340269566
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2150.step",
+      "preview_path": "80_Assets/final_selected/2150_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2175",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2175.stl",
+      "sha256": "c346357ceb0cad1d429ca23e2af748bdc2902954fd31292a7e414abeff9e2f28",
+      "manifest_class": "flat_plate",
+      "triangle_count": 135982,
+      "bounds": [
+        [
+          -0.03702151030302048,
+          -0.0010000000474974513,
+          -0.05391162261366844
+        ],
+        [
+          0.06322293728590012,
+          0.004999999888241291,
+          0.057184357196092606
+        ]
+      ],
+      "extents": [
+        0.1002444475889206,
+        0.005999999935738742,
+        0.11109597980976105
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2175.step",
+      "preview_path": "80_Assets/final_selected/2175_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2178",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2178.stl",
+      "sha256": "b4613b2769a20ad603f950d5042652aa5482753d6353c01972a2403cc6e6e196",
+      "manifest_class": "irregular",
+      "triangle_count": 3088,
+      "bounds": [
+        [
+          -0.0008999999845400453,
+          -0.0008832531748339534,
+          -0.006839999929070473
+        ],
+        [
+          0.011699999682605267,
+          0.005016746930778027,
+          0.0010000000474974513
+        ]
+      ],
+      "extents": [
+        0.012599999667145312,
+        0.00590000010561198,
+        0.007839999976567924
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2178.step",
+      "preview_path": "80_Assets/final_selected/2178_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2181",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2181.stl",
+      "sha256": "59ccd21dacf75ec6a65db3d104b8ef829541f4f9d0fd74da3482ff0e8c1d29b9",
+      "manifest_class": "isotropic",
+      "triangle_count": 35712,
+      "bounds": [
+        [
+          -0.006997824180871248,
+          -3.518984615082598e-16,
+          -0.007000000216066837
+        ],
+        [
+          0.006997824180871248,
+          0.01899999938905239,
+          0.007000000216066837
+        ]
+      ],
+      "extents": [
+        0.013995648361742496,
+        0.01899999938905274,
+        0.014000000432133675
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2181.step",
+      "preview_path": "80_Assets/final_selected/2181_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2203",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2203.stl",
+      "sha256": "2275aee44eccf55bd2b8ecc4df543d9105b11acea68f2ccdf8a55f6adab435fd",
+      "manifest_class": "irregular",
+      "triangle_count": 5820,
+      "bounds": [
+        [
+          -0.011058761738240719,
+          -0.010935979895293713,
+          0.0
+        ],
+        [
+          0.011058761738240719,
+          0.010935979895293713,
+          0.02539999969303608
+        ]
+      ],
+      "extents": [
+        0.022117523476481438,
+        0.021871959790587425,
+        0.02539999969303608
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2203.step",
+      "preview_path": "80_Assets/final_selected/2203_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2401",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2401.stl",
+      "sha256": "db6fcc3505aad37d7ca3dde926f6997db9c3ee6c076686ade70e054f357353d8",
+      "manifest_class": "irregular",
+      "triangle_count": 1604,
+      "bounds": [
+        [
+          -0.4669058322906494,
+          -0.49662333726882935,
+          -0.09622517228126526
+        ],
+        [
+          0.3592243194580078,
+          0.2115468680858612,
+          0.4315648078918457
+        ]
+      ],
+      "extents": [
+        0.8261301517486572,
+        0.7081702053546906,
+        0.527789980173111
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2401.step",
+      "preview_path": "80_Assets/final_selected/2401_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2408",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2408.stl",
+      "sha256": "e8068cd70dfaa57e320a38a7e6e319c634e4cd028ad3b094f78187438aaec1f9",
+      "manifest_class": "isotropic",
+      "triangle_count": 15624,
+      "bounds": [
+        [
+          -0.0016504868399351835,
+          -0.0016509999986737967,
+          -0.0016499737976118922
+        ],
+        [
+          0.0016504868399351835,
+          0.0016509999986737967,
+          0.0016499737976118922
+        ]
+      ],
+      "extents": [
+        0.003300973679870367,
+        0.0033019999973475933,
+        0.0032999475952237844
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2408.step",
+      "preview_path": "80_Assets/final_selected/2408_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2567",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2567.stl",
+      "sha256": "473239266ee7552851770683c9ec84d6b768599975bf7310f1e2b598597f1782",
+      "manifest_class": "flat_plate",
+      "triangle_count": 1012,
+      "bounds": [
+        [
+          -1.0408340855860843e-17,
+          -0.05000000074505806,
+          0.0
+        ],
+        [
+          0.06638090312480927,
+          0.0,
+          0.07000000029802322
+        ]
+      ],
+      "extents": [
+        0.06638090312480928,
+        0.05000000074505806,
+        0.07000000029802322
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2567.step",
+      "preview_path": "80_Assets/final_selected/2567_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2622",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2622.stl",
+      "sha256": "caa6a52df3b5609e00e3eb1534493dd70eb5977472ada614aa87f6a4937626fe",
+      "manifest_class": "flat_plate",
+      "triangle_count": 105118,
+      "bounds": [
+        [
+          -0.022749992087483406,
+          -0.005200000014156103,
+          -0.016249988228082657
+        ],
+        [
+          0.02274971641600132,
+          0.0,
+          0.021774163469672203
+        ]
+      ],
+      "extents": [
+        0.045499708503484726,
+        0.005200000014156103,
+        0.03802415169775486
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2622.step",
+      "preview_path": "80_Assets/final_selected/2622_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "2786",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2786.stl",
+      "sha256": "7449e89d587f7ed48f0857e9baa9375fabeded3f460d061a53e613e2f4eab9ef",
+      "manifest_class": "isotropic",
+      "triangle_count": 92412,
+      "bounds": [
+        [
+          -0.0051012663170695305,
+          -0.002300000051036477,
+          -0.002300000051036477
+        ],
+        [
+          0.000601266510784626,
+          0.002300000051036477,
+          0.002300000051036477
+        ]
+      ],
+      "extents": [
+        0.0057025328278541565,
+        0.004600000102072954,
+        0.004600000102072954
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/2786.step",
+      "preview_path": "80_Assets/final_selected/2786_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "3067",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3067.stl",
+      "sha256": "d661ee729fc1d7daab100b314308558a99866ac3b1f85afb75df8b9b3feddff3",
+      "manifest_class": "isotropic",
+      "triangle_count": 330692,
+      "bounds": [
+        [
+          -0.03846067935228348,
+          -0.03846067190170288,
+          0.0
+        ],
+        [
+          0.03846067190170288,
+          0.03846067190170288,
+          0.07620000094175339
+        ]
+      ],
+      "extents": [
+        0.07692135125398636,
+        0.07692134380340576,
+        0.07620000094175339
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/3067.step",
+      "preview_path": "80_Assets/final_selected/3067_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "3264",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3264.stl",
+      "sha256": "4ad83b2e9ee7e1d5bbdb0afe68763a37c7dd130e13e18d57c79bb49814e627a7",
+      "manifest_class": "elongated",
+      "triangle_count": 5550,
+      "bounds": [
+        [
+          -0.09489999711513519,
+          -0.005836933851242065,
+          -0.02500000037252903
+        ],
+        [
+          0.09489999711513519,
+          0.06749992817640305,
+          0.02500000037252903
+        ]
+      ],
+      "extents": [
+        0.18979999423027039,
+        0.07333686202764511,
+        0.05000000074505806
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/3264.step",
+      "preview_path": "80_Assets/final_selected/3264_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "3488",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3488.stl",
+      "sha256": "86b9686c4307e9630eee4ce6dacfe6365d015ac0e791348a9dde660e3018fe55",
+      "manifest_class": "elongated",
+      "triangle_count": 118740,
+      "bounds": [
+        [
+          -0.027991296723484993,
+          -0.012000000104308128,
+          -0.14800000190734863
+        ],
+        [
+          0.027991296723484993,
+          0.012000000104308128,
+          0.014000000432133675
+        ]
+      ],
+      "extents": [
+        0.055982593446969986,
+        0.024000000208616257,
+        0.1620000023394823
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/3488.step",
+      "preview_path": "80_Assets/final_selected/3488_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "3500",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3500.stl",
+      "sha256": "266c00ca39ffcaf2c7a2f80cc5853fe089c9cfc0ce64a77ce6647cf20ac1cb15",
+      "manifest_class": "elongated",
+      "triangle_count": 69696,
+      "bounds": [
+        [
+          -0.11941877752542496,
+          -0.328000009059906,
+          -0.06300000101327896
+        ],
+        [
+          0.06298042088747025,
+          0.3319999873638153,
+          0.08250965923070908
+        ]
+      ],
+      "extents": [
+        0.1823991984128952,
+        0.6599999964237213,
+        0.14550966024398804
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/3500.step",
+      "preview_path": "80_Assets/final_selected/3500_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "3752",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3752.stl",
+      "sha256": "99420f008f0d81f3d065cdd591a560c0bae2a4f146813db8b85d8d2ab3f783e4",
+      "manifest_class": "isotropic",
+      "triangle_count": 176846,
+      "bounds": [
+        [
+          -0.019999999552965164,
+          -1.736891880321778e-16,
+          -0.04949747398495674
+        ],
+        [
+          0.019999999552965164,
+          0.04949747398495674,
+          0.004992213100194931
+        ]
+      ],
+      "extents": [
+        0.03999999910593033,
+        0.049497473984956915,
+        0.05448968708515167
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/3752.step",
+      "preview_path": "80_Assets/final_selected/3752_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "3860",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3860.stl",
+      "sha256": "b9a0cf4d46afc50f32e1eef889254d1fba5c6dfaed654bde20ab048ecbc39474",
+      "manifest_class": "flat_plate",
+      "triangle_count": 3340,
+      "bounds": [
+        [
+          -0.10920464992523193,
+          -0.005668846424669027,
+          0.0
+        ],
+        [
+          -0.08852522820234299,
+          0.02320077084004879,
+          0.02500000037252903
+        ]
+      ],
+      "extents": [
+        0.020679421722888947,
+        0.028869617264717817,
+        0.02500000037252903
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/3860.step",
+      "preview_path": "80_Assets/final_selected/3860_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4238",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4238.stl",
+      "sha256": "96597e00230782e4c7413232f296274b395b26ab62323b783727a4cc4a795bdd",
+      "manifest_class": "isotropic",
+      "triangle_count": 3528,
+      "bounds": [
+        [
+          -0.03924715146422386,
+          -0.00087126181460917,
+          -0.03925935551524162
+        ],
+        [
+          0.03924715146422386,
+          0.04992873966693878,
+          0.03925935551524162
+        ]
+      ],
+      "extents": [
+        0.07849430292844772,
+        0.05080000148154795,
+        0.07851871103048325
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4238.step",
+      "preview_path": "80_Assets/final_selected/4238_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4318",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4318.stl",
+      "sha256": "d728da2e56dced6783494cee87bc1dc411b4a41067ad20736e1f539e163576c2",
+      "manifest_class": "flat_plate",
+      "triangle_count": 11632,
+      "bounds": [
+        [
+          -0.09000000357627869,
+          -0.0899752676486969,
+          -0.009999999776482582
+        ],
+        [
+          0.09000000357627869,
+          0.0899752676486969,
+          0.03999999910593033
+        ]
+      ],
+      "extents": [
+        0.18000000715255737,
+        0.1799505352973938,
+        0.04999999888241291
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4318.step",
+      "preview_path": "80_Assets/final_selected/4318_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4423",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4423.stl",
+      "sha256": "9c038dce74c8824e8f1aea214528b32f2d0fb60b6ad98a0aeb087813deff4594",
+      "manifest_class": "irregular",
+      "triangle_count": 1052,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.07000000029802322,
+          0.0949999988079071,
+          0.05999999865889549
+        ]
+      ],
+      "extents": [
+        0.07000000029802322,
+        0.0949999988079071,
+        0.05999999865889549
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4423.step",
+      "preview_path": "80_Assets/final_selected/4423_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4590",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4590.stl",
+      "sha256": "0b675bd0b2cc678ee3ef1e4eda85b0c0088054a6c2ab2d712deccf95125591c0",
+      "manifest_class": "isotropic",
+      "triangle_count": 9072,
+      "bounds": [
+        [
+          -0.019050000235438347,
+          -0.02539999969303608,
+          -0.019050000235438347
+        ],
+        [
+          0.019050000235438347,
+          0.0,
+          0.019050000235438347
+        ]
+      ],
+      "extents": [
+        0.038100000470876694,
+        0.02539999969303608,
+        0.038100000470876694
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4590.step",
+      "preview_path": "80_Assets/final_selected/4590_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4638",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4638.stl",
+      "sha256": "e30463fc724e202816eb5edd0ec4937ad7424eaebd22938e2f7f39807aa3466a",
+      "manifest_class": "irregular",
+      "triangle_count": 3088,
+      "bounds": [
+        [
+          -0.069013312458992,
+          -0.017145000398159027,
+          -0.03600449860095978
+        ],
+        [
+          0.069013312458992,
+          0.0,
+          0.03600449860095978
+        ]
+      ],
+      "extents": [
+        0.138026624917984,
+        0.017145000398159027,
+        0.07200899720191956
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4638.step",
+      "preview_path": "80_Assets/final_selected/4638_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4654",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4654.stl",
+      "sha256": "d4edbcc89b388d63887672d1ba2616b5d2c57083d885928565b1aa53b19f023e",
+      "manifest_class": "isotropic",
+      "triangle_count": 26720,
+      "bounds": [
+        [
+          -0.02539210580289364,
+          -0.02500000037252903,
+          -0.02539999969303608
+        ],
+        [
+          0.02539210580289364,
+          0.023000000044703484,
+          0.02539999969303608
+        ]
+      ],
+      "extents": [
+        0.05078421160578728,
+        0.04800000041723251,
+        0.05079999938607216
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4654.step",
+      "preview_path": "80_Assets/final_selected/4654_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4686",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4686.stl",
+      "sha256": "1ab41f961f7dffd790518d68d93741eb23b4c330ecc4c5e52ea0c2740d56998b",
+      "manifest_class": "flat_plate",
+      "triangle_count": 13418,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -0.0005000000237487257
+        ],
+        [
+          0.07999999821186066,
+          0.05999999865889549,
+          0.003000000026077032
+        ]
+      ],
+      "extents": [
+        0.07999999821186066,
+        0.05999999865889549,
+        0.0035000000498257577
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4686.step",
+      "preview_path": "80_Assets/final_selected/4686_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4691",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4691.stl",
+      "sha256": "ead4ed465bce5b86ea4ec6115317ca65f9b91609d3a55444373d71d264f55670",
+      "manifest_class": "elongated",
+      "triangle_count": 17054,
+      "bounds": [
+        [
+          -5.944591374755212e-18,
+          0.0,
+          -0.0005000000237487257
+        ],
+        [
+          0.07000000029802322,
+          0.032499998807907104,
+          0.003000000026077032
+        ]
+      ],
+      "extents": [
+        0.07000000029802322,
+        0.032499998807907104,
+        0.0035000000498257577
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4691.step",
+      "preview_path": "80_Assets/final_selected/4691_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4744",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4744.stl",
+      "sha256": "7b7a68687fa5f7befb2ad93fd6babc6e9b990d2d370e6477563ffae4317b5966",
+      "manifest_class": "isotropic",
+      "triangle_count": 9346,
+      "bounds": [
+        [
+          -0.002850000048056245,
+          -0.002849114127457142,
+          -0.006000000052154064
+        ],
+        [
+          0.002850000048056245,
+          0.002849114127457142,
+          0.0016499999910593033
+        ]
+      ],
+      "extents": [
+        0.00570000009611249,
+        0.005698228254914284,
+        0.0076500000432133675
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4744.step",
+      "preview_path": "80_Assets/final_selected/4744_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4844",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4844.stl",
+      "sha256": "eb9cfb8ea64601952736a375e2602f1149b496f5233ee67a0cb22091fd308e6a",
+      "manifest_class": "isotropic",
+      "triangle_count": 2520,
+      "bounds": [
+        [
+          -0.004399999976158142,
+          -0.007612633053213358,
+          -0.007615000009536743
+        ],
+        [
+          0.004399999976158142,
+          0.007612633053213358,
+          0.007615000009536743
+        ]
+      ],
+      "extents": [
+        0.008799999952316284,
+        0.015225266106426716,
+        0.015230000019073486
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4844.step",
+      "preview_path": "80_Assets/final_selected/4844_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "4872",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4872.stl",
+      "sha256": "2f8eecf6e8a9ee657869cef322d2ea0ce3c15826eb8220a722bc1f8ec299a8bc",
+      "manifest_class": "isotropic",
+      "triangle_count": 8334,
+      "bounds": [
+        [
+          -0.028200000524520874,
+          -0.028200000524520874,
+          -0.0560000017285347
+        ],
+        [
+          0.028200000524520874,
+          0.028200000524520874,
+          0.020600000396370888
+        ]
+      ],
+      "extents": [
+        0.05640000104904175,
+        0.05640000104904175,
+        0.07660000212490559
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/4872.step",
+      "preview_path": "80_Assets/final_selected/4872_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "5229",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5229.stl",
+      "sha256": "cd3df42e716a8f1c378825ac6b70c657afb2962bc3953b26c1c0dfb7e52cea12",
+      "manifest_class": "irregular",
+      "triangle_count": 1796,
+      "bounds": [
+        [
+          -0.014998510479927063,
+          -0.014999999664723873,
+          0.0
+        ],
+        [
+          0.014998510479927063,
+          0.03824999928474426,
+          0.012000000104308128
+        ]
+      ],
+      "extents": [
+        0.029997020959854126,
+        0.053249998949468136,
+        0.012000000104308128
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/5229.step",
+      "preview_path": "80_Assets/final_selected/5229_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "5316",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5316.stl",
+      "sha256": "7bf06708613abe951e80d9fa992b447a187fde4130fe394a868c5629a07bab0e",
+      "manifest_class": "irregular",
+      "triangle_count": 2444,
+      "bounds": [
+        [
+          -0.00800000037997961,
+          -0.007997513748705387,
+          -0.0010000000474974513
+        ],
+        [
+          0.00800000037997961,
+          0.007997513748705387,
+          0.012000000104308128
+        ]
+      ],
+      "extents": [
+        0.01600000075995922,
+        0.015995027497410774,
+        0.01300000015180558
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/5316.step",
+      "preview_path": "80_Assets/final_selected/5316_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "5346",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5346.stl",
+      "sha256": "0caab158b6ed4b1ca0f826651feec4ef2bb8ff7c88596f7ecd869a880578ecaa",
+      "manifest_class": "elongated",
+      "triangle_count": 1582,
+      "bounds": [
+        [
+          0.0,
+          0.0005000000237487257,
+          0.0005000000237487257
+        ],
+        [
+          0.008999999612569809,
+          0.14650000631809235,
+          0.014750000089406967
+        ]
+      ],
+      "extents": [
+        0.008999999612569809,
+        0.14600000629434362,
+        0.014250000065658242
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/5346.step",
+      "preview_path": "80_Assets/final_selected/5346_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "5551",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5551.stl",
+      "sha256": "90a86a528bbc3468cd50438447d87f3a6a4fe30c548d4424702b05a086e2ae81",
+      "manifest_class": "irregular",
+      "triangle_count": 118928,
+      "bounds": [
+        [
+          -0.04149999842047691,
+          -0.041200000792741776,
+          -0.014750000089406967
+        ],
+        [
+          0.04149999842047691,
+          0.024000000208616257,
+          0.014750000089406967
+        ]
+      ],
+      "extents": [
+        0.08299999684095383,
+        0.06520000100135803,
+        0.029500000178813934
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/5551.step",
+      "preview_path": "80_Assets/final_selected/5551_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "5602",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5602.stl",
+      "sha256": "44fa16c9334cd23d2e527c06e11dc7a90d926325e91362d13e5786e53854e413",
+      "manifest_class": "isotropic",
+      "triangle_count": 23950,
+      "bounds": [
+        [
+          -0.30480000376701355,
+          -0.3047751486301422,
+          0.0
+        ],
+        [
+          0.30480000376701355,
+          0.3047751486301422,
+          1.0667999982833862
+        ]
+      ],
+      "extents": [
+        0.6096000075340271,
+        0.6095502972602844,
+        1.0667999982833862
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/5602.step",
+      "preview_path": "80_Assets/final_selected/5602_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "5734",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5734.stl",
+      "sha256": "30c7041ddb20f6216d2a7a003cae0be91f150ffb7b47932145b1b5ad4c9601f2",
+      "manifest_class": "isotropic",
+      "triangle_count": 4156,
+      "bounds": [
+        [
+          -0.020999999716877937,
+          -0.041999999433755875,
+          0.0
+        ],
+        [
+          0.020999999716877937,
+          0.019999999552965164,
+          0.03500000014901161
+        ]
+      ],
+      "extents": [
+        0.041999999433755875,
+        0.06199999898672104,
+        0.03500000014901161
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/5734.step",
+      "preview_path": "80_Assets/final_selected/5734_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "5784",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5784.stl",
+      "sha256": "ca646f57a5a442ff7e017bd40da0b058b52029d1a88f32bfa81fd9303e6f68f3",
+      "manifest_class": "isotropic",
+      "triangle_count": 1548,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.12700000405311584,
+          0.12700000405311584,
+          0.05714999884366989
+        ]
+      ],
+      "extents": [
+        0.12700000405311584,
+        0.12700000405311584,
+        0.05714999884366989
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/5784.step",
+      "preview_path": "80_Assets/final_selected/5784_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "5909",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5909.stl",
+      "sha256": "b7ca1ced27b631f68b2143f19754208864f7a4217852f3ff50f564da880460c1",
+      "manifest_class": "flat_plate",
+      "triangle_count": 5292,
+      "bounds": [
+        [
+          -0.07660961896181107,
+          -0.0765858069062233,
+          0.0
+        ],
+        [
+          0.07660961896181107,
+          0.0765858069062233,
+          0.03456653654575348
+        ]
+      ],
+      "extents": [
+        0.15321923792362213,
+        0.1531716138124466,
+        0.03456653654575348
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/5909.step",
+      "preview_path": "80_Assets/final_selected/5909_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "6187",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6187.stl",
+      "sha256": "f34a4a8f1f81c7991359c1a9ca00c18690a6cdc1598650e4eca73641fc5971d0",
+      "manifest_class": "irregular",
+      "triangle_count": 21288,
+      "bounds": [
+        [
+          -0.006741603836417198,
+          -0.00674369977787137,
+          -0.01269999984651804
+        ],
+        [
+          0.006741603836417198,
+          0.00674369977787137,
+          1.466496872938941e-13
+        ]
+      ],
+      "extents": [
+        0.013483207672834396,
+        0.01348739955574274,
+        0.01269999984666469
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/6187.step",
+      "preview_path": "80_Assets/final_selected/6187_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "6443",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6443.stl",
+      "sha256": "f4f3fb35dfb1b679b7842e73024e16dc03895f2ce011dd6c571e47e4c9db153c",
+      "manifest_class": "irregular",
+      "triangle_count": 16628,
+      "bounds": [
+        [
+          -0.014999999664723873,
+          -0.004999999888241291,
+          0.0
+        ],
+        [
+          0.014999999664723873,
+          0.004999999888241291,
+          0.012000000104308128
+        ]
+      ],
+      "extents": [
+        0.029999999329447746,
+        0.009999999776482582,
+        0.012000000104308128
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/6443.step",
+      "preview_path": "80_Assets/final_selected/6443_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "6465",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6465.stl",
+      "sha256": "9d4d410ac3cdeca37201f77de2d41b44249b4464b22a511fbd439d3fb1793c91",
+      "manifest_class": "flat_plate",
+      "triangle_count": 2016,
+      "bounds": [
+        [
+          -0.022218091413378716,
+          0.0,
+          -0.022224999964237213
+        ],
+        [
+          0.022218091413378716,
+          0.01079500000923872,
+          0.022224999964237213
+        ]
+      ],
+      "extents": [
+        0.04443618282675743,
+        0.01079500000923872,
+        0.044449999928474426
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/6465.step",
+      "preview_path": "80_Assets/final_selected/6465_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "6708",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6708.stl",
+      "sha256": "e20ccbcc085634faf388d56c2c2e0097846b8fc6549126b97ec7c8542fd5d4b2",
+      "manifest_class": "elongated",
+      "triangle_count": 13552,
+      "bounds": [
+        [
+          -0.019999999552965164,
+          -0.041202109307050705,
+          -0.07500000298023224
+        ],
+        [
+          0.019999999552965164,
+          0.383125364780426,
+          0.2141774594783783
+        ]
+      ],
+      "extents": [
+        0.03999999910593033,
+        0.42432747408747673,
+        0.28917746245861053
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/6708.step",
+      "preview_path": "80_Assets/final_selected/6708_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "6842",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6842.stl",
+      "sha256": "9b0a4af2aa761dcd975b8ecf87fd62d1df24c5502f95e383823aa50ae94fc493",
+      "manifest_class": "flat_plate",
+      "triangle_count": 13080,
+      "bounds": [
+        [
+          -0.05000000074505806,
+          -0.09000000357627869,
+          -0.054999999701976776
+        ],
+        [
+          0.05000000074505806,
+          0.09000000357627869,
+          0.16500000655651093
+        ]
+      ],
+      "extents": [
+        0.10000000149011612,
+        0.18000000715255737,
+        0.2200000062584877
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/6842.step",
+      "preview_path": "80_Assets/final_selected/6842_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "6964",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6964.stl",
+      "sha256": "450226068031bfda301252e519b6b6bf2436bb00cb50145e5f2f363f41f2c51d",
+      "manifest_class": "flat_plate",
+      "triangle_count": 3374,
+      "bounds": [
+        [
+          -0.10249999910593033,
+          -0.10249940305948257,
+          -0.004999999888241291
+        ],
+        [
+          0.10249999910593033,
+          0.10249940305948257,
+          0.04600000008940697
+        ]
+      ],
+      "extents": [
+        0.20499999821186066,
+        0.20499880611896515,
+        0.05099999997764826
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/6964.step",
+      "preview_path": "80_Assets/final_selected/6964_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7046",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7046.stl",
+      "sha256": "22d90b7dd95969f9e13948eabf7f3812d5b0889a7ff3cd1aecd0caefb6feb1cc",
+      "manifest_class": "irregular",
+      "triangle_count": 28664,
+      "bounds": [
+        [
+          -0.006884287111461163,
+          -0.011745763011276722,
+          -0.02199999988079071
+        ],
+        [
+          0.006884287111461163,
+          0.011744841933250427,
+          0.0044999998062849045
+        ]
+      ],
+      "extents": [
+        0.013768574222922325,
+        0.02349060494452715,
+        0.026499999687075615
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7046.step",
+      "preview_path": "80_Assets/final_selected/7046_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7091",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7091.stl",
+      "sha256": "d74fb9bb2ba2fcf6eb2bc4dbac28ae112ee28689e35bcd876c0371215f0ecce7",
+      "manifest_class": "isotropic",
+      "triangle_count": 10304,
+      "bounds": [
+        [
+          -0.02500000037252903,
+          -0.01600000075995922,
+          -0.019999999552965164
+        ],
+        [
+          0.02500000037252903,
+          0.01600000075995922,
+          0.020999999716877937
+        ]
+      ],
+      "extents": [
+        0.05000000074505806,
+        0.03200000151991844,
+        0.0409999992698431
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7091.step",
+      "preview_path": "80_Assets/final_selected/7091_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7145",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7145.stl",
+      "sha256": "42500e4e55059a3530716c149250a2818edf9e68f5bde5741d92407325a38039",
+      "manifest_class": "irregular",
+      "triangle_count": 2150,
+      "bounds": [
+        [
+          -0.017500000074505806,
+          -0.012500000186264515,
+          0.0
+        ],
+        [
+          0.017500000074505806,
+          0.012500000186264515,
+          0.02500000037252903
+        ]
+      ],
+      "extents": [
+        0.03500000014901161,
+        0.02500000037252903,
+        0.02500000037252903
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7145.step",
+      "preview_path": "80_Assets/final_selected/7145_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7343",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7343.stl",
+      "sha256": "9d1c78d629d57f53f4b2e7686875642f8455e75f16e6a0336ed15cff34062c32",
+      "manifest_class": "elongated",
+      "triangle_count": 10080,
+      "bounds": [
+        [
+          -0.00876300036907196,
+          -0.00876027625054121,
+          0.0
+        ],
+        [
+          0.00876300036907196,
+          0.00876027625054121,
+          0.06984999775886536
+        ]
+      ],
+      "extents": [
+        0.01752600073814392,
+        0.01752055250108242,
+        0.06984999775886536
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7343.step",
+      "preview_path": "80_Assets/final_selected/7343_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7397",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7397.stl",
+      "sha256": "fa9b48ce12f99cde0c6f747dd0c5981e6be144f64473a6e3244a95a56f437f1f",
+      "manifest_class": "irregular",
+      "triangle_count": 79680,
+      "bounds": [
+        [
+          -0.09200000017881393,
+          -0.07050000131130219,
+          -0.05048461630940437
+        ],
+        [
+          0.14000000059604645,
+          0.054749999195337296,
+          0.14499999582767487
+        ]
+      ],
+      "extents": [
+        0.23200000077486038,
+        0.12525000050663948,
+        0.19548461213707924
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7397.step",
+      "preview_path": "80_Assets/final_selected/7397_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7496",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7496.stl",
+      "sha256": "f724d9a6c6440a628c65502ffed6886016f0ac0e19d5e44575207cc2f26ff566",
+      "manifest_class": "irregular",
+      "triangle_count": 1524,
+      "bounds": [
+        [
+          -0.00634802645072341,
+          -0.014287499710917473,
+          -0.00634999992325902
+        ],
+        [
+          0.00634999992325902,
+          0.0,
+          0.00634999992325902
+        ]
+      ],
+      "extents": [
+        0.01269802637398243,
+        0.014287499710917473,
+        0.01269999984651804
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7496.step",
+      "preview_path": "80_Assets/final_selected/7496_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7635",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7635.stl",
+      "sha256": "ec71e235d246ef9068c889feca52d0661b9110975e46e2c3a415cbf089e3b1c2",
+      "manifest_class": "isotropic",
+      "triangle_count": 1512,
+      "bounds": [
+        [
+          -0.02539210580289364,
+          -0.01587500050663948,
+          -0.02539999969303608
+        ],
+        [
+          0.02539210580289364,
+          0.01587500050663948,
+          0.02539999969303608
+        ]
+      ],
+      "extents": [
+        0.05078421160578728,
+        0.03175000101327896,
+        0.05079999938607216
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7635.step",
+      "preview_path": "80_Assets/final_selected/7635_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7666",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7666.stl",
+      "sha256": "f897401fd7ec36b3692403b5c0f1ba2b90de60f6449ad90360307448e419c978",
+      "manifest_class": "flat_plate",
+      "triangle_count": 106690,
+      "bounds": [
+        [
+          -0.04091906175017357,
+          -0.02632194757461548,
+          -5.727894176743575e-07
+        ],
+        [
+          0.04218002408742905,
+          0.04673599824309349,
+          0.06055508926510811
+        ]
+      ],
+      "extents": [
+        0.08309908583760262,
+        0.07305794581770897,
+        0.06055566205452578
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7666.step",
+      "preview_path": "80_Assets/final_selected/7666_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7748",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7748.stl",
+      "sha256": "01ffd5fa8228dd323946edadf7bc41f08d4c4feef54895a54764263bc7e15a60",
+      "manifest_class": "irregular",
+      "triangle_count": 56866,
+      "bounds": [
+        [
+          -0.0680723711848259,
+          -0.04697486758232117,
+          0.0
+        ],
+        [
+          0.022344525903463364,
+          0.04697486758232117,
+          0.1032300665974617
+        ]
+      ],
+      "extents": [
+        0.09041689708828926,
+        0.09394973516464233,
+        0.1032300665974617
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7748.step",
+      "preview_path": "80_Assets/final_selected/7748_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7755",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7755.stl",
+      "sha256": "b8272b906ecdc6a18c3adc211d119c27cf3edc1be6e1fa36341d458d7dd4b330",
+      "manifest_class": "flat_plate",
+      "triangle_count": 16472,
+      "bounds": [
+        [
+          -0.019999999552965164,
+          -0.01850000023841858,
+          -0.006000000052154064
+        ],
+        [
+          0.019999999552965164,
+          0.01850000023841858,
+          0.006000000052154064
+        ]
+      ],
+      "extents": [
+        0.03999999910593033,
+        0.03700000047683716,
+        0.012000000104308128
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7755.step",
+      "preview_path": "80_Assets/final_selected/7755_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7808",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7808.stl",
+      "sha256": "726478aa562f091b11829afdb8fab10cd82ebf57b0cbc42090e169e28d6e37fd",
+      "manifest_class": "flat_plate",
+      "triangle_count": 2570,
+      "bounds": [
+        [
+          -0.029657142236828804,
+          0.0,
+          0.0
+        ],
+        [
+          0.030342858284711838,
+          0.02500000037252903,
+          0.0430000014603138
+        ]
+      ],
+      "extents": [
+        0.06000000052154064,
+        0.02500000037252903,
+        0.0430000014603138
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7808.step",
+      "preview_path": "80_Assets/final_selected/7808_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7939",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7939.stl",
+      "sha256": "5d42fefbfcba153d073468c0149d42eb1dead323efa2021af168971f91aa926b",
+      "manifest_class": "isotropic",
+      "triangle_count": 5966,
+      "bounds": [
+        [
+          -0.002749999985098839,
+          -0.002749999985098839,
+          -0.004999999888241291
+        ],
+        [
+          0.002749999985098839,
+          0.002749999985098839,
+          0.003000000026077032
+        ]
+      ],
+      "extents": [
+        0.005499999970197678,
+        0.005499999970197678,
+        0.007999999914318323
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7939.step",
+      "preview_path": "80_Assets/final_selected/7939_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "7975",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7975.stl",
+      "sha256": "6baca35005000aa44f3ba57b3976ff77ef9036f1907ec364fdd87332f2c8b359",
+      "manifest_class": "irregular",
+      "triangle_count": 31498,
+      "bounds": [
+        [
+          -0.11374501883983612,
+          -0.1602499932050705,
+          -0.09700000286102295
+        ],
+        [
+          0.1175147145986557,
+          0.009735461324453354,
+          0.05468813702464104
+        ]
+      ],
+      "extents": [
+        0.23125973343849182,
+        0.16998545452952385,
+        0.151688139885664
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/7975.step",
+      "preview_path": "80_Assets/final_selected/7975_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "8034",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8034.stl",
+      "sha256": "b88f558e075cccf400bb585982afe6e9875476a21f6aa79c9761879d1d70ef25",
+      "manifest_class": "elongated",
+      "triangle_count": 6962,
+      "bounds": [
+        [
+          -0.6864356398582458,
+          -0.5566670894622803,
+          0.0
+        ],
+        [
+          0.6864356398582458,
+          0.5566670894622803,
+          0.029999999329447746
+        ]
+      ],
+      "extents": [
+        1.3728712797164917,
+        1.1133341789245605,
+        0.029999999329447746
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/8034.step",
+      "preview_path": "80_Assets/final_selected/8034_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "8176",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8176.stl",
+      "sha256": "0c4f9cfaba40bce18a5cd7966413f49739bc3ec78a2dcf7c0670392e8858346d",
+      "manifest_class": "isotropic",
+      "triangle_count": 2524,
+      "bounds": [
+        [
+          0.0,
+          -0.01147804968059063,
+          -0.011474482715129852
+        ],
+        [
+          0.014499999582767487,
+          0.01147804968059063,
+          0.011474482715129852
+        ]
+      ],
+      "extents": [
+        0.014499999582767487,
+        0.02295609936118126,
+        0.022948965430259705
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/8176.step",
+      "preview_path": "80_Assets/final_selected/8176_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "8193",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8193.stl",
+      "sha256": "1b5ab7adef54ae6502edb6679a0be234c163973d4e37bee958419c3f3831e7ed",
+      "manifest_class": "isotropic",
+      "triangle_count": 4614,
+      "bounds": [
+        [
+          0.0,
+          -0.01534202042967081,
+          -0.015337251126766205
+        ],
+        [
+          0.020999999716877937,
+          0.01534202042967081,
+          0.015337251126766205
+        ]
+      ],
+      "extents": [
+        0.020999999716877937,
+        0.03068404085934162,
+        0.03067450225353241
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/8193.step",
+      "preview_path": "80_Assets/final_selected/8193_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "8251",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8251.stl",
+      "sha256": "c67fac698163d8ffa11419eed2e25c6951a2cbb316bd4043c56053489246edb4",
+      "manifest_class": "isotropic",
+      "triangle_count": 18396,
+      "bounds": [
+        [
+          -0.03199005499482155,
+          -4.8011868932125524e-17,
+          -0.03200000151991844
+        ],
+        [
+          0.03199005499482155,
+          0.07424870133399963,
+          0.03200000151991844
+        ]
+      ],
+      "extents": [
+        0.0639801099896431,
+        0.07424870133399968,
+        0.06400000303983688
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/8251.step",
+      "preview_path": "80_Assets/final_selected/8251_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "8339",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8339.stl",
+      "sha256": "c65e60f07e1bb5af28bd028112e8859d1b8f1262b7381663d14d79e3bd4aab28",
+      "manifest_class": "irregular",
+      "triangle_count": 1516,
+      "bounds": [
+        [
+          -0.01999378390610218,
+          -0.04500000178813934,
+          -0.019999999552965164
+        ],
+        [
+          0.01999378390610218,
+          0.0,
+          0.019999999552965164
+        ]
+      ],
+      "extents": [
+        0.03998756781220436,
+        0.04500000178813934,
+        0.03999999910593033
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/8339.step",
+      "preview_path": "80_Assets/final_selected/8339_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "8340",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8340.stl",
+      "sha256": "5a5656190a627a8d0627abcc202019386a9b45715c8cf1c4b9c8c3618d814283",
+      "manifest_class": "isotropic",
+      "triangle_count": 2524,
+      "bounds": [
+        [
+          -0.025345658883452415,
+          -0.05000000074505806,
+          -0.02535353973507881
+        ],
+        [
+          0.02535353973507881,
+          0.0,
+          0.02535353973507881
+        ]
+      ],
+      "extents": [
+        0.05069919861853123,
+        0.05000000074505806,
+        0.05070707947015762
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/8340.step",
+      "preview_path": "80_Assets/final_selected/8340_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "8448",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8448.stl",
+      "sha256": "745e84a17841f4b4d1b0471fb00731272eea5f22b8d6ce0bd48ab98ddddf480e",
+      "manifest_class": "isotropic",
+      "triangle_count": 209986,
+      "bounds": [
+        [
+          -0.021150000393390656,
+          -0.021150000393390656,
+          -0.00800000037997961
+        ],
+        [
+          0.021150000393390656,
+          0.021150000393390656,
+          0.06800000369548798
+        ]
+      ],
+      "extents": [
+        0.04230000078678131,
+        0.04230000078678131,
+        0.07600000407546759
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/8448.step",
+      "preview_path": "80_Assets/final_selected/8448_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "8822",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8822.stl",
+      "sha256": "c81f7c43f19666de33460e7a3d9da97a245fdaa7db71ab4b3d97a00ce3ccf8b3",
+      "manifest_class": "irregular",
+      "triangle_count": 67376,
+      "bounds": [
+        [
+          -0.047997668385505676,
+          -0.03599674627184868,
+          -0.02500000037252903
+        ],
+        [
+          0.047997668385505676,
+          0.03599674627184868,
+          0.0949999988079071
+        ]
+      ],
+      "extents": [
+        0.09599533677101135,
+        0.07199349254369736,
+        0.11999999918043613
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/8822.step",
+      "preview_path": "80_Assets/final_selected/8822_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "8972",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8972.stl",
+      "sha256": "641c27ff486a8d1d820405942eada96e17f83a6378552a6d9a2b71813b0a0a4b",
+      "manifest_class": "elongated",
+      "triangle_count": 1374,
+      "bounds": [
+        [
+          -0.009999999776482582,
+          -0.031199999153614044,
+          0.0
+        ],
+        [
+          0.009999999776482582,
+          0.02500000037252903,
+          0.029999999329447746
+        ]
+      ],
+      "extents": [
+        0.019999999552965164,
+        0.056199999526143074,
+        0.029999999329447746
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/8972.step",
+      "preview_path": "80_Assets/final_selected/8972_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "8973",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8973.stl",
+      "sha256": "7a14ff85593e9f3fe55a7fa54b57fc1d778e8e934610a54411b5cdee98ab3986",
+      "manifest_class": "isotropic",
+      "triangle_count": 1312,
+      "bounds": [
+        [
+          -0.053975000977516174,
+          -0.08000999689102173,
+          -0.12445999681949615
+        ],
+        [
+          0.06032500043511391,
+          0.0546099990606308,
+          0.016001999378204346
+        ]
+      ],
+      "extents": [
+        0.11430000141263008,
+        0.13461999595165253,
+        0.1404619961977005
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/8973.step",
+      "preview_path": "80_Assets/final_selected/8973_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "9115",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9115.stl",
+      "sha256": "ca3feda018bf97c2f74a07cfc1f62532c74fad308ff1905eb1fc4e5c4a8e620e",
+      "manifest_class": "irregular",
+      "triangle_count": 382646,
+      "bounds": [
+        [
+          -0.14870253205299377,
+          -0.09600000083446503,
+          -0.17278163135051727
+        ],
+        [
+          0.2189350575208664,
+          0.06350000202655792,
+          0.7559999823570251
+        ]
+      ],
+      "extents": [
+        0.36763758957386017,
+        0.15950000286102295,
+        0.9287816137075424
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/9115.step",
+      "preview_path": "80_Assets/final_selected/9115_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "9310",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9310.stl",
+      "sha256": "cbf0bf8404f95b0cc35ad387d77f76977ff6d98fda33e16934f1ccdcb4a4c6b1",
+      "manifest_class": "irregular",
+      "triangle_count": 10236,
+      "bounds": [
+        [
+          -0.03009900078177452,
+          -0.03822699934244156,
+          -0.015252763405442238
+        ],
+        [
+          0.03009900078177452,
+          0.0036830001045018435,
+          0.0030479999259114265
+        ]
+      ],
+      "extents": [
+        0.06019800156354904,
+        0.0419099994469434,
+        0.018300763331353664
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/9310.step",
+      "preview_path": "80_Assets/final_selected/9310_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "9420",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9420.stl",
+      "sha256": "ab8b6ef1a9998962eb86e96008a688342a62e79b083ee2e2eff562a3224453d6",
+      "manifest_class": "isotropic",
+      "triangle_count": 64512,
+      "bounds": [
+        [
+          -0.03299906849861145,
+          -0.04098725691437721,
+          -0.04100000113248825
+        ],
+        [
+          0.03299906849861145,
+          0.04098725691437721,
+          0.04100000113248825
+        ]
+      ],
+      "extents": [
+        0.0659981369972229,
+        0.08197451382875443,
+        0.0820000022649765
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/9420.step",
+      "preview_path": "80_Assets/final_selected/9420_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "9640",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9640.stl",
+      "sha256": "78307d4f00b3939ab2f3e0b818cb1738c7c7b45bd0d545aa7f99be5e81343c47",
+      "manifest_class": "flat_plate",
+      "triangle_count": 6124,
+      "bounds": [
+        [
+          -0.14633885025978088,
+          -0.14629337191581726,
+          0.0
+        ],
+        [
+          0.14633885025978088,
+          0.14633885025978088,
+          0.07500000298023224
+        ]
+      ],
+      "extents": [
+        0.29267770051956177,
+        0.29263222217559814,
+        0.07500000298023224
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/9640.step",
+      "preview_path": "80_Assets/final_selected/9640_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "9727",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9727.stl",
+      "sha256": "8ac8894835f9d7d7e79f4e483432f8ebdfdac8e814b2c0c6639864afd384faa1",
+      "manifest_class": "flat_plate",
+      "triangle_count": 32636,
+      "bounds": [
+        [
+          -0.018124999478459358,
+          -0.018119653686881065,
+          0.0
+        ],
+        [
+          0.018124999478459358,
+          0.018119653686881065,
+          0.01171043235808611
+        ]
+      ],
+      "extents": [
+        0.036249998956918716,
+        0.03623930737376213,
+        0.01171043235808611
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/9727.step",
+      "preview_path": "80_Assets/final_selected/9727_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "9828",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9828.stl",
+      "sha256": "b2fcc7f04f1c41344d0ec2e6ce2c66e30c0143583662fcdac9c9d85d82e202f7",
+      "manifest_class": "isotropic",
+      "triangle_count": 1512,
+      "bounds": [
+        [
+          -0.00793750025331974,
+          -0.007935033179819584,
+          0.0
+        ],
+        [
+          0.00793750025331974,
+          0.007935033179819584,
+          0.007429500110447407
+        ]
+      ],
+      "extents": [
+        0.01587500050663948,
+        0.015870066359639168,
+        0.007429500110447407
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/9828.step",
+      "preview_path": "80_Assets/final_selected/9828_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "9870",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9870.stl",
+      "sha256": "c44ec45002fdbe87f79dd21353196e596da3420a1d059f77087a2c54a96c1543",
+      "manifest_class": "irregular",
+      "triangle_count": 3856,
+      "bounds": [
+        [
+          -0.05178800970315933,
+          0.0,
+          0.0
+        ],
+        [
+          0.1222119927406311,
+          0.08500000089406967,
+          0.012000000104308128
+        ]
+      ],
+      "extents": [
+        0.17400000244379044,
+        0.08500000089406967,
+        0.012000000104308128
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/9870.step",
+      "preview_path": "80_Assets/final_selected/9870_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "9909",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9909.stl",
+      "sha256": "604c35ee56a5b1bc596b41fbfddcf03b817a2600d6faa3c18ee9e3daca47e726",
+      "manifest_class": "irregular",
+      "triangle_count": 2756,
+      "bounds": [
+        [
+          -0.019999999552965164,
+          0.0,
+          0.0
+        ],
+        [
+          0.012500000186264515,
+          0.041999999433755875,
+          0.026799999177455902
+        ]
+      ],
+      "extents": [
+        0.03249999973922968,
+        0.041999999433755875,
+        0.026799999177455902
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/9909.step",
+      "preview_path": "80_Assets/final_selected/9909_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    },
+    {
+      "model_id": "9935",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9935.stl",
+      "sha256": "91eba108d3571057f66ff11d6902ec2da901f0110038b979791127e7b4b68435",
+      "manifest_class": "isotropic",
+      "triangle_count": 2016,
+      "bounds": [
+        [
+          -0.008999999612569809,
+          -0.008997202850878239,
+          0.0
+        ],
+        [
+          0.008999999612569809,
+          0.008997202850878239,
+          0.014000000432133675
+        ]
+      ],
+      "extents": [
+        0.017999999225139618,
+        0.017994405701756477,
+        0.014000000432133675
+      ],
+      "coordinate_unit": "input_units",
+      "stl_physical_unit": "unknown",
+      "step_peer_exists": true,
+      "step_peer_path": "/home/malanya/projects/cad-structure-search/data/final_selected/step/9935.step",
+      "preview_path": "80_Assets/final_selected/9935_overview.png",
+      "local_feature_annotation": "not_yet_reviewed"
+    }
+  ]
+}

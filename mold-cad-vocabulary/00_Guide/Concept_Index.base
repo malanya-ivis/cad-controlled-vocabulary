@@ -1,0 +1,71 @@
+filters: file.inFolder("30_Concepts")
+properties:
+  note.concept_id:
+    displayName: Concept ID
+  note.label_ja:
+    displayName: Japanese label (candidate)
+  note.knowledge_group:
+    displayName: Knowledge group
+  file.name:
+    displayName: Concept
+  note.category:
+    displayName: Category
+  note.scope_role:
+    displayName: Scope role
+  note.status:
+    displayName: Status
+  note.aliases:
+    displayName: Aliases
+views:
+  - type: table
+    name: Active single-part pilot
+    filters: note.scope_role == "core"
+    order:
+      - concept_id
+      - file.name
+      - label_ja
+      - knowledge_group
+      - category
+      - status
+      - aliases
+  - type: table
+    name: Shape features
+    filters: note.category == "shape_feature"
+    order:
+      - concept_id
+      - file.name
+      - label_ja
+      - knowledge_group
+      - status
+      - aliases
+  - type: table
+    name: Shape properties
+    filters: note.category == "shape_property"
+    order:
+      - concept_id
+      - file.name
+      - label_ja
+      - knowledge_group
+      - status
+      - aliases
+  - type: table
+    name: Internal structures
+    filters: note.category == "internal_structure"
+    order:
+      - concept_id
+      - file.name
+      - label_ja
+      - knowledge_group
+      - status
+      - aliases
+  - type: table
+    name: Context only
+    filters: note.scope_role == "context_only"
+    order:
+      - concept_id
+      - file.name
+      - label_ja
+      - knowledge_group
+      - category
+      - status
+      - aliases

@@ -1,0 +1,6502 @@
+{
+  "date": "2026-10-07",
+  "scope": "all 93 supplied complex STL files",
+  "method": "working mesh boundary components and strictly nested axis-aligned bounds",
+  "limits": [
+    "No full containment or boundary-intersection proof",
+    "No candidate is not proof that no internal void exists",
+    "Disconnected surfaces may represent bodies, errors, or cavity walls",
+    "Original sources were not changed"
+  ],
+  "files": [
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/219.stl",
+      "source_sha256": "0a2328833b27a63fc677cb658ff29ffde2cab63d6b343276aefd6af1bb7f83d6",
+      "bounds": [
+        [
+          -0.02250000089406967,
+          -0.0004999996745027602,
+          -0.009999999776482582
+        ],
+        [
+          0.040672820061445236,
+          0.014999999664723873,
+          0.009999999776482582
+        ]
+      ],
+      "raw_triangle_count": 82936,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.9908053074775436e-17,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "219",
+      "boundary_component_count": 266,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              0.004282326903194189,
+              0.0012000000569969416,
+              -0.004852953366935253
+            ],
+            [
+              0.005076076835393906,
+              0.0013000000035390258,
+              -0.002410645829513669
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.023564599219193e-11,
+          "triangle_count": 52
+        },
+        {
+          "component_index": 1,
+          "bounds": [
+            [
+              -0.004961807746440172,
+              0.0012000000569969416,
+              -0.004791895858943462
+            ],
+            [
+              -0.004137528594583273,
+              0.0013000000035390258,
+              -0.002410645829513669
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.232401946872634e-11,
+          "triangle_count": 44
+        },
+        {
+          "component_index": 2,
+          "bounds": [
+            [
+              -0.004842052701860666,
+              0.0012000000569969416,
+              -0.008486081846058369
+            ],
+            [
+              0.004842052701860666,
+              0.004699999932199717,
+              -0.005597842391580343
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.675895234681337e-08,
+          "triangle_count": 12796
+        },
+        {
+          "component_index": 130,
+          "bounds": [
+            [
+              0.0027619905304163694,
+              0.0012000000569969416,
+              -0.004852953366935253
+            ],
+            [
+              0.003555740462616086,
+              0.0013000000035390258,
+              -0.0023495880886912346
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.225209125551008e-11,
+          "triangle_count": 732
+        },
+        {
+          "component_index": 131,
+          "bounds": [
+            [
+              0.0012721827952191234,
+              0.0012000000569969416,
+              -0.004791895858943462
+            ],
+            [
+              0.0020354038570076227,
+              0.0013000000035390258,
+              -0.002410645829513669
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.138305329697706e-11,
+          "triangle_count": 464
+        },
+        {
+          "component_index": 132,
+          "bounds": [
+            [
+              -0.0032888269051909447,
+              0.0012000000569969416,
+              -0.004852953366935253
+            ],
+            [
+              -0.002128730760887265,
+              0.0013000000035390258,
+              -0.0023495880886912346
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.156457569545673e-11,
+          "triangle_count": 928
+        },
+        {
+          "component_index": 133,
+          "bounds": [
+            [
+              0.0330498032271862,
+              -0.0004999996745027602,
+              -0.0005000000237487257
+            ],
+            [
+              0.040672820061445236,
+              0.004000000189989805,
+              0.0005000000237487257
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.14537679258938e-09,
+          "triangle_count": 1022
+        },
+        {
+          "component_index": 134,
+          "bounds": [
+            [
+              -0.0014326729578897357,
+              0.0012000000569969416,
+              -0.0034486267250031233
+            ],
+            [
+              -0.0009747403091751039,
+              0.0013000000035390258,
+              -0.0032043957617133856
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.118412721293497e-11,
+          "triangle_count": 12
+        },
+        {
+          "component_index": 135,
+          "bounds": [
+            [
+              -0.0002786826225928962,
+              0.0012000000569969416,
+              -0.004852953366935253
+            ],
+            [
+              0.000423480843892321,
+              0.0013000000035390258,
+              -0.0023495880886912346
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.861889149665678e-11,
+          "triangle_count": 828
+        },
+        {
+          "component_index": 263,
+          "bounds": [
+            [
+              -0.0039987568743526936,
+              0.0,
+              -0.004000000189989805
+            ],
+            [
+              0.0039987568743526936,
+              0.0006299094529822469,
+              0.004000000189989805
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.2906733171698147e-08,
+          "triangle_count": 3530
+        },
+        {
+          "component_index": 264,
+          "bounds": [
+            [
+              0.005502486601471901,
+              0.0012000000569969416,
+              -0.00800000037997961
+            ],
+            [
+              0.021497514098882675,
+              0.014999999664723873,
+              0.00800000037997961
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.2891360069497986e-06,
+          "triangle_count": 17388
+        },
+        {
+          "component_index": 265,
+          "bounds": [
+            [
+              -0.02250000089406967,
+              0.0,
+              -0.009999999776482582
+            ],
+            [
+              0.02250000089406967,
+              0.0013000000035390258,
+              0.009999999776482582
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.0611008543710091e-06,
+          "triangle_count": 27248
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/231.stl",
+      "source_sha256": "501e78f2288db841f0db018760c37f215e953a1910846c4bde86321974b90088",
+      "bounds": [
+        [
+          -0.05079999938607216,
+          -0.06434381753206253,
+          0.0
+        ],
+        [
+          0.05079999938607216,
+          0.06434381753206253,
+          0.10113134235143661
+        ]
+      ],
+      "raw_triangle_count": 64416,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.656050741839743e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "231",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.05079999938607216,
+              -0.06434381753206253,
+              0.0
+            ],
+            [
+              0.05079999938607216,
+              0.06434381753206253,
+              0.10113134235143661
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.0004603647638151544,
+          "triangle_count": 64416
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/306.stl",
+      "source_sha256": "f84380ef55cb35bda8411374370e0b172b2e58c7532bd38a4c25a976d812b714",
+      "bounds": [
+        [
+          -0.07500000298023224,
+          -0.07500000298023224,
+          -0.07500000298023224
+        ],
+        [
+          0.07500000298023224,
+          0.02500000037252903,
+          0.07500000298023224
+        ]
+      ],
+      "raw_triangle_count": 59404,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.250000178813938e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "306",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.07500000298023224,
+              -0.07500000298023224,
+              -0.07500000298023224
+            ],
+            [
+              0.07500000298023224,
+              0.02500000037252903,
+              0.07500000298023224
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.0001520495266579438,
+          "triangle_count": 59404
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/370.stl",
+      "source_sha256": "3cbe16a4da836e5b634a911b6066ca8362c59e3f18a7df961e9f4d97cbe37aaf",
+      "bounds": [
+        [
+          -0.021124187856912613,
+          -0.02082754857838154,
+          0.0
+        ],
+        [
+          0.02087581157684326,
+          0.021172240376472473,
+          0.0560000017285347
+        ]
+      ],
+      "raw_triangle_count": 3324,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.136000193595889e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "370",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.021124187856912613,
+              -0.02082754857838154,
+              0.0
+            ],
+            [
+              0.02087581157684326,
+              0.021172240376472473,
+              0.0560000017285347
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.559051084347354e-05,
+          "triangle_count": 3324
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/597.stl",
+      "source_sha256": "62890eddce4dd5d58155e14f31f1333048c5cbfed1222d65e3273c5a3a081c34",
+      "bounds": [
+        [
+          -0.010599999688565731,
+          -0.010596705600619316,
+          0.0
+        ],
+        [
+          0.010599999688565731,
+          0.010596705600619316,
+          0.032499998807907104
+        ]
+      ],
+      "raw_triangle_count": 5632,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.0562499225139632e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "597",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.010599999688565731,
+              -0.010596705600619316,
+              0.0
+            ],
+            [
+              0.010599999688565731,
+              0.010596705600619316,
+              0.032499998807907104
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.578572834909076e-06,
+          "triangle_count": 5632
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/628.stl",
+      "source_sha256": "17a241eb2e9f4ed410043d1896bd7016c7fa72846c96dd298e85511df043194c",
+      "bounds": [
+        [
+          -0.019209183752536774,
+          -0.01920321211218834,
+          -0.009361956268548965
+        ],
+        [
+          0.019209183752536774,
+          0.01920321211218834,
+          0.04324860870838165
+        ]
+      ],
+      "raw_triangle_count": 35986,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.7678715471918387e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "628",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.019209183752536774,
+              -0.01920321211218834,
+              -0.009361956268548965
+            ],
+            [
+              0.019209183752536774,
+              0.01920321211218834,
+              0.04324860870838165
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.5576386756394087e-05,
+          "triangle_count": 35986
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/710.stl",
+      "source_sha256": "b796ea20f918000fcebb4561af7081e5e1e0ae0e0d89c2ae5a6410ade0ba4f8f",
+      "bounds": [
+        [
+          -0.005773502867668867,
+          -0.004999999888241291,
+          -5.773858530232299e-15
+        ],
+        [
+          0.005773502867668867,
+          0.004999999888241291,
+          0.006099999882280827
+        ]
+      ],
+      "raw_triangle_count": 1824,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.3333334145192254e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "710",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.005773502867668867,
+              -0.004999999888241291,
+              -5.773858530232299e-15
+            ],
+            [
+              0.005773502867668867,
+              0.004999999888241291,
+              0.006099999882280827
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.9404348974677855e-07,
+          "triangle_count": 1824
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/768.stl",
+      "source_sha256": "d94a20361c7625988e30660c9df8fae173851cd42388c5f0663fde9501aac7f5",
+      "bounds": [
+        [
+          -0.0847846046090126,
+          -0.06961808353662491,
+          -6.429318882839041e-17
+        ],
+        [
+          0.0847846046090126,
+          0.06961808353662491,
+          0.044587161391973495
+        ]
+      ],
+      "raw_triangle_count": 17350,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.8753716714826403e-16,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "768",
+      "boundary_component_count": 382,
+      "closed_boundary_components": [],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/802.stl",
+      "source_sha256": "86e39c3bf1beaf429daca2edae0d54bceeeedb8490e7f63c0fa50f3708c7e860",
+      "bounds": [
+        [
+          -0.02539999969303608,
+          -0.038353998214006424,
+          -0.03884044289588928
+        ],
+        [
+          0.0,
+          0.0,
+          0.04084771126508713
+        ]
+      ],
+      "raw_triangle_count": 2344,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 6.350201913583542e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "802",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.02539999969303608,
+              -0.038353998214006424,
+              -0.03884044289588928
+            ],
+            [
+              0.0,
+              0.0,
+              0.04084771126508713
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.2556887383881127e-05,
+          "triangle_count": 2344
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1015.stl",
+      "source_sha256": "36cb09e18fd2f9a031dea86df041c77fd542bcc367c4fa73c01bf037a6702666",
+      "bounds": [
+        [
+          -0.014999999664723873,
+          -0.019999999552965164,
+          0.0
+        ],
+        [
+          0.014999999664723873,
+          0.019999999552965164,
+          0.03999999910593033
+        ]
+      ],
+      "raw_triangle_count": 4428,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.599999928474427e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "1015",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.014999999664723873,
+              -0.019999999552965164,
+              0.0
+            ],
+            [
+              0.014999999664723873,
+              0.019999999552965164,
+              0.03999999910593033
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.8840483373261593e-05,
+          "triangle_count": 4428
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1369.stl",
+      "source_sha256": "9caebc54a8d7e5f01a3b32c3c2a91ff1dac27f8746cf87f2c566b3b9c443e77c",
+      "bounds": [
+        [
+          -0.019999999552965164,
+          -0.01600000075995922,
+          -3.764362085934003e-12
+        ],
+        [
+          0.019999999552965164,
+          0.024000000208616257,
+          0.013000000268220901
+        ]
+      ],
+      "raw_triangle_count": 1036,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.600000077486039e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "1369",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.019999999552965164,
+              -0.01600000075995922,
+              -3.764362085934003e-12
+            ],
+            [
+              0.019999999552965164,
+              0.024000000208616257,
+              0.013000000268220901
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.1060977540680256e-05,
+          "triangle_count": 1036
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1400.stl",
+      "source_sha256": "05a997bce415cc711096564e837aaf795e73190b46ad6f96be36a08c57ef0ba9",
+      "bounds": [
+        [
+          -0.004762500058859587,
+          -0.04127499833703041,
+          -0.004762500058859587
+        ],
+        [
+          0.004762500058859587,
+          0.04127499833703041,
+          0.004762500058859587
+        ]
+      ],
+      "raw_triangle_count": 2048,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 6.814501950887453e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "1400",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.004762500058859587,
+              -0.04127499833703041,
+              -0.004762500058859587
+            ],
+            [
+              0.004762500058859587,
+              0.04127499833703041,
+              0.004762500058859587
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.951963017575597e-06,
+          "triangle_count": 2048
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1482.stl",
+      "source_sha256": "03a57690c98ba88997f8dd9ce85fde10b6db8dc5f638d0c2005ea5360e2b72b8",
+      "bounds": [
+        [
+          -0.005998424254357815,
+          -0.01600000075995922,
+          0.0
+        ],
+        [
+          0.03999999910593033,
+          0.01600000075995922,
+          0.044999994337558746
+        ]
+      ],
+      "raw_triangle_count": 114802,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.115854951632302e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "1482",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.005998424254357815,
+              -0.01600000075995922,
+              0.0
+            ],
+            [
+              0.03999999910593033,
+              0.01600000075995922,
+              0.044999994337558746
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.2854932484254656e-05,
+          "triangle_count": 114802
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1501.stl",
+      "source_sha256": "43e55773cdcaf7191069075dba2fbe126f4226bd84c1c7cd37b5bcd9e5faf2c8",
+      "bounds": [
+        [
+          -0.06300000101327896,
+          -0.0911078080534935,
+          -8.673617379884035e-19
+        ],
+        [
+          0.039000000804662704,
+          0.05400000140070915,
+          0.04149999842047691
+        ]
+      ],
+      "raw_triangle_count": 33444,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.1056276364597184e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "1501",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.06300000101327896,
+              -0.0911078080534935,
+              -8.673617379884035e-19
+            ],
+            [
+              0.039000000804662704,
+              0.05400000140070915,
+              0.04149999842047691
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00013467933379268486,
+          "triangle_count": 33444
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1511.stl",
+      "source_sha256": "93a7bbea652f52afc37791f3deaa738d6725c05e59bf8bd45c00a84e8cef8ab1",
+      "bounds": [
+        [
+          -0.026669999584555626,
+          -0.022224999964237213,
+          -0.020637499168515205
+        ],
+        [
+          0.05714770779013634,
+          0.022224999964237213,
+          0.020637499168515205
+        ]
+      ],
+      "raw_triangle_count": 23338,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 7.025408069549492e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "1511",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.026669999584555626,
+              -0.022224999964237213,
+              -0.020637499168515205
+            ],
+            [
+              0.05714770779013634,
+              0.022224999964237213,
+              0.020637499168515205
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.512290629795989e-05,
+          "triangle_count": 23338
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1667.stl",
+      "source_sha256": "edddf24199d59a5467a5de141247e182acd53da3571077d04a9a6705f99a4af3",
+      "bounds": [
+        [
+          -0.007000000216066837,
+          -0.007997513748705387,
+          -0.00800000037997961
+        ],
+        [
+          4.336808689942018e-19,
+          0.007997513748705387,
+          0.00800000037997961
+        ]
+      ],
+      "raw_triangle_count": 2016,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.5600002431869563e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "1667",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.007000000216066837,
+              -0.007997513748705387,
+              -0.00800000037997961
+            ],
+            [
+              4.336808689942018e-19,
+              0.007997513748705387,
+              0.00800000037997961
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.6685661491816157e-07,
+          "triangle_count": 2016
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1693.stl",
+      "source_sha256": "f949aaff07d473deb2af126d509dc4013687c871ad145760754f64dca4e4afc0",
+      "bounds": [
+        [
+          -0.005753098521381617,
+          -0.01269999984651804,
+          -0.0057530999183654785
+        ],
+        [
+          0.005753097124397755,
+          0.0,
+          0.0057530999183654785
+        ]
+      ],
+      "raw_triangle_count": 31544,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.6128999610155823e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "1693",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.005753098521381617,
+              -0.01269999984651804,
+              -0.0057530999183654785
+            ],
+            [
+              0.005753097124397755,
+              0.0,
+              0.0057530999183654785
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.042072884610639e-07,
+          "triangle_count": 31544
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1707.stl",
+      "source_sha256": "6a87d9e4416e3b49807495ca670cd7649e30b62d15b1ec2a4554ce046620f5e1",
+      "bounds": [
+        [
+          -4.7704895589362195e-18,
+          -0.009999999776482582,
+          0.0
+        ],
+        [
+          0.03999932482838631,
+          0.009999999776482582,
+          0.013799999840557575
+        ]
+      ],
+      "raw_triangle_count": 30504,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.599945986726762e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "1707",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -4.7704895589362195e-18,
+              -0.009999999776482582,
+              0.0
+            ],
+            [
+              0.03999932482838631,
+              0.009999999776482582,
+              0.013799999840557575
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.148221330831121e-06,
+          "triangle_count": 30504
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/1775.stl",
+      "source_sha256": "ea107186e0bbe337959da74e759971c864f383db9d8921fa2bc77ca786152130",
+      "bounds": [
+        [
+          -0.029999999329447746,
+          -0.2540000081062317,
+          -3.8882534591728874e-18
+        ],
+        [
+          0.2540000081062317,
+          0.2540000081062317,
+          0.5080000162124634
+        ]
+      ],
+      "raw_triangle_count": 3970,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.5806401647186307e-15,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "1775",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.029999999329447746,
+              -0.2540000081062317,
+              -3.8882534591728874e-18
+            ],
+            [
+              0.2540000081062317,
+              0.2540000081062317,
+              0.5080000162124634
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.014379699501212937,
+          "triangle_count": 3970
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2122.stl",
+      "source_sha256": "cbaca8f9ab145f009d5cebad854d60ed073fba8d32ae54de9198b3134d5ed4e5",
+      "bounds": [
+        [
+          -0.009749961085617542,
+          -0.009746930561959743,
+          0.0
+        ],
+        [
+          0.009749961085617542,
+          0.009746930561959743,
+          0.0020000000949949026
+        ]
+      ],
+      "raw_triangle_count": 8568,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.802469646842256e-18,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2122",
+      "boundary_component_count": 1015,
+      "closed_boundary_components": [
+        {
+          "component_index": 254,
+          "bounds": [
+            [
+              -0.009749961085617542,
+              -0.009746930561959743,
+              0.0
+            ],
+            [
+              0.009749961085617542,
+              0.009746930561959743,
+              0.0002500000118743628
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.3591535799571774e-09,
+          "triangle_count": 5040
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2150.stl",
+      "source_sha256": "db23e91e87ac34418edefbf26cecfa77086b9e8eb4077b3d05e78cfbe7cfde70",
+      "bounds": [
+        [
+          -0.012362495064735413,
+          -0.005210176110267639,
+          -0.004444987513124943
+        ],
+        [
+          0.010124998167157173,
+          0.012658967636525631,
+          0.014660976827144623
+        ]
+      ],
+      "raw_triangle_count": 42240,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 5.056873518544149e-18,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2150",
+      "boundary_component_count": 53,
+      "closed_boundary_components": [],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2175.stl",
+      "source_sha256": "c346357ceb0cad1d429ca23e2af748bdc2902954fd31292a7e414abeff9e2f28",
+      "bounds": [
+        [
+          -0.03702151030302048,
+          -0.0010000000474974513,
+          -0.05391162261366844
+        ],
+        [
+          0.06322293728590012,
+          0.004999999888241291,
+          0.057184357196092606
+        ]
+      ],
+      "raw_triangle_count": 135982,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.2342316729890835e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2175",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.03702151030302048,
+              -0.0010000000474974513,
+              -0.05391162261366844
+            ],
+            [
+              0.06322293728590012,
+              0.004999999888241291,
+              0.057184357196092606
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.7294208411295763e-06,
+          "triangle_count": 135982
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2178.stl",
+      "source_sha256": "b4613b2769a20ad603f950d5042652aa5482753d6353c01972a2403cc6e6e196",
+      "bounds": [
+        [
+          -0.0008999999845400453,
+          -0.0008832531748339534,
+          -0.006839999929070473
+        ],
+        [
+          0.011699999682605267,
+          0.005016746930778027,
+          0.0010000000474974513
+        ]
+      ],
+      "raw_triangle_count": 3088,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.5875999161206198e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2178",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.0008999999845400453,
+              -0.0008832531748339534,
+              -0.006839999929070473
+            ],
+            [
+              0.011699999682605267,
+              0.005016746930778027,
+              0.0010000000474974513
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.4526408620614274e-07,
+          "triangle_count": 3088
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2181.stl",
+      "source_sha256": "59ccd21dacf75ec6a65db3d104b8ef829541f4f9d0fd74da3482ff0e8c1d29b9",
+      "bounds": [
+        [
+          -0.006997824180871248,
+          -3.518984615082598e-16,
+          -0.007000000216066837
+        ],
+        [
+          0.006997824180871248,
+          0.01899999938905239,
+          0.007000000216066837
+        ]
+      ],
+      "raw_triangle_count": 35712,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.609999767840046e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2181",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.006997824180871248,
+              -3.518984615082598e-16,
+              -0.007000000216066837
+            ],
+            [
+              0.006997824180871248,
+              0.01899999938905239,
+              0.007000000216066837
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.939272163206926e-07,
+          "triangle_count": 35712
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2203.stl",
+      "source_sha256": "2275aee44eccf55bd2b8ecc4df543d9105b11acea68f2ccdf8a55f6adab435fd",
+      "bounds": [
+        [
+          -0.011058761738240719,
+          -0.010935979895293713,
+          0.0
+        ],
+        [
+          0.011058761738240719,
+          0.010935979895293713,
+          0.02539999969303608
+        ]
+      ],
+      "raw_triangle_count": 5820,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 6.451599844062329e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2203",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.011058761738240719,
+              -0.010935979895293713,
+              0.0
+            ],
+            [
+              0.011058761738240719,
+              0.010935979895293713,
+              0.02539999969303608
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.821524116908852e-06,
+          "triangle_count": 5820
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2401.stl",
+      "source_sha256": "db6fcc3505aad37d7ca3dde926f6997db9c3ee6c076686ade70e054f357353d8",
+      "bounds": [
+        [
+          -0.4669058322906494,
+          -0.49662333726882935,
+          -0.09622517228126526
+        ],
+        [
+          0.3592243194580078,
+          0.2115468680858612,
+          0.4315648078918457
+        ]
+      ],
+      "raw_triangle_count": 1604,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 6.824910276282594e-15,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2401",
+      "boundary_component_count": 9,
+      "closed_boundary_components": [],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2408.stl",
+      "source_sha256": "e8068cd70dfaa57e320a38a7e6e319c634e4cd028ad3b094f78187438aaec1f9",
+      "bounds": [
+        [
+          -0.0016504868399351835,
+          -0.0016509999986737967,
+          -0.0016499737976118922
+        ],
+        [
+          0.0016504868399351835,
+          0.0016509999986737967,
+          0.0016499737976118922
+        ]
+      ],
+      "raw_triangle_count": 15624,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.0903203982483505e-19,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2408",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.0016504868399351835,
+              -0.0016509999986737967,
+              -0.0016499737976118922
+            ],
+            [
+              0.0016504868399351835,
+              0.0016509999986737967,
+              0.0016499737976118922
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.8831278720309835e-08,
+          "triangle_count": 15624
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2567.stl",
+      "source_sha256": "473239266ee7552851770683c9ec84d6b768599975bf7310f1e2b598597f1782",
+      "bounds": [
+        [
+          -1.0408340855860843e-17,
+          -0.05000000074505806,
+          0.0
+        ],
+        [
+          0.06638090312480927,
+          0.0,
+          0.07000000029802322
+        ]
+      ],
+      "raw_triangle_count": 1012,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 4.9000000417232515e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2567",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -1.0408340855860843e-17,
+              -0.05000000074505806,
+              0.0
+            ],
+            [
+              0.06638090312480927,
+              0.0,
+              0.07000000029802322
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.83791184202246e-05,
+          "triangle_count": 1012
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2622.stl",
+      "source_sha256": "caa6a52df3b5609e00e3eb1534493dd70eb5977472ada614aa87f6a4937626fe",
+      "bounds": [
+        [
+          -0.022749992087483406,
+          -0.005200000014156103,
+          -0.016249988228082657
+        ],
+        [
+          0.02274971641600132,
+          0.0,
+          0.021774163469672203
+        ]
+      ],
+      "raw_triangle_count": 105118,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.0702234739020802e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2622",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.022749992087483406,
+              -0.005200000014156103,
+              -0.016249988228082657
+            ],
+            [
+              0.02274971641600132,
+              0.0,
+              0.021774163469672203
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.822813553448993e-06,
+          "triangle_count": 105118
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/2786.stl",
+      "source_sha256": "7449e89d587f7ed48f0857e9baa9375fabeded3f460d061a53e613e2f4eab9ef",
+      "bounds": [
+        [
+          -0.0051012663170695305,
+          -0.002300000051036477,
+          -0.002300000051036477
+        ],
+        [
+          0.000601266510784626,
+          0.002300000051036477,
+          0.002300000051036477
+        ]
+      ],
+      "raw_triangle_count": 92412,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.251888065275432e-19,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "2786",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.0051012663170695305,
+              -0.002300000051036477,
+              -0.002300000051036477
+            ],
+            [
+              0.000601266510784626,
+              0.002300000051036477,
+              0.002300000051036477
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.6789579828609555e-09,
+          "triangle_count": 92412
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3067.stl",
+      "source_sha256": "d661ee729fc1d7daab100b314308558a99866ac3b1f85afb75df8b9b3feddff3",
+      "bounds": [
+        [
+          -0.03846067935228348,
+          -0.03846067190170288,
+          0.0
+        ],
+        [
+          0.03846067190170288,
+          0.03846067190170288,
+          0.07620000094175339
+        ]
+      ],
+      "raw_triangle_count": 330692,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 5.916894278739148e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "3067",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.03846067935228348,
+              -0.03846067190170288,
+              0.0
+            ],
+            [
+              0.03846067190170288,
+              0.03846067190170288,
+              0.07620000094175339
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00028384796279075104,
+          "triangle_count": 330692
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3264.stl",
+      "source_sha256": "4ad83b2e9ee7e1d5bbdb0afe68763a37c7dd130e13e18d57c79bb49814e627a7",
+      "bounds": [
+        [
+          -0.09489999711513519,
+          -0.005836933851242065,
+          -0.02500000037252903
+        ],
+        [
+          0.09489999711513519,
+          0.06749992817640305,
+          0.02500000037252903
+        ]
+      ],
+      "raw_triangle_count": 5550,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.6024037809810674e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "3264",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.09489999711513519,
+              -0.005836933851242065,
+              -0.02500000037252903
+            ],
+            [
+              0.09489999711513519,
+              0.06749992817640305,
+              0.02500000037252903
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.121743079497496e-05,
+          "triangle_count": 5550
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3488.stl",
+      "source_sha256": "86b9686c4307e9630eee4ce6dacfe6365d015ac0e791348a9dde660e3018fe55",
+      "bounds": [
+        [
+          -0.027991296723484993,
+          -0.012000000104308128,
+          -0.14800000190734863
+        ],
+        [
+          0.027991296723484993,
+          0.012000000104308128,
+          0.014000000432133675
+        ]
+      ],
+      "raw_triangle_count": 118740,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.6244000757992273e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "3488",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.027991296723484993,
+              -0.012000000104308128,
+              -0.14800000190734863
+            ],
+            [
+              0.027991296723484993,
+              0.012000000104308128,
+              0.014000000432133675
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.358918481267149e-05,
+          "triangle_count": 118740
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3500.stl",
+      "source_sha256": "266c00ca39ffcaf2c7a2f80cc5853fe089c9cfc0ce64a77ce6647cf20ac1cb15",
+      "bounds": [
+        [
+          -0.11941877752542496,
+          -0.328000009059906,
+          -0.06300000101327896
+        ],
+        [
+          0.06298042088747025,
+          0.3319999873638153,
+          0.08250965923070908
+        ]
+      ],
+      "raw_triangle_count": 69696,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 4.355999952793121e-15,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "3500",
+      "boundary_component_count": 1022,
+      "closed_boundary_components": [
+        {
+          "component_index": 506,
+          "bounds": [
+            [
+              -0.11941877752542496,
+              0.19499999284744263,
+              -0.007816445082426071
+            ],
+            [
+              -0.021461520344018936,
+              0.26499998569488525,
+              0.08250965923070908
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.397924148316528e-05,
+          "triangle_count": 47606
+        },
+        {
+          "component_index": 509,
+          "bounds": [
+            [
+              -0.0729999989271164,
+              -0.04500000178813934,
+              -0.014999999664723873
+            ],
+            [
+              -0.05499090999364853,
+              0.02500000037252903,
+              0.014999999664723873
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.1332623892514461e-05,
+          "triangle_count": 3894
+        },
+        {
+          "component_index": 512,
+          "bounds": [
+            [
+              -0.056999966502189636,
+              -0.3199999928474426,
+              -0.05700000002980232
+            ],
+            [
+              0.056999966502189636,
+              0.3199999928474426,
+              0.05700000002980232
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00044718601545582284,
+          "triangle_count": 7608
+        },
+        {
+          "component_index": 767,
+          "bounds": [
+            [
+              -0.038100000470876694,
+              -0.3240000009536743,
+              -0.038100000470876694
+            ],
+            [
+              0.03808815777301788,
+              -0.32199999690055847,
+              0.038100000470876694
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 9.116995904760915e-06,
+          "triangle_count": 508
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3752.stl",
+      "source_sha256": "99420f008f0d81f3d065cdd591a560c0bae2a4f146813db8b85d8d2ab3f783e4",
+      "bounds": [
+        [
+          -0.019999999552965164,
+          -1.736891880321778e-16,
+          -0.04949747398495674
+        ],
+        [
+          0.019999999552965164,
+          0.04949747398495674,
+          0.004992213100194931
+        ]
+      ],
+      "raw_triangle_count": 176846,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.969125998637745e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "3752",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.019999999552965164,
+              -1.736891880321778e-16,
+              -0.04949747398495674
+            ],
+            [
+              0.019999999552965164,
+              0.04949747398495674,
+              0.004992213100194931
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.681250470107203e-06,
+          "triangle_count": 176846
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/3860.stl",
+      "source_sha256": "b9a0cf4d46afc50f32e1eef889254d1fba5c6dfaed654bde20ab048ecbc39474",
+      "bounds": [
+        [
+          -0.10920464992523193,
+          -0.005668846424669027,
+          0.0
+        ],
+        [
+          -0.08852522820234299,
+          0.02320077084004879,
+          0.02500000037252903
+        ]
+      ],
+      "raw_triangle_count": 3340,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 8.334548010112931e-18,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "3860",
+      "boundary_component_count": 3,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.10852522403001785,
+              -0.005668846424669027,
+              0.0
+            ],
+            [
+              -0.08852522820234299,
+              0.019331153482198715,
+              0.02500000037252903
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.165250923116908e-06,
+          "triangle_count": 2544
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4238.stl",
+      "source_sha256": "96597e00230782e4c7413232f296274b395b26ab62323b783727a4cc4a795bdd",
+      "bounds": [
+        [
+          -0.03924715146422386,
+          -0.00087126181460917,
+          -0.03925935551524162
+        ],
+        [
+          0.03924715146422386,
+          0.04992873966693878,
+          0.03925935551524162
+        ]
+      ],
+      "raw_triangle_count": 3528,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 6.165187981888531e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4238",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.03924715146422386,
+              -0.00087126181460917,
+              -0.03925935551524162
+            ],
+            [
+              0.03924715146422386,
+              0.04992873966693878,
+              0.03925935551524162
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00017668169548162881,
+          "triangle_count": 3528
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4318.stl",
+      "source_sha256": "d728da2e56dced6783494cee87bc1dc411b4a41067ad20736e1f539e163576c2",
+      "bounds": [
+        [
+          -0.09000000357627869,
+          -0.0899752676486969,
+          -0.009999999776482582
+        ],
+        [
+          0.09000000357627869,
+          0.0899752676486969,
+          0.03999999910593033
+        ]
+      ],
+      "raw_triangle_count": 11632,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.2400002574920707e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4318",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.09000000357627869,
+              -0.0899752676486969,
+              -0.009999999776482582
+            ],
+            [
+              0.09000000357627869,
+              0.0899752676486969,
+              0.03999999910593033
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.0004583346924376631,
+          "triangle_count": 11632
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4423.stl",
+      "source_sha256": "9c038dce74c8824e8f1aea214528b32f2d0fb60b6ad98a0aeb087813deff4594",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.07000000029802322,
+          0.0949999988079071,
+          0.05999999865889549
+        ]
+      ],
+      "raw_triangle_count": 1052,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 9.024999773502352e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4423",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.07000000029802322,
+              0.0949999988079071,
+              0.05999999865889549
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00011825821329424993,
+          "triangle_count": 1052
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4590.stl",
+      "source_sha256": "0b675bd0b2cc678ee3ef1e4eda85b0c0088054a6c2ab2d712deccf95125591c0",
+      "bounds": [
+        [
+          -0.019050000235438347,
+          -0.02539999969303608,
+          -0.019050000235438347
+        ],
+        [
+          0.019050000235438347,
+          0.0,
+          0.019050000235438347
+        ]
+      ],
+      "raw_triangle_count": 9072,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.4516100358808042e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4590",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.019050000235438347,
+              -0.02539999969303608,
+              -0.019050000235438347
+            ],
+            [
+              0.019050000235438347,
+              0.0,
+              0.019050000235438347
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.3573023925116247e-05,
+          "triangle_count": 9072
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4638.stl",
+      "source_sha256": "e30463fc724e202816eb5edd0ec4937ad7424eaebd22938e2f7f39807aa3466a",
+      "bounds": [
+        [
+          -0.069013312458992,
+          -0.017145000398159027,
+          -0.03600449860095978
+        ],
+        [
+          0.069013312458992,
+          0.0,
+          0.03600449860095978
+        ]
+      ],
+      "raw_triangle_count": 3088,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.9051349186249843e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4638",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.069013312458992,
+              -0.017145000398159027,
+              -0.03600449860095978
+            ],
+            [
+              0.069013312458992,
+              0.0,
+              0.03600449860095978
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00014725704058735358,
+          "triangle_count": 3088
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4654.stl",
+      "source_sha256": "d4edbcc89b388d63887672d1ba2616b5d2c57083d885928565b1aa53b19f023e",
+      "bounds": [
+        [
+          -0.02539210580289364,
+          -0.02500000037252903,
+          -0.02539999969303608
+        ],
+        [
+          0.02539210580289364,
+          0.023000000044703484,
+          0.02539999969303608
+        ]
+      ],
+      "raw_triangle_count": 26720,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.5806399376249317e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4654",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.02539210580289364,
+              -0.02500000037252903,
+              -0.02539999969303608
+            ],
+            [
+              0.02539210580289364,
+              0.023000000044703484,
+              0.02539999969303608
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.300419854481586e-05,
+          "triangle_count": 26720
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4686.stl",
+      "source_sha256": "1ab41f961f7dffd790518d68d93741eb23b4c330ecc4c5e52ea0c2740d56998b",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -0.0005000000237487257
+        ],
+        [
+          0.07999999821186066,
+          0.05999999865889549,
+          0.003000000026077032
+        ]
+      ],
+      "raw_triangle_count": 13418,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 6.399999713897708e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4686",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              0.0,
+              0.0,
+              -0.0005000000237487257
+            ],
+            [
+              0.07999999821186066,
+              0.05999999865889549,
+              0.003000000026077032
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.1636050855346332e-05,
+          "triangle_count": 13418
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4691.stl",
+      "source_sha256": "ead4ed465bce5b86ea4ec6115317ca65f9b91609d3a55444373d71d264f55670",
+      "bounds": [
+        [
+          -5.944591374755212e-18,
+          0.0,
+          -0.0005000000237487257
+        ],
+        [
+          0.07000000029802322,
+          0.032499998807907104,
+          0.003000000026077032
+        ]
+      ],
+      "raw_triangle_count": 17054,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 4.9000000417232515e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4691",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -5.944591374755212e-18,
+              0.0,
+              -0.0005000000237487257
+            ],
+            [
+              0.07000000029802322,
+              0.032499998807907104,
+              0.003000000026077032
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.410483142729123e-06,
+          "triangle_count": 17054
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4744.stl",
+      "source_sha256": "7b7a68687fa5f7befb2ad93fd6babc6e9b990d2d370e6477563ffae4317b5966",
+      "bounds": [
+        [
+          -0.002850000048056245,
+          -0.002849114127457142,
+          -0.006000000052154064
+        ],
+        [
+          0.002850000048056245,
+          0.002849114127457142,
+          0.0016499999910593033
+        ]
+      ],
+      "raw_triangle_count": 9346,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 5.852250066116453e-19,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4744",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.002850000048056245,
+              -0.002849114127457142,
+              -0.006000000052154064
+            ],
+            [
+              0.002850000048056245,
+              0.002849114127457142,
+              0.0016499999910593033
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.33960508804819e-08,
+          "triangle_count": 9346
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4844.stl",
+      "source_sha256": "eb9cfb8ea64601952736a375e2602f1149b496f5233ee67a0cb22091fd308e6a",
+      "bounds": [
+        [
+          -0.004399999976158142,
+          -0.007612633053213358,
+          -0.007615000009536743
+        ],
+        [
+          0.004399999976158142,
+          0.007612633053213358,
+          0.007615000009536743
+        ]
+      ],
+      "raw_triangle_count": 2520,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.319529005809784e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4844",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.004399999976158142,
+              -0.007612633053213358,
+              -0.007615000009536743
+            ],
+            [
+              0.004399999976158142,
+              0.007612633053213358,
+              0.007615000009536743
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.296753629817499e-07,
+          "triangle_count": 2520
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/4872.stl",
+      "source_sha256": "2f8eecf6e8a9ee657869cef322d2ea0ce3c15826eb8220a722bc1f8ec299a8bc",
+      "bounds": [
+        [
+          -0.028200000524520874,
+          -0.028200000524520874,
+          -0.0560000017285347
+        ],
+        [
+          0.028200000524520874,
+          0.028200000524520874,
+          0.020600000396370888
+        ]
+      ],
+      "raw_triangle_count": 8334,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 5.867560325535541e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "4872",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.028200000524520874,
+              -0.028200000524520874,
+              -0.0560000017285347
+            ],
+            [
+              0.028200000524520874,
+              0.028200000524520874,
+              0.020600000396370888
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00016091205367576282,
+          "triangle_count": 8334
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5229.stl",
+      "source_sha256": "cd3df42e716a8f1c378825ac6b70c657afb2962bc3953b26c1c0dfb7e52cea12",
+      "bounds": [
+        [
+          -0.014998510479927063,
+          -0.014999999664723873,
+          0.0
+        ],
+        [
+          0.014998510479927063,
+          0.03824999928474426,
+          0.012000000104308128
+        ]
+      ],
+      "raw_triangle_count": 1796,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.8355623881183574e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "5229",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.014998510479927063,
+              -0.014999999664723873,
+              0.0
+            ],
+            [
+              0.014998510479927063,
+              0.03824999928474426,
+              0.012000000104308128
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.058456695411226e-06,
+          "triangle_count": 1796
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5316.stl",
+      "source_sha256": "7bf06708613abe951e80d9fa992b447a187fde4130fe394a868c5629a07bab0e",
+      "bounds": [
+        [
+          -0.00800000037997961,
+          -0.007997513748705387,
+          -0.0010000000474974513
+        ],
+        [
+          0.00800000037997961,
+          0.007997513748705387,
+          0.012000000104308128
+        ]
+      ],
+      "raw_triangle_count": 2444,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.5600002431869563e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "5316",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.00800000037997961,
+              -0.007997513748705387,
+              -0.0010000000474974513
+            ],
+            [
+              0.00800000037997961,
+              0.007997513748705387,
+              0.012000000104308128
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 9.64745018962972e-07,
+          "triangle_count": 2444
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5346.stl",
+      "source_sha256": "0caab158b6ed4b1ca0f826651feec4ef2bb8ff7c88596f7ecd869a880578ecaa",
+      "bounds": [
+        [
+          0.0,
+          0.0005000000237487257,
+          0.0005000000237487257
+        ],
+        [
+          0.008999999612569809,
+          0.14650000631809235,
+          0.014750000089406967
+        ]
+      ],
+      "raw_triangle_count": 1582,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.1316001837948379e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "5346",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              0.0,
+              0.0005000000237487257,
+              0.0005000000237487257
+            ],
+            [
+              0.008999999612569809,
+              0.14650000631809235,
+              0.014750000089406967
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.225579465267779e-05,
+          "triangle_count": 1582
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5551.stl",
+      "source_sha256": "90a86a528bbc3468cd50438447d87f3a6a4fe30c548d4424702b05a086e2ae81",
+      "bounds": [
+        [
+          -0.04149999842047691,
+          -0.041200000792741776,
+          -0.014750000089406967
+        ],
+        [
+          0.04149999842047691,
+          0.024000000208616257,
+          0.014750000089406967
+        ]
+      ],
+      "raw_triangle_count": 118928,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 6.888999475598345e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "5551",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.04149999842047691,
+              -0.041200000792741776,
+              -0.014750000089406967
+            ],
+            [
+              0.04149999842047691,
+              0.024000000208616257,
+              0.014750000089406967
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00011037908240150444,
+          "triangle_count": 118928
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5602.stl",
+      "source_sha256": "44fa16c9334cd23d2e527c06e11dc7a90d926325e91362d13e5786e53854e413",
+      "bounds": [
+        [
+          -0.30480000376701355,
+          -0.3047751486301422,
+          0.0
+        ],
+        [
+          0.30480000376701355,
+          0.3047751486301422,
+          1.0667999982833862
+        ]
+      ],
+      "raw_triangle_count": 23950,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.1380622363374328e-14,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "5602",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.30480000376701355,
+              -0.3047751486301422,
+              0.0
+            ],
+            [
+              0.30480000376701355,
+              0.3047751486301422,
+              1.0667999982833862
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.006315293949468929,
+          "triangle_count": 23950
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5734.stl",
+      "source_sha256": "30c7041ddb20f6216d2a7a003cae0be91f150ffb7b47932145b1b5ad4c9601f2",
+      "bounds": [
+        [
+          -0.020999999716877937,
+          -0.041999999433755875,
+          0.0
+        ],
+        [
+          0.020999999716877937,
+          0.019999999552965164,
+          0.03500000014901161
+        ]
+      ],
+      "raw_triangle_count": 4156,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.84399987435341e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "5734",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.020999999716877937,
+              -0.041999999433755875,
+              0.0
+            ],
+            [
+              0.020999999716877937,
+              0.019999999552965164,
+              0.03500000014901161
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.1254447680641175e-05,
+          "triangle_count": 4156
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5784.stl",
+      "source_sha256": "ca646f57a5a442ff7e017bd40da0b058b52029d1a88f32bfa81fd9303e6f68f3",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.12700000405311584,
+          0.12700000405311584,
+          0.05714999884366989
+        ]
+      ],
+      "raw_triangle_count": 1548,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.6129001029491442e-16,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "5784",
+      "boundary_component_count": 758,
+      "closed_boundary_components": [],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/5909.stl",
+      "source_sha256": "b7ca1ced27b631f68b2143f19754208864f7a4217852f3ff50f564da880460c1",
+      "bounds": [
+        [
+          -0.07660961896181107,
+          -0.0765858069062233,
+          0.0
+        ],
+        [
+          0.07660961896181107,
+          0.0765858069062233,
+          0.03456653654575348
+        ]
+      ],
+      "raw_triangle_count": 5292,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.3476134869895527e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "5909",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.07660961896181107,
+              -0.0765858069062233,
+              0.0
+            ],
+            [
+              0.07660961896181107,
+              0.0765858069062233,
+              0.03456653654575348
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.000583303474910866,
+          "triangle_count": 5292
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6187.stl",
+      "source_sha256": "f34a4a8f1f81c7991359c1a9ca00c18690a6cdc1598650e4eca73641fc5971d0",
+      "bounds": [
+        [
+          -0.006741603836417198,
+          -0.00674369977787137,
+          -0.01269999984651804
+        ],
+        [
+          0.006741603836417198,
+          0.00674369977787137,
+          1.466496872938941e-13
+        ]
+      ],
+      "raw_triangle_count": 21288,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.8190994677624947e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "6187",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.006741603836417198,
+              -0.00674369977787137,
+              -0.01269999984651804
+            ],
+            [
+              0.006741603836417198,
+              0.00674369977787137,
+              1.466496872938941e-13
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.253149651172898e-07,
+          "triangle_count": 21288
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6443.stl",
+      "source_sha256": "f4f3fb35dfb1b679b7842e73024e16dc03895f2ce011dd6c571e47e4c9db153c",
+      "bounds": [
+        [
+          -0.014999999664723873,
+          -0.004999999888241291,
+          0.0
+        ],
+        [
+          0.014999999664723873,
+          0.004999999888241291,
+          0.012000000104308128
+        ]
+      ],
+      "raw_triangle_count": 16628,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 8.999999597668652e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "6443",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.014999999664723873,
+              -0.004999999888241291,
+              0.0
+            ],
+            [
+              0.014999999664723873,
+              0.004999999888241291,
+              0.012000000104308128
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.2330813999861802e-06,
+          "triangle_count": 16628
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6465.stl",
+      "source_sha256": "9d4d410ac3cdeca37201f77de2d41b44249b4464b22a511fbd439d3fb1793c91",
+      "bounds": [
+        [
+          -0.022218091413378716,
+          0.0,
+          -0.022224999964237213
+        ],
+        [
+          0.022218091413378716,
+          0.01079500000923872,
+          0.022224999964237213
+        ]
+      ],
+      "raw_triangle_count": 2016,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.9758024936413766e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "6465",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.022218091413378716,
+              0.0,
+              -0.022224999964237213
+            ],
+            [
+              0.022218091413378716,
+              0.01079500000923872,
+              0.022224999964237213
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.990227189818948e-06,
+          "triangle_count": 2016
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6708.stl",
+      "source_sha256": "e20ccbcc085634faf388d56c2c2e0097846b8fc6549126b97ec7c8542fd5d4b2",
+      "bounds": [
+        [
+          -0.019999999552965164,
+          -0.041202109307050705,
+          -0.07500000298023224
+        ],
+        [
+          0.019999999552965164,
+          0.383125364780426,
+          0.2141774594783783
+        ]
+      ],
+      "raw_triangle_count": 13552,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.8005380526545826e-15,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "6708",
+      "boundary_component_count": 58,
+      "closed_boundary_components": [
+        {
+          "component_index": 55,
+          "bounds": [
+            [
+              0.0,
+              0.3128771185874939,
+              0.10493559390306473
+            ],
+            [
+              0.004000000189989805,
+              0.383125364780426,
+              0.2141774594783783
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.5744951718307516e-05,
+          "triangle_count": 3088
+        },
+        {
+          "component_index": 56,
+          "bounds": [
+            [
+              0.006000000052154064,
+              -0.041202109307050705,
+              0.009999999776482582
+            ],
+            [
+              0.009999999776482582,
+              0.01600000075995922,
+              0.13512744009494781
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.5015102756323821e-05,
+          "triangle_count": 2580
+        },
+        {
+          "component_index": 57,
+          "bounds": [
+            [
+              -0.009996895678341389,
+              -0.00988685991615057,
+              -0.07500000298023224
+            ],
+            [
+              0.009996895678341389,
+              0.00988685991615057,
+              0.0
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.267006230134075e-05,
+          "triangle_count": 476
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6842.stl",
+      "source_sha256": "9b0a4af2aa761dcd975b8ecf87fd62d1df24c5502f95e383823aa50ae94fc493",
+      "bounds": [
+        [
+          -0.05000000074505806,
+          -0.09000000357627869,
+          -0.054999999701976776
+        ],
+        [
+          0.05000000074505806,
+          0.09000000357627869,
+          0.16500000655651093
+        ]
+      ],
+      "raw_triangle_count": 13080,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 4.840000275373463e-16,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "6842",
+      "boundary_component_count": 254,
+      "closed_boundary_components": [],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/6964.stl",
+      "source_sha256": "450226068031bfda301252e519b6b6bf2436bb00cb50145e5f2f363f41f2c51d",
+      "bounds": [
+        [
+          -0.10249999910593033,
+          -0.10249940305948257,
+          -0.004999999888241291
+        ],
+        [
+          0.10249999910593033,
+          0.10249940305948257,
+          0.04600000008940697
+        ]
+      ],
+      "raw_triangle_count": 3374,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 4.202499926686287e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "6964",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.10249999910593033,
+              -0.10249940305948257,
+              -0.004999999888241291
+            ],
+            [
+              0.10249999910593033,
+              0.10249940305948257,
+              0.04600000008940697
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00102227503140526,
+          "triangle_count": 3374
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7046.stl",
+      "source_sha256": "22d90b7dd95969f9e13948eabf7f3812d5b0889a7ff3cd1aecd0caefb6feb1cc",
+      "bounds": [
+        [
+          -0.006884287111461163,
+          -0.011745763011276722,
+          -0.02199999988079071
+        ],
+        [
+          0.006884287111461163,
+          0.011744841933250427,
+          0.0044999998062849045
+        ]
+      ],
+      "raw_triangle_count": 28664,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 7.022499834150077e-18,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7046",
+      "boundary_component_count": 9,
+      "closed_boundary_components": [
+        {
+          "component_index": 2,
+          "bounds": [
+            [
+              -0.0044999998062849045,
+              -0.0044999998062849045,
+              -0.0004025920352432877
+            ],
+            [
+              0.0044999998062849045,
+              0.0044999998062849045,
+              0.00209740805439651
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.0249998982646477e-07,
+          "triangle_count": 12
+        },
+        {
+          "component_index": 6,
+          "bounds": [
+            [
+              -0.004999999888241291,
+              -0.004998445976525545,
+              0.0021974078845232725
+            ],
+            [
+              0.004999999888241291,
+              0.004998445976525545,
+              0.004197407979518175
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.5701454792270076e-07,
+          "triangle_count": 504
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7091.stl",
+      "source_sha256": "d74fb9bb2ba2fcf6eb2bc4dbac28ae112ee28689e35bcd876c0371215f0ecce7",
+      "bounds": [
+        [
+          -0.02500000037252903,
+          -0.01600000075995922,
+          -0.019999999552965164
+        ],
+        [
+          0.02500000037252903,
+          0.01600000075995922,
+          0.020999999716877937
+        ]
+      ],
+      "raw_triangle_count": 10304,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.5000000745058066e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7091",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.02500000037252903,
+              -0.01600000075995922,
+              -0.019999999552965164
+            ],
+            [
+              0.02500000037252903,
+              0.01600000075995922,
+              0.020999999716877937
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.2239088425559504e-05,
+          "triangle_count": 10304
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7145.stl",
+      "source_sha256": "42500e4e55059a3530716c149250a2818edf9e68f5bde5741d92407325a38039",
+      "bounds": [
+        [
+          -0.017500000074505806,
+          -0.012500000186264515,
+          0.0
+        ],
+        [
+          0.017500000074505806,
+          0.012500000186264515,
+          0.02500000037252903
+        ]
+      ],
+      "raw_triangle_count": 2150,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.2250000104308129e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7145",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.017500000074505806,
+              -0.012500000186264515,
+              0.0
+            ],
+            [
+              0.017500000074505806,
+              0.012500000186264515,
+              0.02500000037252903
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.226985213664186e-06,
+          "triangle_count": 2150
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7343.stl",
+      "source_sha256": "9d1c78d629d57f53f4b2e7686875642f8455e75f16e6a0336ed15cff34062c32",
+      "bounds": [
+        [
+          -0.00876300036907196,
+          -0.00876027625054121,
+          0.0
+        ],
+        [
+          0.00876300036907196,
+          0.00876027625054121,
+          0.06984999775886536
+        ]
+      ],
+      "raw_triangle_count": 10080,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 4.879022186913495e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7343",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.00876300036907196,
+              -0.00876027625054121,
+              0.0
+            ],
+            [
+              0.00876300036907196,
+              0.00876027625054121,
+              0.06984999775886536
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.4046635578649199e-05,
+          "triangle_count": 10080
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7397.stl",
+      "source_sha256": "fa9b48ce12f99cde0c6f747dd0c5981e6be144f64473a6e3244a95a56f437f1f",
+      "bounds": [
+        [
+          -0.09200000017881393,
+          -0.07050000131130219,
+          -0.05048461630940437
+        ],
+        [
+          0.14000000059604645,
+          0.054749999195337296,
+          0.14499999582767487
+        ]
+      ],
+      "raw_triangle_count": 79680,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 5.382400035953521e-16,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7397",
+      "boundary_component_count": 76,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.041814953088760376,
+              -0.03400000184774399,
+              -0.008500000461935997
+            ],
+            [
+              -0.02218504622578621,
+              0.03200000151991844,
+              0.008500000461935997
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.212124584673119e-06,
+          "triangle_count": 526
+        },
+        {
+          "component_index": 1,
+          "bounds": [
+            [
+              -0.046995338052511215,
+              0.01575000025331974,
+              -0.014999999664723873
+            ],
+            [
+              -0.017000000923871994,
+              0.02474999986588955,
+              0.014999999664723873
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.652536945358815e-06,
+          "triangle_count": 1016
+        },
+        {
+          "component_index": 2,
+          "bounds": [
+            [
+              -0.02850000001490116,
+              -0.029999999329447746,
+              0.07649999856948853
+            ],
+            [
+              0.02850000001490116,
+              0.04600000008940697,
+              0.13349999487400055
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00021803891749790647,
+          "triangle_count": 29492
+        },
+        {
+          "component_index": 3,
+          "bounds": [
+            [
+              -0.014000000432133675,
+              -0.03550000116229057,
+              -0.024000000208616257
+            ],
+            [
+              0.014000000432133675,
+              -0.02250000089406967,
+              0.024000000208616257
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.793142145234224e-06,
+          "triangle_count": 2922
+        },
+        {
+          "component_index": 4,
+          "bounds": [
+            [
+              -0.0820000022649765,
+              0.01575000025331974,
+              -0.017500000074505806
+            ],
+            [
+              0.0820000022649765,
+              0.02474999986588955,
+              0.016499999910593033
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.47844191602513e-06,
+          "triangle_count": 932
+        },
+        {
+          "component_index": 5,
+          "bounds": [
+            [
+              0.02218504622578621,
+              0.0020000000949949026,
+              -0.008500000461935997
+            ],
+            [
+              0.041814953088760376,
+              0.007000000216066837,
+              0.008500000461935997
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.251406660824852e-06,
+          "triangle_count": 20
+        },
+        {
+          "component_index": 6,
+          "bounds": [
+            [
+              -0.041814953088760376,
+              0.01075000036507845,
+              -0.008500000461935997
+            ],
+            [
+              -0.02218504622578621,
+              0.01575000025331974,
+              0.008500000461935997
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.25140660255169e-06,
+          "triangle_count": 20
+        },
+        {
+          "component_index": 7,
+          "bounds": [
+            [
+              -0.046995338052511215,
+              0.0,
+              -0.014999999664723873
+            ],
+            [
+              -0.017000000923871994,
+              0.0020000000949949026,
+              0.014999999664723873
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.2561198222113356e-06,
+          "triangle_count": 1012
+        },
+        {
+          "component_index": 34,
+          "bounds": [
+            [
+              0.02218504622578621,
+              0.02474999986588955,
+              -0.008500000461935997
+            ],
+            [
+              0.041814953088760376,
+              0.029750000685453415,
+              0.008500000461935997
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.2514068356443394e-06,
+          "triangle_count": 20
+        },
+        {
+          "component_index": 35,
+          "bounds": [
+            [
+              -0.04798508062958717,
+              -0.061000000685453415,
+              -0.04800000041723251
+            ],
+            [
+              0.04800000041723251,
+              -0.03550000116229057,
+              0.04800000041723251
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.000121117385929237,
+          "triangle_count": 1524
+        },
+        {
+          "component_index": 36,
+          "bounds": [
+            [
+              -0.07999999821186066,
+              -0.03400000184774399,
+              0.06499999761581421
+            ],
+            [
+              0.07999999821186066,
+              -0.029999999329447746,
+              0.14499999582767487
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.3825895492650764e-05,
+          "triangle_count": 4748
+        },
+        {
+          "component_index": 63,
+          "bounds": [
+            [
+              -0.0039987568743526936,
+              -0.07050000131130219,
+              -0.004000000189989805
+            ],
+            [
+              0.0039987568743526936,
+              0.03500000014901161,
+              0.004000000189989805
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.290616044268262e-06,
+          "triangle_count": 16632
+        },
+        {
+          "component_index": 64,
+          "bounds": [
+            [
+              -0.050493694841861725,
+              -0.04724999889731407,
+              -0.05048461630940437
+            ],
+            [
+              0.050493694841861725,
+              -0.03824999928474426,
+              0.12150000035762787
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 9.532128621427558e-06,
+          "triangle_count": 1032
+        },
+        {
+          "component_index": 65,
+          "bounds": [
+            [
+              -0.041814953088760376,
+              0.0020000000949949026,
+              -0.008500000461935997
+            ],
+            [
+              -0.02218504622578621,
+              0.007000000216066837,
+              0.008500000461935997
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.2514066608248521e-06,
+          "triangle_count": 20
+        },
+        {
+          "component_index": 68,
+          "bounds": [
+            [
+              0.02218504622578621,
+              0.01075000036507845,
+              -0.008500000461935997
+            ],
+            [
+              0.041814953088760376,
+              0.01575000025331974,
+              0.008500000461935997
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.2514066025516897e-06,
+          "triangle_count": 20
+        },
+        {
+          "component_index": 69,
+          "bounds": [
+            [
+              0.01700466312468052,
+              0.0,
+              -0.014999999664723873
+            ],
+            [
+              0.04699999839067459,
+              0.0020000000949949026,
+              0.014999999664723873
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.2561194335333794e-06,
+          "triangle_count": 1016
+        },
+        {
+          "component_index": 70,
+          "bounds": [
+            [
+              -0.09200000017881393,
+              -0.019999999552965164,
+              -0.004999999888241291
+            ],
+            [
+              -0.041999999433755875,
+              -0.010001554153859615,
+              0.004999999888241291
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.925373217310043e-06,
+          "triangle_count": 508
+        },
+        {
+          "component_index": 71,
+          "bounds": [
+            [
+              -0.09000000357627869,
+              -0.029999999329447746,
+              -0.02500000037252903
+            ],
+            [
+              0.14000000059604645,
+              0.0,
+              0.11500000208616257
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.0008144480111795706,
+          "triangle_count": 8446
+        },
+        {
+          "component_index": 72,
+          "bounds": [
+            [
+              -0.013995648361742496,
+              -0.05000000074505806,
+              0.09099999815225601
+            ],
+            [
+              0.014000000432133675,
+              -0.029999999329447746,
+              0.11900000274181366
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.0030113422288743e-05,
+          "triangle_count": 1016
+        },
+        {
+          "component_index": 73,
+          "bounds": [
+            [
+              -0.014000000432133675,
+              0.013000000268220901,
+              -0.014000000432133675
+            ],
+            [
+              0.013995648361742496,
+              0.032999999821186066,
+              0.014000000432133675
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 9.025217719699187e-06,
+          "triangle_count": 1524
+        },
+        {
+          "component_index": 74,
+          "bounds": [
+            [
+              0.01700466312468052,
+              0.01575000025331974,
+              -0.014999999664723873
+            ],
+            [
+              0.04699999839067459,
+              0.02474999986588955,
+              0.014999999664723873
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.652536939089816e-06,
+          "triangle_count": 1016
+        },
+        {
+          "component_index": 75,
+          "bounds": [
+            [
+              -0.014000000432133675,
+              -3.451266566871102e-34,
+              -0.024000000208616257
+            ],
+            [
+              0.014000000432133675,
+              0.013000000268220901,
+              0.024000000208616257
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.793140965740153e-06,
+          "triangle_count": 2922
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7496.stl",
+      "source_sha256": "f724d9a6c6440a628c65502ffed6886016f0ac0e19d5e44575207cc2f26ff566",
+      "bounds": [
+        [
+          -0.00634802645072341,
+          -0.014287499710917473,
+          -0.00634999992325902
+        ],
+        [
+          0.00634999992325902,
+          0.0,
+          0.00634999992325902
+        ]
+      ],
+      "raw_triangle_count": 1524,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.0413264798946686e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7496",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.00634802645072341,
+              -0.014287499710917473,
+              -0.00634999992325902
+            ],
+            [
+              0.00634999992325902,
+              0.0,
+              0.00634999992325902
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.0297821203096496e-06,
+          "triangle_count": 1524
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7635.stl",
+      "source_sha256": "ec71e235d246ef9068c889feca52d0661b9110975e46e2c3a415cbf089e3b1c2",
+      "bounds": [
+        [
+          -0.02539210580289364,
+          -0.01587500050663948,
+          -0.02539999969303608
+        ],
+        [
+          0.02539210580289364,
+          0.01587500050663948,
+          0.02539999969303608
+        ]
+      ],
+      "raw_triangle_count": 1512,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.5806399376249317e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7635",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.02539210580289364,
+              -0.01587500050663948,
+              -0.02539999969303608
+            ],
+            [
+              0.02539210580289364,
+              0.01587500050663948,
+              0.02539999969303608
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.1961020830926087e-05,
+          "triangle_count": 1512
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7666.stl",
+      "source_sha256": "f897401fd7ec36b3692403b5c0f1ba2b90de60f6449ad90360307448e419c978",
+      "bounds": [
+        [
+          -0.04091906175017357,
+          -0.02632194757461548,
+          -5.727894176743575e-07
+        ],
+        [
+          0.04218002408742905,
+          0.04673599824309349,
+          0.06055508926510811
+        ]
+      ],
+      "raw_triangle_count": 106690,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 6.905458067045247e-17,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7666",
+      "boundary_component_count": 2,
+      "closed_boundary_components": [
+        {
+          "component_index": 1,
+          "bounds": [
+            [
+              -0.04091906175017357,
+              -0.02632194757461548,
+              -5.727894176743575e-07
+            ],
+            [
+              0.04218002408742905,
+              0.04673599824309349,
+              0.06055508926510811
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.1051620648397105e-05,
+          "triangle_count": 106686
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7748.stl",
+      "source_sha256": "01ffd5fa8228dd323946edadf7bc41f08d4c4feef54895a54764263bc7e15a60",
+      "bounds": [
+        [
+          -0.0680723711848259,
+          -0.04697486758232117,
+          0.0
+        ],
+        [
+          0.022344525903463364,
+          0.04697486758232117,
+          0.1032300665974617
+        ]
+      ],
+      "raw_triangle_count": 56866,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.0656446649716378e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7748",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.0680723711848259,
+              -0.04697486758232117,
+              0.0
+            ],
+            [
+              0.022344525903463364,
+              0.04697486758232117,
+              0.1032300665974617
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.762054631525445e-05,
+          "triangle_count": 56866
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7755.stl",
+      "source_sha256": "b8272b906ecdc6a18c3adc211d119c27cf3edc1be6e1fa36341d458d7dd4b330",
+      "bounds": [
+        [
+          -0.019999999552965164,
+          -0.01850000023841858,
+          -0.006000000052154064
+        ],
+        [
+          0.019999999552965164,
+          0.01850000023841858,
+          0.006000000052154064
+        ]
+      ],
+      "raw_triangle_count": 16472,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.599999928474427e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7755",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.019999999552965164,
+              -0.01850000023841858,
+              -0.006000000052154064
+            ],
+            [
+              0.019999999552965164,
+              0.01850000023841858,
+              0.006000000052154064
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.5040582489590046e-05,
+          "triangle_count": 16472
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7808.stl",
+      "source_sha256": "726478aa562f091b11829afdb8fab10cd82ebf57b0cbc42090e169e28d6e37fd",
+      "bounds": [
+        [
+          -0.029657142236828804,
+          0.0,
+          0.0
+        ],
+        [
+          0.030342858284711838,
+          0.02500000037252903,
+          0.0430000014603138
+        ]
+      ],
+      "raw_triangle_count": 2570,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.600000062584877e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7808",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.029657142236828804,
+              0.0,
+              0.0
+            ],
+            [
+              0.030342858284711838,
+              0.02500000037252903,
+              0.0430000014603138
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.615012166010844e-05,
+          "triangle_count": 2570
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7939.stl",
+      "source_sha256": "5d42fefbfcba153d073468c0149d42eb1dead323efa2021af168971f91aa926b",
+      "bounds": [
+        [
+          -0.002749999985098839,
+          -0.002749999985098839,
+          -0.004999999888241291
+        ],
+        [
+          0.002749999985098839,
+          0.002749999985098839,
+          0.003000000026077032
+        ]
+      ],
+      "raw_triangle_count": 5966,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 6.399999862909318e-19,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7939",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.002749999985098839,
+              -0.002749999985098839,
+              -0.004999999888241291
+            ],
+            [
+              0.002749999985098839,
+              0.002749999985098839,
+              0.003000000026077032
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 9.718133330724902e-08,
+          "triangle_count": 5966
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/7975.stl",
+      "source_sha256": "6baca35005000aa44f3ba57b3976ff77ef9036f1907ec364fdd87332f2c8b359",
+      "bounds": [
+        [
+          -0.11374501883983612,
+          -0.1602499932050705,
+          -0.09700000286102295
+        ],
+        [
+          0.1175147145986557,
+          0.009735461324453354,
+          0.05468813702464104
+        ]
+      ],
+      "raw_triangle_count": 31498,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 5.348106431004229e-16,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "7975",
+      "boundary_component_count": 13,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.04724999889731407,
+              -0.05382170155644417,
+              -0.08649997413158417
+            ],
+            [
+              0.04724999889731407,
+              0.007499805651605129,
+              -0.03696097806096077
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.099138412944461e-05,
+          "triangle_count": 3248
+        },
+        {
+          "component_index": 1,
+          "bounds": [
+            [
+              -0.11374501883983612,
+              -0.1164311096072197,
+              -0.08088299632072449
+            ],
+            [
+              -0.058000411838293076,
+              0.005738401785492897,
+              0.05468813702464104
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.85978750197069e-05,
+          "triangle_count": 964
+        },
+        {
+          "component_index": 2,
+          "bounds": [
+            [
+              -0.06449999660253525,
+              -0.1602499932050705,
+              -0.09700000286102295
+            ],
+            [
+              0.06449999660253525,
+              0.007499999832361937,
+              -0.08250000327825546
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.489105838279706e-05,
+          "triangle_count": 17000
+        },
+        {
+          "component_index": 3,
+          "bounds": [
+            [
+              -0.11101296544075012,
+              -0.11437332630157471,
+              -0.07783226668834686
+            ],
+            [
+              -0.06281458586454391,
+              0.0026471775490790606,
+              0.05251694098114967
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.596848630182117e-05,
+          "triangle_count": 12
+        },
+        {
+          "component_index": 4,
+          "bounds": [
+            [
+              -0.06199999898672104,
+              -0.10178165137767792,
+              -0.09423724561929703
+            ],
+            [
+              0.06199999898672104,
+              0.009735461324453354,
+              0.03681177645921707
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.239595146661142e-05,
+          "triangle_count": 7206
+        },
+        {
+          "component_index": 5,
+          "bounds": [
+            [
+              0.06308721750974655,
+              -0.10754301398992538,
+              -0.0782817080616951
+            ],
+            [
+              0.1153620183467865,
+              0.0030402892734855413,
+              0.04660704731941223
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.5968485328619253e-05,
+          "triangle_count": 12
+        },
+        {
+          "component_index": 6,
+          "bounds": [
+            [
+              -0.01924999989569187,
+              -0.08160892874002457,
+              -0.07443724572658539
+            ],
+            [
+              0.01924999989569187,
+              -0.059937428683042526,
+              -0.04959002882242203
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.78316627609175e-06,
+          "triangle_count": 1040
+        },
+        {
+          "component_index": 7,
+          "bounds": [
+            [
+              -0.05649999901652336,
+              -0.10080946981906891,
+              -0.08960723876953125
+            ],
+            [
+              0.05649999901652336,
+              -0.027231665328145027,
+              -0.0038936680648475885
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.728999478199469e-05,
+          "triangle_count": 12
+        },
+        {
+          "component_index": 8,
+          "bounds": [
+            [
+              -0.060750000178813934,
+              -0.0942511260509491,
+              -0.07977189868688583
+            ],
+            [
+              -0.05925000086426735,
+              0.004432870075106621,
+              0.035811495035886765
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.658452514408993e-07,
+          "triangle_count": 504
+        },
+        {
+          "component_index": 11,
+          "bounds": [
+            [
+              -0.05649999901652336,
+              -0.028544101864099503,
+              -0.0046957205049693584
+            ],
+            [
+              0.05649999901652336,
+              0.004850269295275211,
+              0.03380247950553894
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.0997324873290118e-05,
+          "triangle_count": 32
+        },
+        {
+          "component_index": 12,
+          "bounds": [
+            [
+              0.058000024408102036,
+              -0.10924272239208221,
+              -0.08127875626087189
+            ],
+            [
+              0.1175147145986557,
+              0.006203418597579002,
+              0.04857034236192703
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.859784842296314e-05,
+          "triangle_count": 964
+        }
+      ],
+      "nested_bounds_candidates": [
+        {
+          "outer": 1,
+          "inner": 3,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 1,
+          "inner": 8,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 4,
+          "inner": 0,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 4,
+          "inner": 6,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 4,
+          "inner": 7,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 4,
+          "inner": 8,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 4,
+          "inner": 11,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 7,
+          "inner": 6,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 12,
+          "inner": 5,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        }
+      ]
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8034.stl",
+      "source_sha256": "b88f558e075cccf400bb585982afe6e9875476a21f6aa79c9761879d1d70ef25",
+      "bounds": [
+        [
+          -0.6864356398582458,
+          -0.5566670894622803,
+          0.0
+        ],
+        [
+          0.6864356398582458,
+          0.5566670894622803,
+          0.029999999329447746
+        ]
+      ],
+      "raw_triangle_count": 6962,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.8847755506703977e-14,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "8034",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.6864356398582458,
+              -0.5566670894622803,
+              0.0
+            ],
+            [
+              0.6864356398582458,
+              0.5566670894622803,
+              0.029999999329447746
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.008698638630629463,
+          "triangle_count": 6962
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8176.stl",
+      "source_sha256": "0c4f9cfaba40bce18a5cd7966413f49739bc3ec78a2dcf7c0670392e8858346d",
+      "bounds": [
+        [
+          0.0,
+          -0.01147804968059063,
+          -0.011474482715129852
+        ],
+        [
+          0.014499999582767487,
+          0.01147804968059063,
+          0.011474482715129852
+        ]
+      ],
+      "raw_triangle_count": 2524,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 5.269824978804266e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "8176",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              0.0,
+              -0.01147804968059063,
+              -0.011474482715129852
+            ],
+            [
+              0.014499999582767487,
+              0.01147804968059063,
+              0.011474482715129852
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.4548941244222975e-06,
+          "triangle_count": 2524
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8193.stl",
+      "source_sha256": "1b5ab7adef54ae6502edb6679a0be234c163973d4e37bee958419c3f3831e7ed",
+      "bounds": [
+        [
+          0.0,
+          -0.01534202042967081,
+          -0.015337251126766205
+        ],
+        [
+          0.020999999716877937,
+          0.01534202042967081,
+          0.015337251126766205
+        ]
+      ],
+      "raw_triangle_count": 4614,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 9.415103634577462e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "8193",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              0.0,
+              -0.01534202042967081,
+              -0.015337251126766205
+            ],
+            [
+              0.020999999716877937,
+              0.01534202042967081,
+              0.015337251126766205
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.598281945180372e-06,
+          "triangle_count": 4614
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8251.stl",
+      "source_sha256": "c67fac698163d8ffa11419eed2e25c6951a2cbb316bd4043c56053489246edb4",
+      "bounds": [
+        [
+          -0.03199005499482155,
+          -4.8011868932125524e-17,
+          -0.03200000151991844
+        ],
+        [
+          0.03199005499482155,
+          0.07424870133399963,
+          0.03200000151991844
+        ]
+      ],
+      "raw_triangle_count": 18396,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 5.512869649785485e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "8251",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.03199005499482155,
+              -4.8011868932125524e-17,
+              -0.03200000151991844
+            ],
+            [
+              0.03199005499482155,
+              0.07424870133399963,
+              0.03200000151991844
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.692140634344074e-05,
+          "triangle_count": 18396
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8339.stl",
+      "source_sha256": "c65e60f07e1bb5af28bd028112e8859d1b8f1262b7381663d14d79e3bd4aab28",
+      "bounds": [
+        [
+          -0.01999378390610218,
+          -0.04500000178813934,
+          -0.019999999552965164
+        ],
+        [
+          0.01999378390610218,
+          0.0,
+          0.019999999552965164
+        ]
+      ],
+      "raw_triangle_count": 1516,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.0250001609325442e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "8339",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.01999378390610218,
+              -0.04500000178813934,
+              -0.019999999552965164
+            ],
+            [
+              0.01999378390610218,
+              0.0,
+              0.019999999552965164
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.4169451370922177e-05,
+          "triangle_count": 1516
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8340.stl",
+      "source_sha256": "5a5656190a627a8d0627abcc202019386a9b45715c8cf1c4b9c8c3618d814283",
+      "bounds": [
+        [
+          -0.025345658883452415,
+          -0.05000000074505806,
+          -0.02535353973507881
+        ],
+        [
+          0.02535353973507881,
+          0.0,
+          0.02535353973507881
+        ]
+      ],
+      "raw_triangle_count": 2524,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.5712079083928807e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "8340",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.025345658883452415,
+              -0.05000000074505806,
+              -0.02535353973507881
+            ],
+            [
+              0.02535353973507881,
+              0.0,
+              0.02535353973507881
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.852572329544064e-05,
+          "triangle_count": 2524
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8448.stl",
+      "source_sha256": "745e84a17841f4b4d1b0471fb00731272eea5f22b8d6ce0bd48ab98ddddf480e",
+      "bounds": [
+        [
+          -0.021150000393390656,
+          -0.021150000393390656,
+          -0.00800000037997961
+        ],
+        [
+          0.021150000393390656,
+          0.021150000393390656,
+          0.06800000369548798
+        ]
+      ],
+      "raw_triangle_count": 209986,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 5.77600061947109e-17,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "8448",
+      "boundary_component_count": 835,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.0024999999441206455,
+              -0.0024992229882627726,
+              0.0
+            ],
+            [
+              0.0024999999441206455,
+              0.0024992229882627726,
+              0.06800000369548798
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.302924156643881e-06,
+          "triangle_count": 9072
+        },
+        {
+          "component_index": 1,
+          "bounds": [
+            [
+              0.0,
+              -0.002850000048056245,
+              -0.002850000048056245
+            ],
+            [
+              0.006649999879300594,
+              0.002850000048056245,
+              0.002850000048056245
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.178561451051356e-08,
+          "triangle_count": 5916
+        },
+        {
+          "component_index": 100,
+          "bounds": [
+            [
+              0.0,
+              -0.007997513748705387,
+              -0.00800000037997961
+            ],
+            [
+              0.014800000004470348,
+              0.007997513748705387,
+              0.00800000037997961
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.8360732357535276e-06,
+          "triangle_count": 11528
+        },
+        {
+          "component_index": 101,
+          "bounds": [
+            [
+              -0.001500000013038516,
+              -0.005498290527611971,
+              -0.005499999970197678
+            ],
+            [
+              0.001500000013038516,
+              0.005498290527611971,
+              0.005499999970197678
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.8507391278766076e-07,
+          "triangle_count": 25704
+        },
+        {
+          "component_index": 102,
+          "bounds": [
+            [
+              -0.021150000393390656,
+              -0.021150000393390656,
+              0.0
+            ],
+            [
+              0.021150000393390656,
+              0.021150000393390656,
+              0.024000000208616257
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.059096180511447e-05,
+          "triangle_count": 28
+        },
+        {
+          "component_index": 520,
+          "bounds": [
+            [
+              2.7034135200665332e-05,
+              -0.0027991298120468855,
+              -0.00279999990016222
+            ],
+            [
+              0.007400000002235174,
+              0.0027991298120468855,
+              0.00279999990016222
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.141707383822026e-08,
+          "triangle_count": 7282
+        }
+      ],
+      "nested_bounds_candidates": [
+        {
+          "outer": 100,
+          "inner": 520,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        }
+      ]
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8822.stl",
+      "source_sha256": "c81f7c43f19666de33460e7a3d9da97a245fdaa7db71ab4b3d97a00ce3ccf8b3",
+      "bounds": [
+        [
+          -0.047997668385505676,
+          -0.03599674627184868,
+          -0.02500000037252903
+        ],
+        [
+          0.047997668385505676,
+          0.03599674627184868,
+          0.0949999988079071
+        ]
+      ],
+      "raw_triangle_count": 67376,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.4399999803304672e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "8822",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.047997668385505676,
+              -0.03599674627184868,
+              -0.02500000037252903
+            ],
+            [
+              0.047997668385505676,
+              0.03599674627184868,
+              0.0949999988079071
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.070219565910991e-05,
+          "triangle_count": 67376
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8972.stl",
+      "source_sha256": "641c27ff486a8d1d820405942eada96e17f83a6378552a6d9a2b71813b0a0a4b",
+      "bounds": [
+        [
+          -0.009999999776482582,
+          -0.031199999153614044,
+          0.0
+        ],
+        [
+          0.009999999776482582,
+          0.02500000037252903,
+          0.029999999329447746
+        ]
+      ],
+      "raw_triangle_count": 1374,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.1584399467384816e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "8972",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.009999999776482582,
+              -0.031199999153614044,
+              0.0
+            ],
+            [
+              0.009999999776482582,
+              0.02500000037252903,
+              0.029999999329447746
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 9.517934077792462e-06,
+          "triangle_count": 1374
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/8973.stl",
+      "source_sha256": "7a14ff85593e9f3fe55a7fa54b57fc1d778e8e934610a54411b5cdee98ab3986",
+      "bounds": [
+        [
+          -0.053975000977516174,
+          -0.08000999689102173,
+          -0.12445999681949615
+        ],
+        [
+          0.06032500043511391,
+          0.0546099990606308,
+          0.016001999378204346
+        ]
+      ],
+      "raw_triangle_count": 1312,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.972957237584283e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "8973",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.053975000977516174,
+              -0.08000999689102173,
+              -0.12445999681949615
+            ],
+            [
+              0.06032500043511391,
+              0.0546099990606308,
+              0.016001999378204346
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.0005809663068940489,
+          "triangle_count": 1312
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9115.stl",
+      "source_sha256": "ca3feda018bf97c2f74a07cfc1f62532c74fad308ff1905eb1fc4e5c4a8e620e",
+      "bounds": [
+        [
+          -0.14870253205299377,
+          -0.09600000083446503,
+          -0.17278163135051727
+        ],
+        [
+          0.2189350575208664,
+          0.06350000202655792,
+          0.7559999823570251
+        ]
+      ],
+      "raw_triangle_count": 382646,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 8.626352859611865e-15,
+      "working_watertight": false,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "9115",
+      "boundary_component_count": 26551,
+      "closed_boundary_components": [
+        {
+          "component_index": 7018,
+          "bounds": [
+            [
+              -7.776506918345775e-19,
+              -0.00634999992325902,
+              0.0
+            ],
+            [
+              0.00634999992325902,
+              0.0,
+              0.00634999992325902
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.074743008444945e-07,
+          "triangle_count": 1882
+        },
+        {
+          "component_index": 7019,
+          "bounds": [
+            [
+              -0.01600000075995922,
+              -0.001587499980814755,
+              -0.015995027497410774
+            ],
+            [
+              0.01600000075995922,
+              0.0,
+              0.015995027497410774
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.2450565989198808e-06,
+          "triangle_count": 1008
+        },
+        {
+          "component_index": 7020,
+          "bounds": [
+            [
+              -0.004537499975413084,
+              -0.00800000037997961,
+              -0.004536089487373829
+            ],
+            [
+              0.004537499975413084,
+              0.0017000000225380063,
+              0.004536089487373829
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.049971070796932e-07,
+          "triangle_count": 5788
+        },
+        {
+          "component_index": 7023,
+          "bounds": [
+            [
+              -0.0020000000949949026,
+              -0.06199999898672104,
+              -0.0019993784371763468
+            ],
+            [
+              0.0020000000949949026,
+              0.004999999888241291,
+              0.0019993784371763468
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.535764601969131e-07,
+          "triangle_count": 17640
+        },
+        {
+          "component_index": 7024,
+          "bounds": [
+            [
+              -0.005737499799579382,
+              -0.011500000022351742,
+              -0.005735716782510281
+            ],
+            [
+              0.005737499799579382,
+              0.002199999988079071,
+              0.005735716782510281
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.324099046335318e-07,
+          "triangle_count": 6952
+        },
+        {
+          "component_index": 7025,
+          "bounds": [
+            [
+              -0.005969000048935413,
+              -0.00634999992325902,
+              -0.005967144854366779
+            ],
+            [
+              0.005969000048935413,
+              0.001587499980814755,
+              0.005967144854366779
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.490608355084494e-07,
+          "triangle_count": 1512
+        },
+        {
+          "component_index": 7028,
+          "bounds": [
+            [
+              -0.005519859492778778,
+              -0.0052999998442828655,
+              -0.005519859492778778
+            ],
+            [
+              0.005519859492778778,
+              0.0,
+              0.005519859492778778
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.425978316254939e-07,
+          "triangle_count": 3640
+        },
+        {
+          "component_index": 7029,
+          "bounds": [
+            [
+              -0.14870253205299377,
+              -0.006500000134110451,
+              -0.17278163135051727
+            ],
+            [
+              0.2189350575208664,
+              0.0035000001080334187,
+              -0.07868431508541107
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.944022539330983e-05,
+          "triangle_count": 504
+        },
+        {
+          "component_index": 7287,
+          "bounds": [
+            [
+              -0.0925000011920929,
+              -0.012000000104308128,
+              -0.09247124940156937
+            ],
+            [
+              0.0925000011920929,
+              0.0,
+              0.09247124940156937
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.0001573606322577215,
+          "triangle_count": 2020
+        },
+        {
+          "component_index": 7288,
+          "bounds": [
+            [
+              -0.020840207114815712,
+              -0.0020000000949949026,
+              -0.020955000072717667
+            ],
+            [
+              0.020840207114815712,
+              0.0,
+              0.020955000072717667
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.105131919634233e-06,
+          "triangle_count": 1344
+        },
+        {
+          "component_index": 8485,
+          "bounds": [
+            [
+              -0.004999999888241291,
+              -0.0007935033063404262,
+              -0.001587499980814755
+            ],
+            [
+              0.004999999888241291,
+              0.02579844556748867,
+              0.09207499772310257
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.235289294657434e-07,
+          "triangle_count": 1002
+        },
+        {
+          "component_index": 8486,
+          "bounds": [
+            [
+              -0.004800000227987766,
+              -0.005556249991059303,
+              -0.004798508249223232
+            ],
+            [
+              0.004800000227987766,
+              0.0,
+              0.004798508249223232
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.020074649790145e-07,
+          "triangle_count": 504
+        },
+        {
+          "component_index": 8489,
+          "bounds": [
+            [
+              -0.09402662515640259,
+              -0.003000000026077032,
+              -0.10419469326734543
+            ],
+            [
+              0.1230672299861908,
+              0.0,
+              0.10154654830694199
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.389722537284056e-05,
+          "triangle_count": 11842
+        },
+        {
+          "component_index": 8490,
+          "bounds": [
+            [
+              -0.00800000037997961,
+              -0.004999999888241291,
+              -0.007997513748705387
+            ],
+            [
+              0.00800000037997961,
+              0.0,
+              0.007997513748705387
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.467924871057131e-07,
+          "triangle_count": 1260
+        },
+        {
+          "component_index": 8494,
+          "bounds": [
+            [
+              0.0,
+              -0.00800000037997961,
+              -0.10000000149011612
+            ],
+            [
+              0.009499999694526196,
+              0.0,
+              0.0
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.004119026872313e-06,
+          "triangle_count": 1024
+        },
+        {
+          "component_index": 8495,
+          "bounds": [
+            [
+              -0.006743935868144035,
+              -0.005470000207424164,
+              -0.006743935868144035
+            ],
+            [
+              0.006743935868144035,
+              0.001500000013038516,
+              0.006743935868144035
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.455630221266029e-07,
+          "triangle_count": 4768
+        },
+        {
+          "component_index": 17130,
+          "bounds": [
+            [
+              -0.019200000911951065,
+              -0.0020000000949949026,
+              -0.01919403299689293
+            ],
+            [
+              0.019200000911951065,
+              0.0,
+              0.01919403299689293
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.3152737027756456e-06,
+          "triangle_count": 504
+        },
+        {
+          "component_index": 17783,
+          "bounds": [
+            [
+              -0.09709568321704865,
+              -0.003000000026077032,
+              -0.09709568321704865
+            ],
+            [
+              0.09709568321704865,
+              0.0,
+              0.09709568321704865
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.1070956361018458e-05,
+          "triangle_count": 47292
+        },
+        {
+          "component_index": 17784,
+          "bounds": [
+            [
+              -0.09000000357627869,
+              -0.0020000000949949026,
+              -0.08997202664613724
+            ],
+            [
+              0.09000000357627869,
+              5.551115123125783e-17,
+              0.08997202664613724
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.464879721202341e-05,
+          "triangle_count": 12186
+        },
+        {
+          "component_index": 17785,
+          "bounds": [
+            [
+              -0.02850000001490116,
+              -0.012000000104308128,
+              -0.009999999776482582
+            ],
+            [
+              0.02850000001490116,
+              0.017999999225139618,
+              0.012000000104308128
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.2843787308308145e-06,
+          "triangle_count": 2184
+        },
+        {
+          "component_index": 17786,
+          "bounds": [
+            [
+              1.5108418530435474e-35,
+              -0.0002500000118743628,
+              -0.09790000319480896
+            ],
+            [
+              0.006000000052154064,
+              0.0,
+              -9.32453986024484e-07
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.44312694564975e-07,
+          "triangle_count": 1276
+        },
+        {
+          "component_index": 17787,
+          "bounds": [
+            [
+              -0.036815378814935684,
+              -0.003000000026077032,
+              -0.036815378814935684
+            ],
+            [
+              0.036815378814935684,
+              1.3877787807814457e-17,
+              0.036815378814935684
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 4.998295868240091e-06,
+          "triangle_count": 23392
+        },
+        {
+          "component_index": 24555,
+          "bounds": [
+            [
+              -0.03682800009846687,
+              -0.003000000026077032,
+              -0.0368165522813797
+            ],
+            [
+              0.03682800009846687,
+              0.0,
+              0.0368165522813797
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.2398815126366955e-05,
+          "triangle_count": 1008
+        },
+        {
+          "component_index": 24556,
+          "bounds": [
+            [
+              -0.007143749855458736,
+              -0.013493750244379044,
+              -0.007141529582440853
+            ],
+            [
+              0.007143749855458736,
+              0.001587499980814755,
+              0.007141529582440853
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.717997598445089e-07,
+          "triangle_count": 6920
+        },
+        {
+          "component_index": 24557,
+          "bounds": [
+            [
+              -0.003000000026077032,
+              -0.017500000074505806,
+              -0.0029990675393491983
+            ],
+            [
+              0.003000000026077032,
+              0.0,
+              0.0029990675393491983
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.5487194548388345e-07,
+          "triangle_count": 1260
+        },
+        {
+          "component_index": 24558,
+          "bounds": [
+            [
+              -0.09710399806499481,
+              -0.0020000000949949026,
+              -0.09707381576299667
+            ],
+            [
+              0.09710399806499481,
+              0.0010000000474974513,
+              0.09707381576299667
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 8.749223230269188e-05,
+          "triangle_count": 1008
+        },
+        {
+          "component_index": 24812,
+          "bounds": [
+            [
+              -0.006000000052154064,
+              -0.005556249991059303,
+              -0.005998135078698397
+            ],
+            [
+              0.006000000052154064,
+              0.0,
+              0.005998135078698397
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.281366616813319e-07,
+          "triangle_count": 504
+        },
+        {
+          "component_index": 24813,
+          "bounds": [
+            [
+              -0.029614390805363655,
+              -0.001587499980814755,
+              -0.029614390805363655
+            ],
+            [
+              0.029614390805363655,
+              1.0000014054670214e-13,
+              0.029614390805363655
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.8734349927806658e-06,
+          "triangle_count": 20336
+        },
+        {
+          "component_index": 24814,
+          "bounds": [
+            [
+              -0.004999999888241291,
+              -0.012000000104308128,
+              -0.004999990109354258
+            ],
+            [
+              0.004999999888241291,
+              0.0010000000474974513,
+              0.004999999888241291
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 5.134037420227599e-07,
+          "triangle_count": 4120
+        },
+        {
+          "component_index": 24815,
+          "bounds": [
+            [
+              0.0032500000670552254,
+              -0.0038807836826890707,
+              -0.02539999969303608
+            ],
+            [
+              0.0062500000931322575,
+              -0.0008817162015475333,
+              -0.01940000057220459
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": -4.2393920183514165e-08,
+          "triangle_count": 504
+        },
+        {
+          "component_index": 24816,
+          "bounds": [
+            [
+              -0.0012499999720603228,
+              -0.008379384875297546,
+              -0.04540000110864639
+            ],
+            [
+              0.01075000036507845,
+              0.0036168850492686033,
+              0.0
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.5440435243315938e-06,
+          "triangle_count": 2538
+        },
+        {
+          "component_index": 24817,
+          "bounds": [
+            [
+              -0.017999999225139618,
+              -0.0020000000949949026,
+              -0.017994405701756477
+            ],
+            [
+              0.017999999225139618,
+              0.0,
+              0.017994405701756477
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.0349085180901764e-06,
+          "triangle_count": 504
+        },
+        {
+          "component_index": 24818,
+          "bounds": [
+            [
+              -0.01880219765007496,
+              -0.001500000013038516,
+              -0.01880219765007496
+            ],
+            [
+              0.01880219765007496,
+              8.881783998477905e-18,
+              0.01880219765007496
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.639193183471157e-07,
+          "triangle_count": 14160
+        },
+        {
+          "component_index": 26292,
+          "bounds": [
+            [
+              -0.06499999761581421,
+              -0.04500000178813934,
+              -0.06497979909181595
+            ],
+            [
+              0.06499999761581421,
+              0.0,
+              0.06497979909181595
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.0003138412737316227,
+          "triangle_count": 1008
+        },
+        {
+          "component_index": 26293,
+          "bounds": [
+            [
+              -0.14870253205299377,
+              0.05350000038743019,
+              -0.17278163135051727
+            ],
+            [
+              0.2189350575208664,
+              0.06350000202655792,
+              -0.07868431508541107
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.944022676463932e-05,
+          "triangle_count": 504
+        },
+        {
+          "component_index": 26294,
+          "bounds": [
+            [
+              -0.007499999832361937,
+              -0.007497668731957674,
+              -0.006000000052154064
+            ],
+            [
+              0.007499999832361937,
+              0.007497668731957674,
+              0.0949999988079071
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.985369777165842e-06,
+          "triangle_count": 2520
+        },
+        {
+          "component_index": 26295,
+          "bounds": [
+            [
+              -0.003000000026077032,
+              -0.0029990675393491983,
+              -7.347880536484578e-19
+            ],
+            [
+              0.003000000026077032,
+              0.0029990675393491983,
+              0.7559999823570251
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.1366537948842046e-05,
+          "triangle_count": 504
+        },
+        {
+          "component_index": 26296,
+          "bounds": [
+            [
+              -0.027828000485897064,
+              -0.003000000026077032,
+              -0.027819350361824036
+            ],
+            [
+              0.027828000485897064,
+              0.0,
+              0.027819350361824036
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 7.010377644895473e-06,
+          "triangle_count": 1008
+        },
+        {
+          "component_index": 26297,
+          "bounds": [
+            [
+              -0.00873124971985817,
+              -0.010318749584257603,
+              -0.00872853584587574
+            ],
+            [
+              0.00873124971985817,
+              0.00793750025331974,
+              0.00872853584587574
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.4912718828252077e-06,
+          "triangle_count": 1512
+        },
+        {
+          "component_index": 26302,
+          "bounds": [
+            [
+              -0.0076500000432133675,
+              -0.017000000923871994,
+              -0.007647622376680374
+            ],
+            [
+              0.0076500000432133675,
+              0.0031999999191612005,
+              0.007647622376680374
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.3193312403657257e-06,
+          "triangle_count": 6952
+        },
+        {
+          "component_index": 26548,
+          "bounds": [
+            [
+              -0.004999999888241291,
+              -0.0048561724834144115,
+              -0.004998445976525545
+            ],
+            [
+              0.004999999888241291,
+              1.0000030317702802e-13,
+              0.004999999888241291
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.5708356255312327e-07,
+          "triangle_count": 7814
+        }
+      ],
+      "nested_bounds_candidates": [
+        {
+          "outer": 7024,
+          "inner": 7020,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 7024,
+          "inner": 7028,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 7024,
+          "inner": 8486,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 7024,
+          "inner": 26548,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 7025,
+          "inner": 7028,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 7025,
+          "inner": 8486,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 7025,
+          "inner": 26548,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 7287,
+          "inner": 24815,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 8494,
+          "inner": 24815,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 8495,
+          "inner": 7028,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 8495,
+          "inner": 26548,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 7018,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 7020,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 7024,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 7025,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 7028,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 8486,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 8490,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 8495,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 24812,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 26297,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 17785,
+          "inner": 26548,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24556,
+          "inner": 7018,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24556,
+          "inner": 7028,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24556,
+          "inner": 8486,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24556,
+          "inner": 8495,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24556,
+          "inner": 24812,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24556,
+          "inner": 24814,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24556,
+          "inner": 26548,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24558,
+          "inner": 7019,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24558,
+          "inner": 24813,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24558,
+          "inner": 24818,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24814,
+          "inner": 8486,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 24816,
+          "inner": 24815,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26292,
+          "inner": 24815,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26294,
+          "inner": 7018,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26294,
+          "inner": 7025,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26294,
+          "inner": 7028,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26294,
+          "inner": 8486,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26294,
+          "inner": 24812,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26294,
+          "inner": 26548,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26297,
+          "inner": 7018,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26297,
+          "inner": 7020,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26297,
+          "inner": 7025,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26297,
+          "inner": 7028,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26297,
+          "inner": 8486,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26297,
+          "inner": 8490,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26297,
+          "inner": 8495,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26297,
+          "inner": 24812,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26297,
+          "inner": 26548,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 7018,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 7020,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 7024,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 7025,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 7028,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 8486,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 8495,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 24556,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 24812,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 24814,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        },
+        {
+          "outer": 26302,
+          "inner": 26548,
+          "status": "strict_bounding_box_nesting_candidate_only"
+        }
+      ]
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9310.stl",
+      "source_sha256": "cbf0bf8404f95b0cc35ad387d77f76977ff6d98fda33e16934f1ccdcb4a4c6b1",
+      "bounds": [
+        [
+          -0.03009900078177452,
+          -0.03822699934244156,
+          -0.015252763405442238
+        ],
+        [
+          0.03009900078177452,
+          0.0036830001045018435,
+          0.0030479999259114265
+        ]
+      ],
+      "raw_triangle_count": 10236,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.623799392245053e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "9310",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.03009900078177452,
+              -0.03822699934244156,
+              -0.015252763405442238
+            ],
+            [
+              0.03009900078177452,
+              0.0036830001045018435,
+              0.0030479999259114265
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.7360693939592055e-06,
+          "triangle_count": 10236
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9420.stl",
+      "source_sha256": "ab8b6ef1a9998962eb86e96008a688342a62e79b083ee2e2eff562a3224453d6",
+      "bounds": [
+        [
+          -0.03299906849861145,
+          -0.04098725691437721,
+          -0.04100000113248825
+        ],
+        [
+          0.03299906849861145,
+          0.04098725691437721,
+          0.04100000113248825
+        ]
+      ],
+      "raw_triangle_count": 64512,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 6.724000371456152e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "9420",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.03299906849861145,
+              -0.04098725691437721,
+              -0.04100000113248825
+            ],
+            [
+              0.03299906849861145,
+              0.04098725691437721,
+              0.04100000113248825
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.00019930602900210484,
+          "triangle_count": 64512
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9640.stl",
+      "source_sha256": "78307d4f00b3939ab2f3e0b818cb1738c7c7b45bd0d545aa7f99be5e81343c47",
+      "bounds": [
+        [
+          -0.14633885025978088,
+          -0.14629337191581726,
+          0.0
+        ],
+        [
+          0.14633885025978088,
+          0.14633885025978088,
+          0.07500000298023224
+        ]
+      ],
+      "raw_triangle_count": 6124,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 8.566023638141828e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "9640",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.14633885025978088,
+              -0.14629337191581726,
+              0.0
+            ],
+            [
+              0.14633885025978088,
+              0.14633885025978088,
+              0.07500000298023224
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 0.002390814206025493,
+          "triangle_count": 6124
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9727.stl",
+      "source_sha256": "8ac8894835f9d7d7e79f4e483432f8ebdfdac8e814b2c0c6639864afd384faa1",
+      "bounds": [
+        [
+          -0.018124999478459358,
+          -0.018119653686881065,
+          0.0
+        ],
+        [
+          0.018124999478459358,
+          0.018119653686881065,
+          0.01171043235808611
+        ]
+      ],
+      "raw_triangle_count": 32636,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.314062424376608e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "9727",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.018124999478459358,
+              -0.018119653686881065,
+              0.0
+            ],
+            [
+              0.018124999478459358,
+              0.018119653686881065,
+              0.01171043235808611
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 6.008116552028469e-06,
+          "triangle_count": 32636
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9828.stl",
+      "source_sha256": "b2fcc7f04f1c41344d0ec2e6ce2c66e30c0143583662fcdac9c9d85d82e202f7",
+      "bounds": [
+        [
+          -0.00793750025331974,
+          -0.007935033179819584,
+          0.0
+        ],
+        [
+          0.00793750025331974,
+          0.007935033179819584,
+          0.007429500110447407
+        ]
+      ],
+      "raw_triangle_count": 1512,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.5201564108580378e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "9828",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.00793750025331974,
+              -0.007935033179819584,
+              0.0
+            ],
+            [
+              0.00793750025331974,
+              0.007935033179819584,
+              0.007429500110447407
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.8485844855109224e-07,
+          "triangle_count": 1512
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9870.stl",
+      "source_sha256": "c44ec45002fdbe87f79dd21353196e596da3420a1d059f77087a2c54a96c1543",
+      "bounds": [
+        [
+          -0.05178800970315933,
+          0.0,
+          0.0
+        ],
+        [
+          0.1222119927406311,
+          0.08500000089406967,
+          0.012000000104308128
+        ]
+      ],
+      "raw_triangle_count": 3856,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.027600085043908e-16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "9870",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.05178800970315933,
+              0.0,
+              0.0
+            ],
+            [
+              0.1222119927406311,
+              0.08500000089406967,
+              0.012000000104308128
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 3.279709373952679e-05,
+          "triangle_count": 3856
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9909.stl",
+      "source_sha256": "604c35ee56a5b1bc596b41fbfddcf03b817a2600d6faa3c18ee9e3daca47e726",
+      "bounds": [
+        [
+          -0.019999999552965164,
+          0.0,
+          0.0
+        ],
+        [
+          0.012500000186264515,
+          0.041999999433755875,
+          0.026799999177455902
+        ]
+      ],
+      "raw_triangle_count": 2756,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.7639999524354938e-17,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "9909",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.019999999552965164,
+              0.0,
+              0.0
+            ],
+            [
+              0.012500000186264515,
+              0.041999999433755875,
+              0.026799999177455902
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 1.549147563613932e-05,
+          "triangle_count": 2756
+        }
+      ],
+      "nested_bounds_candidates": []
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/final_selected/stl/9935.stl",
+      "source_sha256": "91eba108d3571057f66ff11d6902ec2da901f0110038b979791127e7b4b68435",
+      "bounds": [
+        [
+          -0.008999999612569809,
+          -0.008997202850878239,
+          0.0
+        ],
+        [
+          0.008999999612569809,
+          0.008997202850878239,
+          0.014000000432133675
+        ]
+      ],
+      "raw_triangle_count": 2016,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 3.2399997210502683e-18,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "9935",
+      "boundary_component_count": 1,
+      "closed_boundary_components": [
+        {
+          "component_index": 0,
+          "bounds": [
+            [
+              -0.008999999612569809,
+              -0.008997202850878239,
+              0.0
+            ],
+            [
+              0.008999999612569809,
+              0.008997202850878239,
+              0.014000000432133675
+            ]
+          ],
+          "watertight": true,
+          "winding_consistent": true,
+          "signed_volume": 2.350758938808602e-06,
+          "triangle_count": 2016
+        }
+      ],
+      "nested_bounds_candidates": []
+    }
+  ]
+}

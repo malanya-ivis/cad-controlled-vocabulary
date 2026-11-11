@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "status": "manual_draft_annotations_with_separate_synthetic_teaching_records",
+  "source_policy": "External references limited to docs/Candidate_Sources_JA.xlsx and existing supervisor-specified method notes",
+  "geometry_generator": "tools/inspect_vocabulary_supplement.py",
+  "identity_rule": "(part_id, feature_id)",
+  "concept_rule": "Assignments describe a draft interpretation; candidate_concept_ids are excluded from supported search matches",
+  "synthetic_policy": "Synthetic teaching models excluded from supplied-model searches by default",
+  "parts": [
+    {
+      "part_id": "STL-rib",
+      "origin": "user_supplied_stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/rib.stl",
+      "source_sha256": "d8b4d953807d8c68dc275b22610355acb6223ef81c7923fb9d1868028c6196f3",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "mold_use": "unknown",
+      "reference_pull_direction": "unknown",
+      "human_approved": false,
+      "features": [
+        {
+          "feature_id": "F01",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-006",
+              "view": "surface_form",
+              "status": "project_draft"
+            }
+          ],
+          "attributes": {
+            "projection_bounds": [
+              [
+                5,
+                23.5,
+                8
+              ],
+              [
+                45,
+                26.5,
+                18
+              ]
+            ],
+            "path_axis": "X",
+            "length": 40,
+            "thickness": {
+              "value": 3,
+              "unit": "input_units",
+              "method": "Y=26.5 minus Y=23.5",
+              "scope": "constant width of observed rectangular projection"
+            },
+            "height": 10,
+            "base_plane_z": 8,
+            "top_plane_z": 18
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "evidence_refs": [
+            "E-mesh",
+            "E-views"
+          ]
+        }
+      ],
+      "relations": [],
+      "record_note": "CAD_Rib_Boss_Comparison",
+      "evidence": [
+        {
+          "evidence_id": "E-mesh",
+          "kind": "mesh_observation",
+          "path": "80_Assets/vocabulary_supplement/supplement_mesh_observations.json",
+          "selector": "models[model_id=rib]"
+        },
+        {
+          "evidence_id": "E-views",
+          "kind": "mesh_section_figure",
+          "path": "80_Assets/vocabulary_supplement/rib_views.png",
+          "section_planes": [
+            {
+              "axis": "X",
+              "position": 25.0
+            },
+            {
+              "axis": "Z",
+              "position": 13
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Physical units and design purposes unknown",
+        "Concept assignments are unapproved project drafts"
+      ]
+    },
+    {
+      "part_id": "STL-boss",
+      "origin": "user_supplied_stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/boss.stl",
+      "source_sha256": "8e54945a6fe103b86c4bc00c2e31e9209d0a572b592b5fb1ab076d02e940a79d",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "mold_use": "unknown",
+      "reference_pull_direction": "unknown",
+      "human_approved": false,
+      "features": [
+        {
+          "feature_id": "F01",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-007",
+              "view": "surface_form",
+              "status": "project_draft"
+            }
+          ],
+          "attributes": {
+            "projection_shape": "cylindrical_mesh_approximation",
+            "center_xy": [
+              25,
+              25
+            ],
+            "radius_approx": 6,
+            "diameter_approx": 12,
+            "height": 10,
+            "base_plane_z": 8,
+            "top_plane_z": 18,
+            "measurement_method": "outer top ring vertex radii about (25,25); height 18-8"
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "evidence_refs": [
+            "E-mesh",
+            "E-views"
+          ]
+        }
+      ],
+      "relations": [],
+      "record_note": "CAD_Rib_Boss_Comparison",
+      "evidence": [
+        {
+          "evidence_id": "E-mesh",
+          "kind": "mesh_observation",
+          "path": "80_Assets/vocabulary_supplement/supplement_mesh_observations.json",
+          "selector": "models[model_id=boss]"
+        },
+        {
+          "evidence_id": "E-views",
+          "kind": "mesh_section_figure",
+          "path": "80_Assets/vocabulary_supplement/boss_views.png",
+          "section_planes": [
+            {
+              "axis": "X",
+              "position": 25.0
+            },
+            {
+              "axis": "Z",
+              "position": 13
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Physical units and design purposes unknown",
+        "Concept assignments are unapproved project drafts"
+      ]
+    },
+    {
+      "part_id": "STL-fillet_boss",
+      "origin": "user_supplied_stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/fillet_boss.stl",
+      "source_sha256": "21cd53e014f83a059da76fe6baebade79510120149a71890f29e2823677e8e9d",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "mold_use": "unknown",
+      "reference_pull_direction": "unknown",
+      "human_approved": false,
+      "features": [
+        {
+          "feature_id": "F01",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-007",
+              "view": "surface_form",
+              "status": "project_draft"
+            }
+          ],
+          "attributes": {
+            "projection_shape": "cylindrical_mesh_approximation",
+            "center_xy": [
+              20,
+              20
+            ],
+            "radius_approx": 6,
+            "height": 8,
+            "base_plane_z": 8,
+            "top_plane_z": 16
+          },
+          "purpose": "unknown",
+          "annotation_status": "mesh_based_draft",
+          "evidence_refs": [
+            "E-mesh",
+            "E-views"
+          ]
+        },
+        {
+          "feature_id": "F02",
+          "concept_assignments": [],
+          "attributes": {
+            "observed_shape": "rounded_annular_projection",
+            "center_xy": [
+              20,
+              20
+            ],
+            "radial_range_approx": [
+              6,
+              14
+            ],
+            "z_range": [
+              8,
+              12
+            ],
+            "radial_profile_fit": {
+              "method": "circle fit to mesh vertices with radial>6.2 and z>8.01",
+              "center_r_z": [
+                10.000000091481992,
+                8.000000278475001
+              ],
+              "radius": 3.999999923165162,
+              "max_radial_residual": 1.7314787337241455e-06,
+              "interpretation": "rounded annular projection; Fillet assignment unconfirmed"
+            }
+          },
+          "purpose": "unknown",
+          "annotation_status": "candidate_only",
+          "evidence_refs": [
+            "E-mesh",
+            "E-views"
+          ],
+          "candidate_concept_ids": [
+            "MC-008"
+          ],
+          "classification_reason": "A rounded annular projection is observed; an edge-transition Fillet assignment is not established by its filename or selected sections."
+        }
+      ],
+      "relations": [
+        {
+          "subject": "F02",
+          "predicate": "boundary_of",
+          "object": "F01",
+          "result": "unknown",
+          "evidence_refs": [
+            "E-mesh",
+            "E-views"
+          ],
+          "reason": "Geometry shows a rounded annular projection, not a confirmed fillet transition."
+        }
+      ],
+      "record_note": "CAD_Fillet_Boss_Name_Check",
+      "evidence": [
+        {
+          "evidence_id": "E-mesh",
+          "kind": "mesh_observation",
+          "path": "80_Assets/vocabulary_supplement/supplement_mesh_observations.json",
+          "selector": "models[model_id=fillet_boss]"
+        },
+        {
+          "evidence_id": "E-views",
+          "kind": "mesh_section_figure",
+          "path": "80_Assets/vocabulary_supplement/fillet_boss_views.png",
+          "section_planes": [
+            {
+              "axis": "X",
+              "position": 20.0
+            },
+            {
+              "axis": "Z",
+              "position": 10
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Physical units and design purposes unknown",
+        "Concept assignments are unapproved project drafts"
+      ]
+    },
+    {
+      "part_id": "TEACH-enclosed",
+      "origin": "synthetic_teaching_model",
+      "source_path": "/home/malanya/projects/cad-controlled-vocabulary/mold-cad-vocabulary/80_Assets/vocabulary_supplement/teaching_enclosed_void.stl",
+      "source_sha256": "2a10d0adce51f5a512f752ed1a1bbb41eda0910c992100de134082beba495e53",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "mold_use": "unknown",
+      "reference_pull_direction": "unknown",
+      "human_approved": false,
+      "features": [
+        {
+          "feature_id": "F01",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-013",
+              "view": "empty_region",
+              "status": "project_draft"
+            }
+          ],
+          "attributes": {
+            "region_bounds": [
+              [
+                4,
+                4,
+                4
+              ],
+              [
+                16,
+                16,
+                16
+              ]
+            ],
+            "enclosure": "enclosed",
+            "opening_direction": null,
+            "geometry_state_evidence": "all occupied grid cells and exposed boundary faces explicitly constructed"
+          },
+          "purpose": "unknown",
+          "annotation_status": "constructed_geometry_with_draft_term",
+          "evidence_refs": [
+            "E-mesh",
+            "E-views"
+          ]
+        }
+      ],
+      "relations": [],
+      "record_note": "CAD_Enclosed_Open_Void_Teaching",
+      "evidence": [
+        {
+          "evidence_id": "E-mesh",
+          "kind": "explicit_construction",
+          "path": "80_Assets/vocabulary_supplement/supplement_mesh_observations.json",
+          "selector": "models[model_id=teaching_enclosed_void]"
+        },
+        {
+          "evidence_id": "E-views",
+          "kind": "mesh_section_figure",
+          "path": "80_Assets/vocabulary_supplement/teaching_enclosed_void_views.png",
+          "section_planes": [
+            {
+              "axis": "X",
+              "position": 10
+            },
+            {
+              "axis": "Z",
+              "position": 18
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Physical units and design purposes unknown",
+        "Concept assignments are unapproved project drafts"
+      ]
+    },
+    {
+      "part_id": "TEACH-open",
+      "origin": "synthetic_teaching_model",
+      "source_path": "/home/malanya/projects/cad-controlled-vocabulary/mold-cad-vocabulary/80_Assets/vocabulary_supplement/teaching_open_void.stl",
+      "source_sha256": "0912473b895a198c6ab3f8b724d9ec6b279ea3819256ef25c253c2b4c971732a",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "mold_use": "unknown",
+      "reference_pull_direction": "unknown",
+      "human_approved": false,
+      "features": [
+        {
+          "feature_id": "F01",
+          "concept_assignments": [
+            {
+              "concept_id": "MC-004",
+              "view": "surface_form",
+              "status": "project_draft"
+            },
+            {
+              "concept_id": "MC-013",
+              "view": "empty_region",
+              "status": "project_draft"
+            }
+          ],
+          "attributes": {
+            "region_bounds": [
+              [
+                4,
+                4,
+                4
+              ],
+              [
+                16,
+                16,
+                20
+              ]
+            ],
+            "enclosure": "open_to_exterior",
+            "opening_direction": "+Z",
+            "floor_state": "complete",
+            "depth": 16,
+            "floor_thickness": {
+              "value": 4,
+              "unit": "input_units",
+              "method": "floor Z=4 minus bottom exterior Z=0",
+              "scope": "constructed planar floor"
+            },
+            "geometry_state_evidence": "all occupied grid cells and exposed boundary faces explicitly constructed"
+          },
+          "purpose": "unknown",
+          "annotation_status": "constructed_geometry_with_draft_term",
+          "evidence_refs": [
+            "E-mesh",
+            "E-views"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "F01",
+          "predicate": "opens_to",
+          "object": "exterior:+Z",
+          "result": true,
+          "evidence_refs": [
+            "E-mesh",
+            "E-views"
+          ]
+        }
+      ],
+      "record_note": "CAD_Enclosed_Open_Void_Teaching",
+      "evidence": [
+        {
+          "evidence_id": "E-mesh",
+          "kind": "explicit_construction",
+          "path": "80_Assets/vocabulary_supplement/supplement_mesh_observations.json",
+          "selector": "models[model_id=teaching_open_void]"
+        },
+        {
+          "evidence_id": "E-views",
+          "kind": "mesh_section_figure",
+          "path": "80_Assets/vocabulary_supplement/teaching_open_void_views.png",
+          "section_planes": [
+            {
+              "axis": "X",
+              "position": 10
+            },
+            {
+              "axis": "Z",
+              "position": 18
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Physical units and design purposes unknown",
+        "Concept assignments are unapproved project drafts"
+      ]
+    }
+  ]
+}

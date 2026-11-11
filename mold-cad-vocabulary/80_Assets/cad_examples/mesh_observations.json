@@ -1,0 +1,839 @@
+{
+  "schema_version": 1,
+  "dataset_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset",
+  "method": "STL vertices and in-memory surface sections; not CAD feature history or design intent",
+  "files": [
+    {
+      "file": "boss.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/boss.stl",
+      "sha256": "8e54945a6fe103b86c4bc00c2e31e9209d0a572b592b5fb1ab076d02e940a79d",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          18.0
+        ]
+      ],
+      "extents": [
+        50.0,
+        50.0,
+        18.0
+      ],
+      "raw_triangle_count": 142,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 2.5e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 142,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "bracket.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/bracket.stl",
+      "sha256": "e5d9cda26a08a107c8b68dac8c462b79b66c833796da46305daa34995a004211",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.0,
+          50.0,
+          15.0
+        ]
+      ],
+      "extents": [
+        80.0,
+        50.0,
+        15.0
+      ],
+      "raw_triangle_count": 436,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 6.4e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 436,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "bracket_rot.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/bracket_rot.stl",
+      "sha256": "3cfdfa964aab2a428101e07f829d50ee2a3cfd6a615f10e910b51f99d75e16d6",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          100.0,
+          43.16703796386719,
+          -16.442455291748047
+        ],
+        [
+          179.77822875976562,
+          98.58905029296875,
+          54.249168395996094
+        ]
+      ],
+      "extents": [
+        79.77822875976562,
+        55.42201232910156,
+        70.69162368774414
+      ],
+      "raw_triangle_count": 436,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 6.364565784045495e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 436,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "bracket_scaled.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/bracket_scaled.stl",
+      "sha256": "f44a4038d09babefe7b9b9d4ec1db94c371642f2c72fbf46e041917f515732c4",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          120.0,
+          75.0,
+          22.5
+        ]
+      ],
+      "extents": [
+        120.0,
+        75.0,
+        22.5
+      ],
+      "raw_triangle_count": 436,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 1.44e-10,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 436,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "chamfer.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/chamfer.stl",
+      "sha256": "61d45a3d3463d3c9e13727ac3a1d5130904782693b174358c7ede8e0fedbb53d",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          40.0,
+          40.0,
+          20.0
+        ]
+      ],
+      "extents": [
+        40.0,
+        40.0,
+        20.0
+      ],
+      "raw_triangle_count": 16,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 1.6e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 16,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "concentric.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/concentric.stl",
+      "sha256": "2d4afbe8035e9125bbc16de328e57c93df0e39233c54faa51027053ea89581e1",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          24.0
+        ]
+      ],
+      "extents": [
+        50.0,
+        50.0,
+        24.0
+      ],
+      "raw_triangle_count": 400,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 2.5e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 400,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "counterbore.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/counterbore.stl",
+      "sha256": "2e57f29dd79367e1bbe9d763b92b34d94e341488fb1f864b0016fd7d40970c42",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          20.0
+        ]
+      ],
+      "extents": [
+        50.0,
+        50.0,
+        20.0
+      ],
+      "raw_triangle_count": 272,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 2.5e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 272,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "countersink.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/countersink.stl",
+      "sha256": "50477bac9c997dc087c0edbb99f481abbac512131d3e80cd0f14ed05d3fb1517",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          12.0
+        ]
+      ],
+      "extents": [
+        50.0,
+        50.0,
+        12.0
+      ],
+      "raw_triangle_count": 320,
+      "discarded_near_zero_area_faces_for_figures": 16,
+      "area_threshold_input_units_squared": 2.5e-11,
+      "watertight_after_vertex_merge_before_face_removal": false,
+      "working_triangle_count": 304,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "dimple.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/dimple.stl",
+      "sha256": "63af4d398dfdb8e681881693ebf9d2e7a826f5c926b750522a2f50edfe7bd148",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          40.0,
+          40.0,
+          15.0
+        ]
+      ],
+      "extents": [
+        40.0,
+        40.0,
+        15.0
+      ],
+      "raw_triangle_count": 2702,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 1.6e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 2702,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "fillet_boss.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/fillet_boss.stl",
+      "sha256": "21cd53e014f83a059da76fe6baebade79510120149a71890f29e2823677e8e9d",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          40.0,
+          40.0,
+          16.0
+        ]
+      ],
+      "extents": [
+        40.0,
+        40.0,
+        16.0
+      ],
+      "raw_triangle_count": 1422,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 1.6e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 1422,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "groove.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/groove.stl",
+      "sha256": "a4ed1769ce27c1ebcc42760b8f6fa7d8a1d9622519bcdc9ddbaf08632df5e674",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          40.0,
+          15.0
+        ]
+      ],
+      "extents": [
+        50.0,
+        40.0,
+        15.0
+      ],
+      "raw_triangle_count": 28,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 2.5e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 28,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "keyway.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/keyway.stl",
+      "sha256": "c37ef9af7fdabd50931d0e65e0f8488c29599aa7f75a8fc389b86e9da9ded4c5",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          40.0,
+          15.0
+        ]
+      ],
+      "extents": [
+        50.0,
+        40.0,
+        15.0
+      ],
+      "raw_triangle_count": 28,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 2.5e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 28,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "plate.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/plate.stl",
+      "sha256": "3a496fb7d790a81e2fd758fd2d7d376b85a1bdbd76a10ac4af842cfdfc02ded4",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          40.0,
+          10.0
+        ]
+      ],
+      "extents": [
+        60.0,
+        40.0,
+        10.0
+      ],
+      "raw_triangle_count": 276,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 3.6e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 276,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "rectpocket.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/rectpocket.stl",
+      "sha256": "4f9f6ce15b5ec83a2d752372dffcc60bb90a4eb35ed6b6617d5843b0e361ca39",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          15.0
+        ]
+      ],
+      "extents": [
+        50.0,
+        50.0,
+        15.0
+      ],
+      "raw_triangle_count": 28,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 2.5e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 28,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "rib.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/rib.stl",
+      "sha256": "d8b4d953807d8c68dc275b22610355acb6223ef81c7923fb9d1868028c6196f3",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          18.0
+        ]
+      ],
+      "extents": [
+        50.0,
+        50.0,
+        18.0
+      ],
+      "raw_triangle_count": 28,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 2.5e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 28,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "rib_cross.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/rib_cross.stl",
+      "sha256": "094221d4125521e46f2d7c36cf8e71dba2cfc4150b070e77f6a2ae98c3229e8d",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          60.0,
+          18.0
+        ]
+      ],
+      "extents": [
+        60.0,
+        60.0,
+        18.0
+      ],
+      "raw_triangle_count": 66,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 3.6e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 66,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "slot.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/slot.stl",
+      "sha256": "4fcdf5e672c0dfe3ebf10b8655aeadc0787c258525eb18eac19766f4bbf40f0b",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          40.0,
+          12.0
+        ]
+      ],
+      "extents": [
+        60.0,
+        40.0,
+        12.0
+      ],
+      "raw_triangle_count": 152,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 3.6e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 152,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "slot_diag.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/slot_diag.stl",
+      "sha256": "acc877318f1436ea6973ed4ae69bc3973787f9d48a991f382ae537f6454a637a",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          60.0,
+          12.0
+        ]
+      ],
+      "extents": [
+        60.0,
+        60.0,
+        12.0
+      ],
+      "raw_triangle_count": 152,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 3.6e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 152,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "sphere.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/sphere.stl",
+      "sha256": "e903795101886c742b51cb10053587bc23d5aa11297ee790efb485eee2e94c3a",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          -25.0,
+          -25.0,
+          -25.0
+        ],
+        [
+          25.0,
+          25.0,
+          25.0
+        ]
+      ],
+      "extents": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "raw_triangle_count": 1280,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 2.5e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 1280,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "spotface.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/spotface.stl",
+      "sha256": "1e68584bdd9bd87216592edab3a49b8187e33a10a588540b935cbe954520302d",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          20.0
+        ]
+      ],
+      "extents": [
+        50.0,
+        50.0,
+        20.0
+      ],
+      "raw_triangle_count": 272,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 2.5e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 272,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    },
+    {
+      "file": "step.stl",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/step.stl",
+      "sha256": "4b233aabb488772c90ab0a81d3052cf3b3fc02aa33c24fd6af737dc976249c34",
+      "unit": "input_units",
+      "physical_unit": "unknown",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          40.0,
+          20.0
+        ]
+      ],
+      "extents": [
+        60.0,
+        40.0,
+        20.0
+      ],
+      "raw_triangle_count": 24,
+      "discarded_near_zero_area_faces_for_figures": 0,
+      "area_threshold_input_units_squared": 3.6e-11,
+      "watertight_after_vertex_merge_before_face_removal": true,
+      "working_triangle_count": 24,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "semantic_label_status": "not_inferred_from_filename"
+    }
+  ],
+  "selected_measurements": {
+    "counterbore": {
+      "center_xy": [
+        25.0,
+        25.0
+      ],
+      "inner_vertex_rings": [
+        {
+          "z": 0.0,
+          "r_min": 3.0,
+          "r_max": 3.000000538713066,
+          "vertex_count": 32
+        },
+        {
+          "z": 11.0,
+          "r_min": 3.0,
+          "r_max": 6.000001077426132,
+          "vertex_count": 64
+        },
+        {
+          "z": 20.0,
+          "r_min": 5.999999790171686,
+          "r_max": 6.000001077426132,
+          "vertex_count": 32
+        }
+      ]
+    },
+    "countersink": {
+      "center_xy": [
+        25.0,
+        25.0
+      ],
+      "inner_vertex_rings": [
+        {
+          "z": 0.0,
+          "r_min": 3.0,
+          "r_max": 3.000000538713066,
+          "vertex_count": 32
+        },
+        {
+          "z": 6.987153053283691,
+          "r_min": 2.987153004342626,
+          "r_max": 2.987153004342626,
+          "vertex_count": 4
+        },
+        {
+          "z": 6.98715353012085,
+          "r_min": 2.987152704869597,
+          "r_max": 2.9871531747787397,
+          "vertex_count": 12
+        },
+        {
+          "z": 6.987154006958008,
+          "r_min": 2.987153004342626,
+          "r_max": 2.9871545845934095,
+          "vertex_count": 12
+        },
+        {
+          "z": 6.987154483795166,
+          "r_min": 2.9871531747787397,
+          "r_max": 2.9871531747787397,
+          "vertex_count": 4
+        },
+        {
+          "z": 7.0,
+          "r_min": 3.0,
+          "r_max": 3.000000256207072,
+          "vertex_count": 12
+        },
+        {
+          "z": 7.000000476837158,
+          "r_min": 3.000000538713066,
+          "r_max": 3.000000538713066,
+          "vertex_count": 4
+        },
+        {
+          "z": 7.006437301635742,
+          "r_min": 3.0000001582041738,
+          "r_max": 3.0000004328400176,
+          "vertex_count": 16
+        },
+        {
+          "z": 12.0,
+          "r_min": 7.999999094356047,
+          "r_max": 8.000001728439242,
+          "vertex_count": 48
+        }
+      ]
+    },
+    "rectpocket": {
+      "recess_bounds": [
+        [
+          15.0,
+          18.0,
+          9.0
+        ],
+        [
+          35.0,
+          32.0,
+          15.0
+        ]
+      ],
+      "recess_size": [
+        20.0,
+        14.0,
+        6.0
+      ],
+      "base_below_floor": 9.0
+    },
+    "rib_cross": {
+      "vertex_coordinate_levels": [
+        [
+          0.0,
+          5.0,
+          28.5,
+          29.90999984741211,
+          30.0,
+          30.09000015258789,
+          31.5,
+          55.0,
+          60.0
+        ],
+        [
+          0.0,
+          5.0,
+          28.5,
+          30.0,
+          31.5,
+          55.0,
+          60.0
+        ],
+        [
+          0.0,
+          8.0,
+          18.0
+        ]
+      ]
+    }
+  }
+}

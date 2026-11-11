@@ -1,0 +1,74 @@
+{
+  "colorGroups": [
+    {
+      "query": "path:\"35_Knowledge_Structure\"",
+      "color": {
+        "a": 1,
+        "rgb": 10868968
+      }
+    },
+    {
+      "query": "path:\"45_Part_Examples\"",
+      "color": {
+        "a": 1,
+        "rgb": 9292768
+      }
+    },
+    {
+      "query": "path:\"30_Concepts\" [category:shape_feature] [scope_role:core]",
+      "color": {
+        "a": 1,
+        "rgb": 7716567
+      }
+    },
+    {
+      "query": "path:\"30_Concepts\" [category:shape_property] [scope_role:core]",
+      "color": {
+        "a": 1,
+        "rgb": 6205902
+      }
+    },
+    {
+      "query": "path:\"30_Concepts\" [category:internal_structure] [scope_role:core]",
+      "color": {
+        "a": 1,
+        "rgb": 4694980
+      }
+    },
+    {
+      "query": "path:\"30_Concepts\" [scope_role:context_only]",
+      "color": {
+        "a": 1,
+        "rgb": 3773621
+      }
+    },
+    {
+      "query": "path:\"20_Sources\"",
+      "color": {
+        "a": 1,
+        "rgb": 3244707
+      }
+    },
+    {
+      "query": "path:\"00_Guide\" OR path:\"10_Vocabulary_Studies\" OR path:\"40_Comparative_Studies\"",
+      "color": {
+        "a": 1,
+        "rgb": 2650001
+      }
+    },
+    {
+      "query": "path:\"60_Research_Records\" OR path:\"70_Candidate_Terms\"",
+      "color": {
+        "a": 1,
+        "rgb": 2121087
+      }
+    },
+    {
+      "query": "path:\"50_Reference_Registers\" OR path:\"80_Assets\" OR path:\"90_Templates\"",
+      "color": {
+        "a": 1,
+        "rgb": 1592173
+      }
+    }
+  ]
+}

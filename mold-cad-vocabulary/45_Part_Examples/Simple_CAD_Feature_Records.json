@@ -1,0 +1,591 @@
+{
+  "schema_version": 1,
+  "record_kind": "observed_stl_geometry_with_draft_vocabulary_mapping",
+  "classification_reviewer": "assistant_mesh_and_section_review",
+  "human_approved": false,
+  "parts": [
+    {
+      "part_id": "STL-counterbore",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/counterbore.stl",
+      "source_sha256": "2e57f29dd79367e1bbe9d763b92b34d94e341488fb1f864b0016fd7d40970c42",
+      "physical_unit": "unknown",
+      "coordinate_unit": "input_units",
+      "mold_context": "unknown",
+      "self_intersection_check": "not_performed",
+      "features": [
+        {
+          "feature_id": "F-01",
+          "concept_id": "MC-001",
+          "concept": "Hole",
+          "label_status": "mesh_based_draft",
+          "geometry_selector": {
+            "center_xy": [
+              25,
+              25
+            ],
+            "axis": [
+              0,
+              0,
+              1
+            ],
+            "primary_segment_z": [
+              0,
+              11
+            ]
+          },
+          "properties": {
+            "diameter": {
+              "value": 6,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "twice ring vertex radius around (25,25)",
+              "approximate": true
+            },
+            "primary_segment_length": {
+              "value": 11,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "z=11 minus z=0",
+              "approximate": false
+            },
+            "end_condition": "through_via_entrance_form"
+          },
+          "purpose": "unknown",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        },
+        {
+          "feature_id": "F-02",
+          "concept_id": "MC-002",
+          "concept": "Counterbore",
+          "label_status": "mesh_based_draft",
+          "geometry_selector": {
+            "center_xy": [
+              25,
+              25
+            ],
+            "axis": [
+              0,
+              0,
+              1
+            ],
+            "z_range": [
+              11,
+              20
+            ]
+          },
+          "properties": {
+            "diameter": {
+              "value": 12,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "twice ring vertex radius around (25,25)",
+              "approximate": true
+            },
+            "depth": {
+              "value": 9,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "z=20 minus z=11",
+              "approximate": false
+            }
+          },
+          "purpose": "unknown",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "entrance_form_of",
+          "source_feature_id": "F-02",
+          "target_feature_id": "F-01",
+          "status": "mesh_based_draft",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        },
+        {
+          "predicate": "coaxial_with",
+          "source_feature_id": "F-02",
+          "target_feature_id": "F-01",
+          "status": "mesh_based_draft",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "E-vertices",
+          "kind": "mesh_vertices",
+          "path": "80_Assets/cad_examples/mesh_observations.json",
+          "selector": "selected_measurements/counterbore"
+        },
+        {
+          "evidence_id": "E-vertical-section",
+          "kind": "working_mesh_section",
+          "path": "80_Assets/cad_examples/counterbore_views.png",
+          "selector": "middle_panel"
+        },
+        {
+          "evidence_id": "E-horizontal-section",
+          "kind": "working_mesh_section",
+          "path": "80_Assets/cad_examples/counterbore_views.png",
+          "selector": "right_panel"
+        }
+      ],
+      "mesh_quality": {
+        "raw_triangle_count": 272,
+        "discarded_near_zero_area_faces_for_figures": 0,
+        "working_watertight": true,
+        "working_winding_consistent": true
+      }
+    },
+    {
+      "part_id": "STL-countersink",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/countersink.stl",
+      "source_sha256": "50477bac9c997dc087c0edbb99f481abbac512131d3e80cd0f14ed05d3fb1517",
+      "physical_unit": "unknown",
+      "coordinate_unit": "input_units",
+      "mold_context": "unknown",
+      "self_intersection_check": "not_performed",
+      "features": [
+        {
+          "feature_id": "F-01",
+          "concept_id": "MC-001",
+          "concept": "Hole",
+          "label_status": "mesh_based_draft",
+          "geometry_selector": {
+            "center_xy": [
+              25,
+              25
+            ],
+            "axis": [
+              0,
+              0,
+              1
+            ],
+            "primary_segment_z_approx": [
+              0,
+              7
+            ]
+          },
+          "properties": {
+            "diameter": {
+              "value": 6,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "twice bottom ring vertex radius",
+              "approximate": true
+            },
+            "end_condition": "through_via_entrance_form"
+          },
+          "purpose": "unknown",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        },
+        {
+          "feature_id": "F-02",
+          "concept_id": "MC-003",
+          "concept": "Countersink",
+          "label_status": "mesh_based_draft",
+          "geometry_selector": {
+            "center_xy": [
+              25,
+              25
+            ],
+            "axis": [
+              0,
+              0,
+              1
+            ],
+            "transition_z_approx": 7,
+            "opening_z": 12
+          },
+          "properties": {
+            "opening_diameter": {
+              "value": 16,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "twice top ring vertex radius",
+              "approximate": true
+            },
+            "depth": {
+              "value": 5,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "top z=12 minus approximate transition z=7",
+              "approximate": true
+            },
+            "included_angle": "not_measured"
+          },
+          "purpose": "unknown",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "entrance_form_of",
+          "source_feature_id": "F-02",
+          "target_feature_id": "F-01",
+          "status": "mesh_based_draft",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        },
+        {
+          "predicate": "coaxial_with",
+          "source_feature_id": "F-02",
+          "target_feature_id": "F-01",
+          "status": "mesh_based_draft",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "E-vertices",
+          "kind": "mesh_vertices",
+          "path": "80_Assets/cad_examples/mesh_observations.json",
+          "selector": "selected_measurements/countersink"
+        },
+        {
+          "evidence_id": "E-vertical-section",
+          "kind": "working_mesh_section",
+          "path": "80_Assets/cad_examples/countersink_views.png",
+          "selector": "middle_panel"
+        },
+        {
+          "evidence_id": "E-horizontal-section",
+          "kind": "working_mesh_section",
+          "path": "80_Assets/cad_examples/countersink_views.png",
+          "selector": "right_panel"
+        }
+      ],
+      "mesh_quality": {
+        "raw_triangle_count": 320,
+        "discarded_near_zero_area_faces_for_figures": 16,
+        "working_watertight": true,
+        "working_winding_consistent": true
+      },
+      "limitations": [
+        "16 zero-area triangles removed in memory for section figures",
+        "Transition z values vary around 7; do not treat rounded depth as precise design value"
+      ]
+    },
+    {
+      "part_id": "STL-rectpocket",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/rectpocket.stl",
+      "source_sha256": "4f9f6ce15b5ec83a2d752372dffcc60bb90a4eb35ed6b6617d5843b0e361ca39",
+      "physical_unit": "unknown",
+      "coordinate_unit": "input_units",
+      "mold_context": "unknown",
+      "self_intersection_check": "not_performed",
+      "features": [
+        {
+          "feature_id": "F-01",
+          "concept_id": "MC-004",
+          "concept": "Pocket",
+          "label_status": "mesh_based_draft",
+          "geometry_selector": {
+            "bounds": [
+              [
+                15,
+                18,
+                9
+              ],
+              [
+                35,
+                32,
+                15
+              ]
+            ],
+            "opening_plane": "z=15",
+            "floor_plane": "z=9"
+          },
+          "properties": {
+            "length": {
+              "value": 20,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "x=35 minus x=15",
+              "approximate": false
+            },
+            "width": {
+              "value": 14,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "y=32 minus y=18",
+              "approximate": false
+            },
+            "depth": {
+              "value": 6,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "z=15 minus z=9",
+              "approximate": false
+            },
+            "end_condition": "blind",
+            "floor_to_exterior_thickness": {
+              "value": 9,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "along Z from pocket floor z=9 to bottom exterior z=0",
+              "approximate": false
+            }
+          },
+          "purpose": "unknown",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        }
+      ],
+      "relations": [],
+      "evidence": [
+        {
+          "evidence_id": "E-vertices",
+          "kind": "mesh_vertices",
+          "path": "80_Assets/cad_examples/mesh_observations.json",
+          "selector": "selected_measurements/rectpocket"
+        },
+        {
+          "evidence_id": "E-vertical-section",
+          "kind": "working_mesh_section",
+          "path": "80_Assets/cad_examples/rectpocket_views.png",
+          "selector": "middle_panel"
+        },
+        {
+          "evidence_id": "E-horizontal-section",
+          "kind": "working_mesh_section",
+          "path": "80_Assets/cad_examples/rectpocket_views.png",
+          "selector": "right_panel"
+        }
+      ],
+      "mesh_quality": {
+        "raw_triangle_count": 28,
+        "discarded_near_zero_area_faces_for_figures": 0,
+        "working_watertight": true,
+        "working_winding_consistent": true
+      },
+      "property_records": [
+        {
+          "property_id": "P-01",
+          "concept_id": "MC-012",
+          "concept": "Wall Thickness",
+          "target_feature_id": "F-01",
+          "value": 9,
+          "unit": "input_units",
+          "location": "material directly below floor",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "opposing_planes": [
+            "z=0",
+            "z=9"
+          ],
+          "status": "measured_mesh"
+        }
+      ]
+    },
+    {
+      "part_id": "STL-rib_cross",
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/rib_cross.stl",
+      "source_sha256": "094221d4125521e46f2d7c36cf8e71dba2cfc4150b070e77f6a2ae98c3229e8d",
+      "physical_unit": "unknown",
+      "coordinate_unit": "input_units",
+      "mold_context": "unknown",
+      "self_intersection_check": "not_performed",
+      "features": [
+        {
+          "feature_id": "F-01",
+          "concept_id": "MC-006",
+          "concept": "Rib",
+          "label_status": "mesh_based_draft",
+          "geometry_selector": {
+            "bounds": [
+              [
+                5,
+                28.5,
+                8
+              ],
+              [
+                55,
+                31.5,
+                18
+              ]
+            ],
+            "direction": [
+              1,
+              0,
+              0
+            ]
+          },
+          "properties": {
+            "length": {
+              "value": 50,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "55 minus 5",
+              "approximate": false
+            },
+            "thickness": {
+              "value": 3,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "31.5 minus 28.5",
+              "approximate": false
+            },
+            "height": {
+              "value": 10,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "18 minus 8",
+              "approximate": false
+            }
+          },
+          "purpose": "unknown",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        },
+        {
+          "feature_id": "F-02",
+          "concept_id": "MC-006",
+          "concept": "Rib",
+          "label_status": "mesh_based_draft",
+          "geometry_selector": {
+            "bounds": [
+              [
+                28.5,
+                5,
+                8
+              ],
+              [
+                31.5,
+                55,
+                18
+              ]
+            ],
+            "direction": [
+              0,
+              1,
+              0
+            ]
+          },
+          "properties": {
+            "length": {
+              "value": 50,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "55 minus 5",
+              "approximate": false
+            },
+            "thickness": {
+              "value": 3,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "31.5 minus 28.5",
+              "approximate": false
+            },
+            "height": {
+              "value": 10,
+              "unit": "input_units",
+              "status": "measured_mesh",
+              "method": "18 minus 8",
+              "approximate": false
+            }
+          },
+          "purpose": "unknown",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "intersects",
+          "source_feature_id": "F-01",
+          "target_feature_id": "F-02",
+          "status": "mesh_based_draft",
+          "evidence_refs": [
+            "E-vertices",
+            "E-vertical-section",
+            "E-horizontal-section"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "E-vertices",
+          "kind": "mesh_vertices",
+          "path": "80_Assets/cad_examples/mesh_observations.json",
+          "selector": "selected_measurements/rib_cross"
+        },
+        {
+          "evidence_id": "E-vertical-section",
+          "kind": "working_mesh_section",
+          "path": "80_Assets/cad_examples/rib_cross_views.png",
+          "selector": "middle_panel"
+        },
+        {
+          "evidence_id": "E-horizontal-section",
+          "kind": "working_mesh_section",
+          "path": "80_Assets/cad_examples/rib_cross_views.png",
+          "selector": "right_panel"
+        }
+      ],
+      "mesh_quality": {
+        "raw_triangle_count": 66,
+        "discarded_near_zero_area_faces_for_figures": 0,
+        "working_watertight": true,
+        "working_winding_consistent": true
+      },
+      "geometry_relations": [
+        {
+          "predicate": "located_on",
+          "source_feature_id": "F-01",
+          "target_geometry_ref": "base_top:z=8",
+          "status": "mesh_based_draft"
+        },
+        {
+          "predicate": "located_on",
+          "source_feature_id": "F-02",
+          "target_geometry_ref": "base_top:z=8",
+          "status": "mesh_based_draft"
+        }
+      ],
+      "decomposition_rule": "Two direction-based rib regions share the central overlap; this is a project description, not a recovered CAD operation history. Do not double-count the overlap volume."
+    }
+  ]
+}

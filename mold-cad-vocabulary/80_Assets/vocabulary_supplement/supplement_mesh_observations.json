@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-07",
+  "generator": "tools/inspect_vocabulary_supplement.py",
+  "models": [
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/rib.stl",
+      "source_sha256": "d8b4d953807d8c68dc275b22610355acb6223ef81c7923fb9d1868028c6196f3",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          18.0
+        ]
+      ],
+      "raw_triangle_count": 28,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.5e-11,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "rib",
+      "origin": "user_supplied_stl",
+      "section_planes": [
+        {
+          "axis": "X",
+          "position": 25.0
+        },
+        {
+          "axis": "Z",
+          "position": 13
+        }
+      ],
+      "figure": "80_Assets/vocabulary_supplement/rib_views.png",
+      "projection_bounds": [
+        [
+          5,
+          23.5,
+          8
+        ],
+        [
+          45,
+          26.5,
+          18
+        ]
+      ],
+      "vertex_coordinate_levels": [
+        [
+          0.0,
+          5.0,
+          45.0,
+          50.0
+        ],
+        [
+          0.0,
+          23.5,
+          26.5,
+          50.0
+        ],
+        [
+          0.0,
+          8.0,
+          18.0
+        ]
+      ]
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/boss.stl",
+      "source_sha256": "8e54945a6fe103b86c4bc00c2e31e9209d0a572b592b5fb1ab076d02e940a79d",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          18.0
+        ]
+      ],
+      "raw_triangle_count": 142,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 2.5e-11,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "boss",
+      "origin": "user_supplied_stl",
+      "section_planes": [
+        {
+          "axis": "X",
+          "position": 25.0
+        },
+        {
+          "axis": "Z",
+          "position": 13
+        }
+      ],
+      "figure": "80_Assets/vocabulary_supplement/boss_views.png",
+      "top_ring": {
+        "center_xy": [
+          25.0,
+          25.0
+        ],
+        "z": 18,
+        "radius_range": [
+          5.999999790171686,
+          6.000001077426132
+        ]
+      },
+      "projection_height": 10
+    },
+    {
+      "source_path": "/home/malanya/projects/cad-structure-search/data/simple_CAD_dataset/fillet_boss.stl",
+      "source_sha256": "21cd53e014f83a059da76fe6baebade79510120149a71890f29e2823677e8e9d",
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          40.0,
+          40.0,
+          16.0
+        ]
+      ],
+      "raw_triangle_count": 1422,
+      "removed_near_zero_area_triangles_in_memory": 0,
+      "area_threshold": 1.6e-11,
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "self_intersection_check": "not_performed",
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "model_id": "fillet_boss",
+      "origin": "user_supplied_stl",
+      "section_planes": [
+        {
+          "axis": "X",
+          "position": 20.0
+        },
+        {
+          "axis": "Z",
+          "position": 10
+        }
+      ],
+      "figure": "80_Assets/vocabulary_supplement/fillet_boss_views.png",
+      "annular_ridge_radial_profile_fit": {
+        "method": "circle fit to mesh vertices with radial>6.2 and z>8.01",
+        "center_r_z": [
+          10.000000091481992,
+          8.000000278475001
+        ],
+        "radius": 3.999999923165162,
+        "max_radial_residual": 1.7314787337241455e-06,
+        "interpretation": "rounded annular projection; Fillet assignment unconfirmed"
+      }
+    },
+    {
+      "model_id": "teaching_enclosed_void",
+      "origin": "synthetic_teaching_model",
+      "source_path": "/home/malanya/projects/cad-controlled-vocabulary/mold-cad-vocabulary/80_Assets/vocabulary_supplement/teaching_enclosed_void.stl",
+      "source_sha256": "2a10d0adce51f5a512f752ed1a1bbb41eda0910c992100de134082beba495e53",
+      "construction": "exposed boundaries of occupied coordinate-grid cells",
+      "outer_bounds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          20,
+          20,
+          20
+        ]
+      ],
+      "void_bounds": [
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          16,
+          16,
+          16
+        ]
+      ],
+      "enclosure": "enclosed",
+      "opening_direction": null,
+      "enclosure_evidence": "explicit occupied-cell construction, all boundary faces enumerated",
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "boundary_component_count": 2,
+      "expected_material_volume": 6272,
+      "mesh_signed_volume": 6272.0,
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "section_planes": [
+        {
+          "axis": "X",
+          "position": 10
+        },
+        {
+          "axis": "Z",
+          "position": 18
+        }
+      ],
+      "figure": "80_Assets/vocabulary_supplement/teaching_enclosed_void_views.png"
+    },
+    {
+      "model_id": "teaching_open_void",
+      "origin": "synthetic_teaching_model",
+      "source_path": "/home/malanya/projects/cad-controlled-vocabulary/mold-cad-vocabulary/80_Assets/vocabulary_supplement/teaching_open_void.stl",
+      "source_sha256": "0912473b895a198c6ab3f8b724d9ec6b279ea3819256ef25c253c2b4c971732a",
+      "construction": "exposed boundaries of occupied coordinate-grid cells",
+      "outer_bounds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          20,
+          20,
+          20
+        ]
+      ],
+      "void_bounds": [
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          16,
+          16,
+          20
+        ]
+      ],
+      "enclosure": "open_to_exterior",
+      "opening_direction": "+Z",
+      "enclosure_evidence": "explicit occupied-cell construction, all boundary faces enumerated",
+      "working_watertight": true,
+      "working_winding_consistent": true,
+      "boundary_component_count": 1,
+      "expected_material_volume": 5696,
+      "mesh_signed_volume": 5696.0,
+      "coordinate_unit": "input_units",
+      "physical_unit": "unknown",
+      "section_planes": [
+        {
+          "axis": "X",
+          "position": 10
+        },
+        {
+          "axis": "Z",
+          "position": 18
+        }
+      ],
+      "figure": "80_Assets/vocabulary_supplement/teaching_open_void_views.png"
+    }
+  ]
+}
